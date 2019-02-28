@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class StageManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public int washCount = 10;
+    public static int hPoint = 0;
+    public int level = 1;
+
+    //
+    public static void AddHPoint(int point)
     {
-        
+        hPoint += point;
+        print(hPoint + " /100");
+        if(hPoint >= 100)
+        {
+            GridScript.DestroyAllTiles();
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+
+    
 }

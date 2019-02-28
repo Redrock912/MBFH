@@ -35,15 +35,18 @@ public class PlayerInput : MonoBehaviour
         if(Physics.Raycast(ray,out hit, 100.0f))
         {
 
-            print(hit.transform.parent);
+            Tiles tempTile = hit.transform.parent.GetComponent<Tiles>();
+
+            if(Input.GetMouseButtonDown(0) && tempTile.isRevealed == false)
+            {
+                // 타일을 까도록하자.
+               tempTile.RevealTile();
+            }
+      
             
         }
         
     }
-    IEnumerable CheckHit()
-    {
-        
-        yield return new WaitForSeconds(0.5f);
-    }
+
 
 }

@@ -7,8 +7,8 @@ public class GridScript : MonoBehaviour
     public Tiles tilePrefab;
 
     public int numberOfTiles = 100;
-    public float distanceX = .5f;
-    public float distanceY = .6f;
+    public float distanceX = .65f;
+    public float distanceY = .65f;
     public int numberOfMines = 10;
     public int rowLength = 10;
     public Transform startingPoint;
@@ -17,9 +17,11 @@ public class GridScript : MonoBehaviour
     public static ArrayList plainTiles;
     public static ArrayList mineTiles;
 
+    public static Queue<Tiles> explosionTiles;
+
 
     // Start is called before the first frame update
-    void Start()
+    public void MakeGrids()
     {
         // 타일을 만든다.
         CreateTiles();
@@ -39,7 +41,9 @@ public class GridScript : MonoBehaviour
   
     void CreateTiles()
     {
+        print(startingPoint.transform.position);
         allTiles = new Tiles[numberOfTiles];
+        explosionTiles = new Queue<Tiles>();
 
         float xOffSet = 0f;
         float yOffSet = 0f;
@@ -97,6 +101,8 @@ public class GridScript : MonoBehaviour
        
     }
 
+    
+
 
     void SetupMine()
     {
@@ -126,8 +132,20 @@ public class GridScript : MonoBehaviour
     {
         for(int i=0;i<allTiles.Length;i++)
         {
-            allTiles[i].SetAdjacent();
+            allTiles[i].SetNeighbor();
             allTiles[i].SetTileNumber();
+        }
+    }
+
+    public static void DestroyAllTiles()
+    {
+        for(int i=0;i<allTiles.Length;i++)
+        {
+            if (allTiles[i].gameObject)
+            {
+                Destroy(allTiles[i].gameObject);
+            }
+            
         }
     }
 
