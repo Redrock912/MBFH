@@ -13,9 +13,9 @@ public class GridScript : MonoBehaviour
     public int rowLength = 10;
     public Transform startingPoint;
 
-    public static Tiles[]   allTiles;        
-    public static ArrayList plainTiles;
-    public static ArrayList mineTiles;
+    public  Tiles[]   allTiles;        
+    public  ArrayList plainTiles;
+    public  ArrayList mineTiles;
 
     public static Queue<Tiles> explosionTiles;
 
@@ -41,7 +41,7 @@ public class GridScript : MonoBehaviour
   
     void CreateTiles()
     {
-        print(startingPoint.transform.position);
+        
         allTiles = new Tiles[numberOfTiles];
         explosionTiles = new Queue<Tiles>();
 
@@ -89,6 +89,7 @@ public class GridScript : MonoBehaviour
             Tiles spawnedTile = Instantiate(tilePrefab, startingPoint.position + new Vector3(xOffSet, -yOffSet, 0), Quaternion.identity) as Tiles;
 
 
+            spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
             spawnedTile.GetComponent<Tiles>().SetBackground(i, "flaminica");
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
@@ -124,8 +125,7 @@ public class GridScript : MonoBehaviour
             plainTiles.Remove(currentTile);
         }
 
-        print(plainTiles.Count);
-        print(allTiles.Length);
+
     }
 
     void SetupAdjacentTiles()
@@ -137,10 +137,11 @@ public class GridScript : MonoBehaviour
         }
     }
 
-    public static void DestroyAllTiles()
+    public void DestroyAllTiles()
     {
         for(int i=0;i<allTiles.Length;i++)
         {
+            // 왜 두번째 Grid에서 첫번째 Tile을 보는가?
             if (allTiles[i].gameObject)
             {
                 Destroy(allTiles[i].gameObject);

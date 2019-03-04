@@ -13,6 +13,7 @@ public class Tiles : MonoBehaviour
     public int displayNumber=0;
     public int id;
     public int rowLength;
+    
 
     public int hPoint = 3;
 
@@ -21,20 +22,17 @@ public class Tiles : MonoBehaviour
 
     private SpriteRenderer[] spriteArray = new SpriteRenderer[2];
 
+
+
     // 현재 상태는 이것뿐 더 추가된다면 enum이 나 을 듯?
     public bool isRevealed =false;
     public bool isExploded = false;
 
-    
 
+    public GridScript parentGrid;
     public Tiles upperLeft, upper, upperRight, left, right, lowerLeft, lower, lowerRight;
     public List<Tiles> neighborTiles;
 
-    void Start()
-    {
-
-        
-    }
 
     private void Awake()
     {
@@ -61,10 +59,11 @@ public class Tiles : MonoBehaviour
 
     public void SetNeighbor()
     {
+        
         // ㅜ
-        if(InBounds(GridScript.allTiles, id + rowLength))
+        if(InBounds(parentGrid.allTiles, id + rowLength))
         {
-            lower = GridScript.allTiles[id + rowLength];
+            lower = parentGrid.allTiles[id + rowLength];
             if(lower.isMine)
             {
                 displayNumber++;
@@ -73,9 +72,9 @@ public class Tiles : MonoBehaviour
             neighborTiles.Add(lower);
         }
         // ㅗ
-        if (InBounds(GridScript.allTiles, id - rowLength))
+        if (InBounds(parentGrid.allTiles, id - rowLength))
         {
-            upper = GridScript.allTiles[id - rowLength];
+            upper = parentGrid.allTiles[id - rowLength];
             if (upper.isMine)
             {
                 displayNumber++;
@@ -83,9 +82,9 @@ public class Tiles : MonoBehaviour
             neighborTiles.Add(upper);
         }
         // ㅏ
-        if (InBounds(GridScript.allTiles, id + 1) && (id+1)%rowLength != 0)
+        if (InBounds(parentGrid.allTiles, id + 1) && (id+1)%rowLength != 0)
         {
-            right = GridScript.allTiles[id + 1];
+            right = parentGrid.allTiles[id + 1];
             if (right.isMine)
             {
                 displayNumber++;
@@ -93,9 +92,9 @@ public class Tiles : MonoBehaviour
             neighborTiles.Add(right);
         }
         // ㅓ
-        if (InBounds(GridScript.allTiles, id - 1) && id % rowLength != 0)
+        if (InBounds(parentGrid.allTiles, id - 1) && id % rowLength != 0)
         {
-            left = GridScript.allTiles[id - 1 ];
+            left = parentGrid.allTiles[id - 1 ];
             if (left.isMine)
             {
                 displayNumber++;
@@ -103,9 +102,9 @@ public class Tiles : MonoBehaviour
             neighborTiles.Add(left);
         }
         // ㅜ ㅏ
-        if (InBounds(GridScript.allTiles, id + rowLength + 1) && (id + 1) % rowLength != 0)
+        if (InBounds(parentGrid.allTiles, id + rowLength + 1) && (id + 1) % rowLength != 0)
         {
-            lowerRight = GridScript.allTiles[id + rowLength + 1];
+            lowerRight = parentGrid.allTiles[id + rowLength + 1];
             if (lowerRight.isMine)
             {
                 displayNumber++;
@@ -114,9 +113,9 @@ public class Tiles : MonoBehaviour
             neighborTiles.Add(lowerRight);
         }
         // ㅗ ㅏ
-        if (InBounds(GridScript.allTiles, id - rowLength + 1) && (id + 1) % rowLength != 0)
+        if (InBounds(parentGrid.allTiles, id - rowLength + 1) && (id + 1) % rowLength != 0)
         {
-            upperRight = GridScript.allTiles[id - rowLength + 1];
+            upperRight = parentGrid.allTiles[id - rowLength + 1];
             if (upperRight.isMine)
             {
                 displayNumber++;
@@ -125,9 +124,9 @@ public class Tiles : MonoBehaviour
             neighborTiles.Add(upperRight);
         }
         // ㅜ ㅓ
-        if (InBounds(GridScript.allTiles, id + rowLength - 1) && id % rowLength != 0)
+        if (InBounds(parentGrid.allTiles, id + rowLength - 1) && id % rowLength != 0)
         {
-            lowerLeft = GridScript.allTiles[id + rowLength - 1];
+            lowerLeft = parentGrid.allTiles[id + rowLength - 1];
             if (lowerLeft.isMine)
             {
                 displayNumber++;
@@ -136,9 +135,9 @@ public class Tiles : MonoBehaviour
         }
 
         // ㅗ ㅓ
-        if (InBounds(GridScript.allTiles, id - rowLength - 1) && id % rowLength != 0)
+        if (InBounds(parentGrid.allTiles, id - rowLength - 1) && id % rowLength != 0)
         {
-            upperLeft = GridScript.allTiles[id - rowLength - 1];
+            upperLeft = parentGrid.allTiles[id - rowLength - 1];
             if (upperLeft.isMine)
             {
                 displayNumber++;
@@ -299,7 +298,7 @@ public class Tiles : MonoBehaviour
         
         //gameObject.SetActive(false);
         // 한번에 합산.
-        StageManager.AddHPoint(tempPoint);
+        StageManager.AddHPoint(tempPoint,parentGrid);
 
 
         // 아까 저장했던 애들도 다시 한번 봐보자
@@ -308,6 +307,8 @@ public class Tiles : MonoBehaviour
             // 하나씩 빼자
             GridScript.explosionTiles.Dequeue().Explode();
         }
+
+        print(parentGrid.allTiles.Length);
     }
 
 
@@ -315,18 +316,9 @@ public class Tiles : MonoBehaviour
     //{
     //    playerInput.OnMouseOver(this);
     //}
-
-    // Update is called once per frame
-    void Update()
+    
+    public void SetParentGrid(GridScript gridScript)
     {
-        // 이건 모바일용으로 잠시...
-
-        //if(Input.touchCount >0)
-        //{
-        //    Touch touch = Input.GetTouch(0);
-            
-        //}
-
-       
+        parentGrid = gridScript;
     }
 }

@@ -267,10 +267,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridScript:
-  - {fileID: 2059422874326513331, guid: a993d0ab6a5459f47b46a11fba1c07cc, type: 3}
-  - {fileID: 2059422874326513331, guid: a993d0ab6a5459f47b46a11fba1c07cc, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  gridScriptPrefab: {fileID: 2059422874326513331, guid: a993d0ab6a5459f47b46a11fba1c07cc,
+    type: 3}
   startingPoint: {fileID: 777151136}
-  gridNumbers: 0
+  numberOfGrids: 4
 --- !u!4 &1320798261
 Transform:
   m_ObjectHideFlags: 0

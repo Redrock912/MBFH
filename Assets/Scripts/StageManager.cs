@@ -10,14 +10,15 @@ public class StageManager : MonoBehaviour
     public int level = 1;
 
     //
-    public static void AddHPoint(int point)
+    public static void AddHPoint(int point, GridScript gridScript)
     {
         hPoint += point;
-        print(hPoint + " /100");
+        
         if(hPoint >= 100)
         {
-            GridScript.DestroyAllTiles();
             
+            gridScript.DestroyAllTiles();
+            hPoint = 0;
         }
     }
 
