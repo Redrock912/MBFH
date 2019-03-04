@@ -17,6 +17,9 @@ public class GridScript : MonoBehaviour
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
 
+    public string[] stageList = { "flaminica", "bunny", "mudo", "ritka" };
+    public int stageNumber = 0;
+
     public static Queue<Tiles> explosionTiles;
 
 
@@ -90,7 +93,7 @@ public class GridScript : MonoBehaviour
 
 
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            spawnedTile.GetComponent<Tiles>().SetBackground(i, "flaminica");
+            spawnedTile.GetComponent<Tiles>().SetBackground(i, stageList[stageNumber]);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
 
@@ -137,6 +140,7 @@ public class GridScript : MonoBehaviour
         }
     }
 
+    // 과거의 유산 ㅂㅂ
     public void DestroyAllTiles()
     {
         for(int i=0;i<allTiles.Length;i++)

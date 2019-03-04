@@ -15,7 +15,7 @@ public class Tiles : MonoBehaviour
     public int rowLength;
     
 
-    public int hPoint = 3;
+    //public int hPoint = 3;
 
     // 입력 최고 권위자
     private PlayerInput playerInput;
@@ -274,7 +274,7 @@ public class Tiles : MonoBehaviour
                 neighborTiles[i].isExploded = true;
                 neighborTiles[i].spriteArray[0].color = Color.red;
                 //neighborTiles[i].gameObject.SetActive(false);
-                tempPoint += neighborTiles[i].hPoint;
+                //tempPoint += neighborTiles[i].hPoint;
                 if (neighborTiles[i].isMine)
                 {
                     // 하나씩 넣자
@@ -292,13 +292,13 @@ public class Tiles : MonoBehaviour
         {
             isExploded = true;
             spriteArray[0].color = Color.red;
-            tempPoint += hPoint;
+            //tempPoint += hPoint;
         }
 
         
         //gameObject.SetActive(false);
         // 한번에 합산.
-        StageManager.AddHPoint(tempPoint,parentGrid);
+        //StageManager.AddHPoint(tempPoint,parentGrid);
 
 
         // 아까 저장했던 애들도 다시 한번 봐보자

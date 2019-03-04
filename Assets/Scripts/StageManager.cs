@@ -9,18 +9,18 @@ public class StageManager : MonoBehaviour
     public static int hPoint = 0;
     public int level = 1;
 
-    //
-    public static void AddHPoint(int point, GridScript gridScript)
-    {
-        hPoint += point;
+    //// 과거의 유산
+    //public static void AddHPoint(int point, GridScript gridScript)
+    //{
+    //    hPoint += point;
         
-        if(hPoint >= 100)
-        {
+    //    if(hPoint >= 100)
+    //    {
             
-            gridScript.DestroyAllTiles();
-            hPoint = 0;
-        }
-    }
+    //        gridScript.DestroyAllTiles();
+    //        hPoint = 0;
+    //    }
+    //}
 
     
 

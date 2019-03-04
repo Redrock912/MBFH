@@ -25,7 +25,9 @@ public class GridManager : MonoBehaviour
             GridScript currentGrid = Instantiate(gridScriptPrefab, startingPoint);
             currentGrid.startingPoint = startingPoint;
             currentGrid.startingPoint.position += new Vector3(0, 0, -i);
+            currentGrid.stageNumber = i;
             currentGrid.MakeGrids();
+            
             gridScript[i] = currentGrid;
         }
 
