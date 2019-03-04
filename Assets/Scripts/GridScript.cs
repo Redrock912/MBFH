@@ -7,8 +7,8 @@ public class GridScript : MonoBehaviour
     public Tiles tilePrefab;
 
     public int numberOfTiles = 100;
-    public float distanceX = .65f;
-    public float distanceY = .65f;
+    public float distanceX = .6f;
+    public float distanceY = .6f;
     public int numberOfMines = 10;
     public int rowLength = 10;
     public Transform startingPoint;

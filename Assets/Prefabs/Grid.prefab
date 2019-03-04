@@ -46,8 +46,15 @@ MonoBehaviour:
   tilePrefab: {fileID: 8836446824429007275, guid: c954354deefbd4346901122befcb958d,
     type: 3}
   numberOfTiles: 100
-  distanceX: 0.65
-  distanceY: 0.65
-  numberOfMines: 10
+  distanceX: 0.56
+  distanceY: 0.56
+  numberOfMines: 25
   rowLength: 10
   startingPoint: {fileID: 0}
+  allTiles: []
+  stageList:
+  - flaminica
+  - bunny
+  - mudo
+  - ritka
+  stageNumber: 0

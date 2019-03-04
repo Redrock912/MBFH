@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 206756032329016037}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children:
   - {fileID: 7031013525691735929}
   - {fileID: 374063203873685409}
@@ -58,9 +58,13 @@ MonoBehaviour:
   displayNumber: 0
   id: 0
   rowLength: 0
-  hPoint: 5
+  spriteArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  cubeController: {fileID: 0}
   isRevealed: 0
   isExploded: 0
+  parentGrid: {fileID: 0}
   upperLeft: {fileID: 0}
   upper: {fileID: 0}
   upperRight: {fileID: 0}
@@ -165,7 +169,8 @@ GameObject:
   - component: {fileID: 7401505405195751270}
   - component: {fileID: 2258397103976241618}
   - component: {fileID: 415316177385449661}
-  - component: {fileID: 4826252101193040883}
+  - component: {fileID: 6995879694408162974}
+  - component: {fileID: 6001943216850921919}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -232,7 +237,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &4826252101193040883
+--- !u!65 &6995879694408162974
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,6 +250,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6001943216850921919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7962870723615507575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057c5edfab6afc84289a93313ce39edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 0}
+  box: {fileID: 0}
 --- !u!1001 &206756033098313578
 PrefabInstance:
   m_ObjectHideFlags: 0

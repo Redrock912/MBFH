@@ -20,7 +20,8 @@ public class Tiles : MonoBehaviour
     // 입력 최고 권위자
     private PlayerInput playerInput;
 
-    private SpriteRenderer[] spriteArray = new SpriteRenderer[2];
+    public SpriteRenderer[] spriteArray = new SpriteRenderer[2];
+    public CubeController cubeController;
 
 
 
@@ -40,6 +41,7 @@ public class Tiles : MonoBehaviour
         playerInput = GameObject.Find("GridManager").GetComponent<PlayerInput>();
         
         spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
+        cubeController = gameObject.GetComponentInChildren<CubeController>();
     }
 
 
@@ -207,6 +209,8 @@ public class Tiles : MonoBehaviour
 
     }
 
+
+
     public void RevealTile()
     {
         isRevealed = true;
@@ -224,6 +228,9 @@ public class Tiles : MonoBehaviour
             if(displayNumber == 0)
             {
                 RevealNeighborTiles();
+                spriteArray[0].color = Color.clear;
+                spriteArray[1].sprite = null;
+                cubeController.hideCube();
             }
         }
 
@@ -267,22 +274,36 @@ public class Tiles : MonoBehaviour
         {
 
             // 주변이 존재하는가? 그리고 주변이 이미 터져있는가?
-            if (neighborTiles[i] && neighborTiles[i].isExploded==false)
+            if (neighborTiles[i] && neighborTiles[i].isMine == false)
             {
                 // 주변부도 폭탄이면 연쇄폭발, StackOverflow 
                 
-                neighborTiles[i].isExploded = true;
-                neighborTiles[i].spriteArray[0].color = Color.red;
+                //neighborTiles[i].isExploded = true;
+                neighborTiles[i].displayNumber -= 1;
+
+                
+                if(neighborTiles[i].displayNumber == 0)
+                {
+                    neighborTiles[i].spriteArray[0].color = Color.clear;
+                    neighborTiles[i].spriteArray[1].sprite = null;
+                    neighborTiles[i].cubeController.hideCube();
+                }
+                else
+                {
+                    neighborTiles[i].SetTileNumber();
+                    neighborTiles[i].RevealNeighborTilesWithNumber();
+                }
+
                 //neighborTiles[i].gameObject.SetActive(false);
                 //tempPoint += neighborTiles[i].hPoint;
-                if (neighborTiles[i].isMine)
-                {
-                    // 하나씩 넣자
-                    if(!GridScript.explosionTiles.Contains(neighborTiles[i]))
-                    {                        
-                        GridScript.explosionTiles.Enqueue(neighborTiles[i]);
-                    }
-                }                
+                //if (neighborTiles[i].isMine)
+                //{
+                //    // 하나씩 넣자
+                //    if(!GridScript.explosionTiles.Contains(neighborTiles[i]))
+                //    {                        
+                //        GridScript.explosionTiles.Enqueue(neighborTiles[i]);
+                //    }
+                //}                
             }           
         }
 
@@ -291,7 +312,9 @@ public class Tiles : MonoBehaviour
         if (isExploded == false)
         {
             isExploded = true;
-            spriteArray[0].color = Color.red;
+            spriteArray[0].color = Color.clear;
+            spriteArray[1].sprite = null;
+            cubeController.hideCube();
             //tempPoint += hPoint;
         }
 
@@ -302,11 +325,11 @@ public class Tiles : MonoBehaviour
 
 
         // 아까 저장했던 애들도 다시 한번 봐보자
-        while(GridScript.explosionTiles.Count != 0)
-        {
-            // 하나씩 빼자
-            GridScript.explosionTiles.Dequeue().Explode();
-        }
+        //while(GridScript.explosionTiles.Count != 0)
+        //{
+        //    // 하나씩 빼자
+        //    GridScript.explosionTiles.Dequeue().Explode();
+        //}
 
         print(parentGrid.allTiles.Length);
     }
