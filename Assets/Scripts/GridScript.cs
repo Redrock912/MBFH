@@ -6,18 +6,18 @@ public class GridScript : MonoBehaviour
 {
     public Tiles tilePrefab;
 
-    public int numberOfTiles = 100;
-    public float distanceX = .6f;
-    public float distanceY = .6f;
+    public int numberOfTiles = 96;
+    public float distanceX = 1.65f;
+    public float distanceY = 1.75f;
     public int numberOfMines = 10;
-    public int rowLength = 10;
+    public int rowLength = 8;
     public Transform startingPoint;
 
     public  Tiles[]   allTiles;        
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
 
-    public string[] stageList = { "flaminica", "bunny", "mudo", "ritka" };
+    public string[] stageList = { "sena1", "sena2", "sena3", "sena4" };
     public int stageNumber = 0;
 
     public static Queue<Tiles> explosionTiles;
