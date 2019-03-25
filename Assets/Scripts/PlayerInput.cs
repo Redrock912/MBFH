@@ -37,7 +37,7 @@ public class PlayerInput : MonoBehaviour
 
             Tiles tempTile = hit.transform.parent.GetComponent<Tiles>();
 
-            if(Input.GetMouseButtonDown(0) && tempTile.isRevealed == false)
+            if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true)
             {
                 // 타일을 까도록하자.
                tempTile.RevealTile();

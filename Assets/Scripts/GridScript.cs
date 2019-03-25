@@ -9,6 +9,7 @@ public class GridScript : MonoBehaviour
     public int numberOfTiles = 96;
     public float distanceX = 1.65f;
     public float distanceY = 1.75f;
+  
     public int numberOfMines = 10;
     public int rowLength = 8;
     public Transform startingPoint;
@@ -23,9 +24,13 @@ public class GridScript : MonoBehaviour
     public static Queue<Tiles> explosionTiles;
 
 
+    public bool isTopGrid = false;
+
     // Start is called before the first frame update
     public void MakeGrids()
     {
+        
+
         // 타일을 만든다.
         CreateTiles();
 
@@ -42,7 +47,7 @@ public class GridScript : MonoBehaviour
 
 
   
-    void CreateTiles()
+    public void CreateTiles()
     {
         
         allTiles = new Tiles[numberOfTiles];
@@ -88,10 +93,14 @@ public class GridScript : MonoBehaviour
                 yOffSet += distanceY;
             }
 
+            //float startingPointX = (float)(Screen.width / (numberOfMines*2));
+            //float startingPointY = (float)(Screen.height / (numberOfMines * 7 / 10));
+            //startingPoint.SetPositionAndRotation(new Vector3(startingPointX,startingPointY,0), Quaternion.identity);
 
             Tiles spawnedTile = Instantiate(tilePrefab, startingPoint.position + new Vector3(xOffSet, -yOffSet, 0), Quaternion.identity) as Tiles;
 
-
+            // 이 코드로 위치를 수정할지는 모르지만 일단 보류
+            //spawnedTile.transform.localScale *= 2;
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
             spawnedTile.GetComponent<Tiles>().SetBackground(i, stageList[stageNumber]);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;

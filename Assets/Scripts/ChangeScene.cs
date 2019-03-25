@@ -7,6 +7,8 @@ public class ChangeScene : MonoBehaviour
 {
     // Start is called before the first frame update
 
+
+
     public void SceneChange()
     {
         SceneManager.LoadScene(1);
@@ -14,12 +16,15 @@ public class ChangeScene : MonoBehaviour
     
     void Start()
     {
-             
+        Camera sceneCamera = GetComponent<Camera>();
+        if(sceneCamera != null)
+        {
+            print(sceneCamera.pixelRect);
+            print(Screen.height);
+            print(Screen.width);
+        }
+    
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

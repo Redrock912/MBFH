@@ -195,7 +195,7 @@ public class Tiles : MonoBehaviour
 
     public void SetBackground(int x, string name)
     {
-        background = Resources.LoadAll<Sprite>("Spritesheets/" + name);
+        background = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + name);
 
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
