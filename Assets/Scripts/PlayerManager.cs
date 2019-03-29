@@ -10,14 +10,26 @@ public class PlayerManager : MonoBehaviour
     // 골드는 표시용
     int gold;
 
-    // 카운트는 게임 로직용
-    int count;
+    // 카운트는 게임 로직용, 실제로 이 값을 지정하는 로직은 GridManager
+    public int count = 15;
+
+    // 진행도, 귀찮지만 하두코딩
+    public int[] stageList = { 1 };
+    public int maxStageNumber = 2;
+    public int currentStage;
+    public int currentDifficulty;
+    public int[] minesByDifficulty = { 5, 10, 15, 25 };
+    
 
     // Game Over~
     public event System.Action OnCountOver;
+    public event System.Action OnClear;
 
     GridManager gridManager;
-    
+    GridScript gridScript;
+
+
+    public string[] stageNames = { "gwent", "sena" };
 
     private void Awake()
     {
@@ -28,12 +40,52 @@ public class PlayerManager : MonoBehaviour
         else
         {
             instance = this;
+            
             DontDestroyOnLoad(gameObject);
 
-            gridManager = FindObjectOfType<GridManager>();
+            
+            
+            
             //OnCountOver = null;
             
         }
+    }
+
+    private void Start()
+    {
+        FindGridManager();
+
+        stageList = new int[maxStageNumber];
+
+        
+
+        // 플레이어 정보가져오기 (게임 시작 시 사용할 용도) , 뒤에 파라미터는 디폴트값
+        for(int i = 0; i < maxStageNumber; i++)
+        {
+            if (PlayerPrefs.HasKey("stage" + i))
+            {
+                stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
+            }
+            else
+            {
+                print("Make keys!");
+                PlayerPrefs.SetInt("stage" + i, 1);
+                stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
+            }
+            
+        }
+
+    }
+
+    public void FindGridManager()
+    {
+        gridManager = FindObjectOfType<GridManager>();
+        // 현재 탑 그리드스크립트
+        if (gridManager != null)
+        {
+            gridScript = gridManager.gridScript[gridManager.numberOfGrids - 1];
+        }
+
     }
 
 
@@ -41,8 +93,42 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            PlayerPrefs.DeleteAll();
+        }
+
     }
+
+    public void UseCount()
+    {
+        count--;
+        // 일단 명시적으로 해보자
+
+        FindGridManager();
+        if(gridScript.currentMines == 0)
+        {
+            // 다 찾으면 클리어, 
+            OnClear();
+            print("justbefore");
+            print(currentDifficulty);
+            print(PlayerPrefs.GetInt("stage1"));
+            if ((currentDifficulty+1) == PlayerPrefs.GetInt("stage"+currentStage,1)&& (currentDifficulty+1)<4)
+            {
+                print("cleared so doing my thing");
+                stageList[currentStage] += 1;
+                PlayerPrefs.SetInt("stage" + currentStage, stageList[currentStage]);
+            }
+
+        }else if (count == 0)
+        {
+            CountOver();
+            // 일단 클리어 시에 다른거 터치 막아놓기
+            gridScript.isTopGrid = false;
+        }
+    }
+
+
 
     public void CountOver()
     {
@@ -52,6 +138,6 @@ public class PlayerManager : MonoBehaviour
         }
 
         // 일단은 부셔볼까
-        GameObject.Destroy(gameObject);
+       // GameObject.Destroy(gameObject);
     }
 }

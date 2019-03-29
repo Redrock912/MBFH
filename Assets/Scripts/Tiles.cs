@@ -6,7 +6,7 @@ public class Tiles : MonoBehaviour
 {
 
 
-    // Start is called before the first frame update
+    
     Sprite[] background;
     public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8;
     public bool isMine;
@@ -42,6 +42,8 @@ public class Tiles : MonoBehaviour
         
         spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
         cubeController = gameObject.GetComponentInChildren<CubeController>();
+
+       
     }
 
 
@@ -193,18 +195,37 @@ public class Tiles : MonoBehaviour
         spriteArray[1].enabled = false;
     }
 
-    public void SetBackground(int x, string name)
+    public void SetBackground(int x, string name, int difficulty)
     {
-        background = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + name);
+
+        background = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + name + "" + (difficulty + 1));
 
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
         spriteArray[0].sprite = background[x];
 
-        
 
-      
+        float width = spriteArray[0].sprite.bounds.size.x;
+        float height = spriteArray[0].sprite.bounds.size.y;
+
+        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
+
+        // 베이스
+        //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
+
+        // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
+        float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) * (0.125f);
+
+        // w * (1/8) , 1/8 = tile size
+        float modifiedWidth = (worldScreenWidth / width) * 0.125f;
+
+        spriteArray[0].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
+
+
+
 
 
     }
@@ -318,7 +339,7 @@ public class Tiles : MonoBehaviour
             //tempPoint += hPoint;
         }
 
-        
+
         //gameObject.SetActive(false);
         // 한번에 합산.
         //StageManager.AddHPoint(tempPoint,parentGrid);
@@ -331,7 +352,9 @@ public class Tiles : MonoBehaviour
         //    GridScript.explosionTiles.Dequeue().Explode();
         //}
 
-        print(parentGrid.allTiles.Length);
+        parentGrid.currentMines -= 1;
+
+        
     }
 
 

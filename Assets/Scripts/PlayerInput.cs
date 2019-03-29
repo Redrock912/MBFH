@@ -6,12 +6,13 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     Camera viewCamera;
+    PlayerManager playerManager;
 
     // Start is called before the first frame update
     void Start()
     {
         viewCamera = Camera.main;
-        
+        playerManager = FindObjectOfType<PlayerManager>();
     }
 
     //public void OnMouseOver(Tiles tile)
@@ -41,6 +42,9 @@ public class PlayerInput : MonoBehaviour
             {
                 // 타일을 까도록하자.
                tempTile.RevealTile();
+
+                // 클릭할 때마다 기회 사용
+                playerManager.UseCount();
             }
       
             

@@ -43,3 +43,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0dbde4ed32f99e43879718b26a6d695, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  count: 15
+  stageList: 
+  maxStageNumber: 2
+  currentStage: 0
+  currentDifficulty: 0
+  stageNames:
+  - gwent
+  - sena

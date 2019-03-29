@@ -7,10 +7,11 @@ public class GridScript : MonoBehaviour
     public Tiles tilePrefab;
 
     public int numberOfTiles = 96;
-    public float distanceX = 1.65f;
+     public float distanceX = 1.65f;
     public float distanceY = 1.75f;
   
     public int numberOfMines = 10;
+    public int currentMines;
     public int rowLength = 8;
     public Transform startingPoint;
 
@@ -18,19 +19,25 @@ public class GridScript : MonoBehaviour
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
 
-    public string[] stageList = { "sena1", "sena2", "sena3", "sena4" };
+    public string stageName;
+    public int currentDifficulty;
     public int stageNumber = 0;
 
     public static Queue<Tiles> explosionTiles;
 
+    public PlayerManager playerManager;
+
+
 
     public bool isTopGrid = false;
+
+   
 
     // Start is called before the first frame update
     public void MakeGrids()
     {
-        
 
+        
         // 타일을 만든다.
         CreateTiles();
 
@@ -45,6 +52,18 @@ public class GridScript : MonoBehaviour
 
     }
 
+    public void SetupStageInfo(int i, PlayerManager playerManager)
+    {
+
+        
+        
+        stageName = playerManager.stageNames[playerManager.currentStage];
+        currentDifficulty = playerManager.currentDifficulty + i;
+
+        
+        
+    }
+
 
   
     public void CreateTiles()
@@ -52,6 +71,12 @@ public class GridScript : MonoBehaviour
         
         allTiles = new Tiles[numberOfTiles];
         explosionTiles = new Queue<Tiles>();
+
+
+        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
+        
 
         float xOffSet = 0f;
         float yOffSet = 0f;
@@ -84,13 +109,15 @@ public class GridScript : MonoBehaviour
         for(int i=0;i<numberOfTiles;i++)
         {
             // 한 칸씩 옆으로 이동
-            xOffSet += distanceX;
+            //xOffSet += distanceX;
+            xOffSet += worldScreenWidth / (float)rowLength;
 
             // row row row the boat
             if (i % rowLength == 0)
             {
                 xOffSet = 0;
-                yOffSet += distanceY;
+                //yOffSet += distanceY;
+                yOffSet += worldScreenWidth / (float)rowLength;
             }
 
             //float startingPointX = (float)(Screen.width / (numberOfMines*2));
@@ -102,13 +129,14 @@ public class GridScript : MonoBehaviour
             // 이 코드로 위치를 수정할지는 모르지만 일단 보류
             //spawnedTile.transform.localScale *= 2;
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            spawnedTile.GetComponent<Tiles>().SetBackground(i, stageList[stageNumber]);
+            spawnedTile.GetComponent<Tiles>().SetBackground(i, stageName, currentDifficulty);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
 
             
             allTiles[i] = spawnedTile;
-            
+
+       
         }
 
        
@@ -119,6 +147,11 @@ public class GridScript : MonoBehaviour
 
     void SetupMine()
     {
+        // 난이도에 따라 지뢰개수를 달리한다.
+        numberOfMines = playerManager.minesByDifficulty[playerManager.currentDifficulty];
+
+
+
         plainTiles = new ArrayList(allTiles);
         
         // why is this null?
@@ -137,7 +170,8 @@ public class GridScript : MonoBehaviour
             plainTiles.Remove(currentTile);
         }
 
-
+        // 현재 지뢰 갯수 세기 시작
+        currentMines = numberOfMines;
     }
 
     void SetupAdjacentTiles()

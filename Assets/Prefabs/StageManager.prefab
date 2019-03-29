@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2059422874326513330
+--- !u!1 &4339324582651185714
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,53 +8,41 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2059422874326513328}
-  - component: {fileID: 2059422874326513331}
+  - component: {fileID: 4339324582651185676}
+  - component: {fileID: 4339324582651185715}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: StageManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2059422874326513328
+--- !u!4 &4339324582651185676
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059422874326513330}
+  m_GameObject: {fileID: 4339324582651185714}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2059422874326513331
+--- !u!114 &4339324582651185715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2059422874326513330}
+  m_GameObject: {fileID: 4339324582651185714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80db87350996acc488676197f2f0ad9d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cf6c0a6c355b7948b5fb77d384b632c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 8836446824429007275, guid: c954354deefbd4346901122befcb958d,
-    type: 3}
-  numberOfTiles: 96
-  distanceX: 0.6
-  distanceY: 0.65
-  numberOfMines: 1
-  currentMines: 0
-  rowLength: 8
-  startingPoint: {fileID: 0}
-  allTiles: []
-  stageName: 
-  currentDifficulty: 0
-  stageNumber: 0
-  playerManager: {fileID: 0}
-  isTopGrid: 0
+  stageList:
+  - sena
+  - gwent
