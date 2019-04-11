@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6017951264298991164
+--- !u!1 &8757912712262088898
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3360425545080836962}
-  - component: {fileID: 8012093267766540580}
+  - component: {fileID: 8757912712262088900}
+  - component: {fileID: 8757912712262088899}
   m_Layer: 0
-  m_Name: SceneChanger
+  m_Name: UnityAdsHelper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3360425545080836962
+--- !u!4 &8757912712262088900
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6017951264298991164}
+  m_GameObject: {fileID: 8757912712262088898}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.76897293, y: -0.112580486, z: 100.73766}
+  m_LocalPosition: {x: 0.123777755, y: 0.11163539, z: 16.114014}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8012093267766540580
+--- !u!114 &8757912712262088899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6017951264298991164}
+  m_GameObject: {fileID: 8757912712262088898}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36c64632140001b4894090f76010bddc, type: 3}
+  m_Script: {fileID: 11500000, guid: 25d44715ec337d54794816ba46a4539f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainTheme: {fileID: 8300000, guid: 09249946f636f22489857bc4c655d91c, type: 3}
-  stageSelectTheme: {fileID: 8300000, guid: 09249946f636f22489857bc4c655d91c, type: 3}
-  menuTheme: {fileID: 8300000, guid: c74a59f391078e746ac62284aa22cc4a, type: 3}

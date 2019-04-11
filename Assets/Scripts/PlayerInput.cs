@@ -8,6 +8,13 @@ public class PlayerInput : MonoBehaviour
     Camera viewCamera;
     PlayerManager playerManager;
 
+    // 누를 때 소리가 나는거니까 여기에 배치
+    public AudioClip explosionSoundAudio;
+    public AudioClip revealSoundAudio;
+
+    public Transform testEffectPrefab;
+    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -38,10 +45,23 @@ public class PlayerInput : MonoBehaviour
 
             Tiles tempTile = hit.transform.parent.GetComponent<Tiles>();
 
+            Instantiate(testEffectPrefab, tempTile.transform);
+
             if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true)
             {
                 // 타일을 까도록하자.
-               tempTile.RevealTile();
+
+                if (tempTile.isMine)
+                {
+                    AudioManager.instance.PlaySound(explosionSoundAudio, transform.position);
+                }
+                else
+                {
+                    AudioManager.instance.PlaySound(revealSoundAudio, transform.position);
+                }
+               
+                tempTile.RevealTile();
+
 
                 // 클릭할 때마다 기회 사용
                 playerManager.UseCount();

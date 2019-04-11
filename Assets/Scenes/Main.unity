@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 119684300}
   m_Layer: 5
   m_Name: ClearImage
-  m_TagString: Untagged
+  m_TagString: ClearImage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -340,6 +340,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133023880}
   m_CullTransparentMesh: 0
+--- !u!1001 &138892658
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8757912712262088898, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_Name
+      value: UnityAdsHelper
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.123777755
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.11163539
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.114014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757912712262088900, guid: e7f98ce887345cf499997c8ca88cc7ac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e7f98ce887345cf499997c8ca88cc7ac, type: 3}
 --- !u!1 &320252233
 GameObject:
   m_ObjectHideFlags: 0
@@ -866,7 +935,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8012093267766540580, guid: 00d3cd805bd505e409d34eade25306ec,
           type: 3}
-        m_MethodName: ToStageSelectScene
+        m_MethodName: AdvertiseToStageSelectScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1154,7 +1223,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 720, y: 1280}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1565,6 +1634,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6cd85df5762d1f4194b02ceb52356af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionSoundAudio: {fileID: 8300000, guid: 7bef0064f8567430cac22499c6b93d4f, type: 3}
+  revealSoundAudio: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+  testEffectPrefab: {fileID: 5004826483476841750, guid: 0646724e3800f8140b58b31235434a35,
+    type: 3}
 --- !u!114 &1320798260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1584,7 +1657,7 @@ MonoBehaviour:
     type: 3}
   startingPoint: {fileID: 777151136}
   numberOfGrids: 2
-  count: 50
+  count: 30
 --- !u!4 &1320798261
 Transform:
   m_ObjectHideFlags: 0
@@ -1904,7 +1977,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 8012093267766540580, guid: 00d3cd805bd505e409d34eade25306ec,
           type: 3}
-        m_MethodName: ToMainScene
+        m_MethodName: AdvertiseRestartScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1966,7 +2039,7 @@ GameObject:
   - component: {fileID: 1765463709}
   m_Layer: 5
   m_Name: CountOverBackgroundImage
-  m_TagString: Untagged
+  m_TagString: CountOverImage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

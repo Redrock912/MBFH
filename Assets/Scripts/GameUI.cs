@@ -22,10 +22,17 @@ public class GameUI : MonoBehaviour
     void Start()
     {
         playerManager = FindObjectOfType<PlayerManager>();
+        
         playerManager.OnCountOver += OnCountOver;
         playerManager.OnClear += OnClear;
 
-        
+        GameObject clearImageObject = GameObject.FindGameObjectWithTag("ClearImage");
+
+        GameObject countOverImageObject = GameObject.FindGameObjectWithTag("CountOverImage");
+
+        clearImage = clearImageObject.GetComponent<RectTransform>();
+
+        countOverImage = countOverImageObject.GetComponent<RectTransform>();
 
         gridManager = FindObjectOfType<GridManager>();
     }
@@ -47,12 +54,23 @@ public class GameUI : MonoBehaviour
 
     void OnCountOver()
     {
-        StartCoroutine("CountOverImageAnimation");
+        print("GameUI OnCountOver");
+        if (countOverImage != null)
+        {
+            StartCoroutine("CountOverImageAnimation");
+        }
+        
     }
 
     void OnClear()
     {
-        StartCoroutine("ClearImageAnimation");
+        print("GameUI OnClear");
+
+        if(clearImage != null)
+        {
+            StartCoroutine("ClearImageAnimation");
+        }
+        
     }
 
     IEnumerator ClearImageAnimation()
@@ -67,7 +85,7 @@ public class GameUI : MonoBehaviour
             yield return null;
         }
 
-        playerManager.OnClear -= OnClear;
+      
 
         //yield return new WaitForSeconds(0.2f);
     }
@@ -83,8 +101,7 @@ public class GameUI : MonoBehaviour
 
             yield return null;
         }
-
-        playerManager.OnClear -= OnCountOver;
+        
 
     }
 }

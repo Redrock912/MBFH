@@ -13,6 +13,7 @@ public class GridManager : MonoBehaviour
     // Restart할 경우 이미 사용한 count를 보충해줘야한다.
     PlayerManager playerManager;
 
+
     // 나중에는 다른데서 가져오자
     public int numberOfGrids = 2;
 

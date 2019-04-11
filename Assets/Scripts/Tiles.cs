@@ -354,6 +354,12 @@ public class Tiles : MonoBehaviour
 
         parentGrid.currentMines -= 1;
 
+        // 이거 분명 나중에 이펙트랑 같이할 때 에러가 터질 것 같이 생겼다.
+        if(parentGrid.currentMines == 0)
+        {
+            // 나머지도 다 없애자 . 깔-끔
+            parentGrid.DestroyAllTiles();
+        }
         
     }
 

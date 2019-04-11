@@ -53,6 +53,9 @@ public class PlayerManager : MonoBehaviour
 
     private void Start()
     {
+
+        Screen.SetResolution(450, 800, false);
+
         FindGridManager();
 
         stageList = new int[maxStageNumber];
@@ -106,37 +109,51 @@ public class PlayerManager : MonoBehaviour
         // 일단 명시적으로 해보자
 
         FindGridManager();
-        if(gridScript.currentMines == 0)
+        if (gridScript.currentMines == 0)
         {
             // 다 찾으면 클리어, 
-            OnClear();
+            Clear();
             print("justbefore");
             print(currentDifficulty);
             print(PlayerPrefs.GetInt("stage1"));
-            if ((currentDifficulty+1) == PlayerPrefs.GetInt("stage"+currentStage,1)&& (currentDifficulty+1)<4)
+            if ((currentDifficulty + 1) == PlayerPrefs.GetInt("stage" + currentStage, 1) && (currentDifficulty + 1) < 4)
             {
                 print("cleared so doing my thing");
                 stageList[currentStage] += 1;
                 PlayerPrefs.SetInt("stage" + currentStage, stageList[currentStage]);
             }
 
-        }else if (count == 0)
+        }
+        else if (count == 0)
         {
+            print("ALSLSLF");
             CountOver();
             // 일단 클리어 시에 다른거 터치 막아놓기
             gridScript.isTopGrid = false;
         }
+
+        print("Current count is: " + count);
+    }
+
+    public void Clear()
+    {
+        OnClear();
+        // 초기화 해줘야 하나..?
+        OnClear = null;
     }
 
 
 
     public void CountOver()
     {
-        if (OnCountOver != null)
-        {
-            OnCountOver();
-        }
+        //if (OnCountOver != null)
+        //{
+        //    OnCountOver();
+        //}
 
+        OnCountOver();
+        OnCountOver = null;
+        
         // 일단은 부셔볼까
        // GameObject.Destroy(gameObject);
     }
