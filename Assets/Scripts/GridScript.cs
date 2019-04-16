@@ -11,6 +11,7 @@ public class GridScript : MonoBehaviour
     public float distanceY = 1.75f;
   
     public int numberOfMines = 10;
+    public int numberOfHidden = 5;
     public int currentMines;
     public int rowLength = 8;
     public Transform startingPoint;
@@ -18,6 +19,7 @@ public class GridScript : MonoBehaviour
     public  Tiles[]   allTiles;        
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
+    public ArrayList hiddenTiles;
 
     public string stageName;
     public int currentDifficulty;
@@ -47,8 +49,8 @@ public class GridScript : MonoBehaviour
         // 주변 타일들을 설정, 그리고 그걸 기반으로 지뢰 갯수 표시
         SetupAdjacentTiles();
 
-        
 
+        SetupHiddenTile();
 
     }
 
@@ -129,7 +131,7 @@ public class GridScript : MonoBehaviour
             // 이 코드로 위치를 수정할지는 모르지만 일단 보류
             //spawnedTile.transform.localScale *= 2;
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            spawnedTile.GetComponent<Tiles>().SetBackground(i, stageName, currentDifficulty);
+            spawnedTile.GetComponent<Tiles>().SetSprite(i, stageName, currentDifficulty);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
 
@@ -174,6 +176,28 @@ public class GridScript : MonoBehaviour
         currentMines = numberOfMines;
     }
 
+
+    //  ? 타일 만들기. 위랑 합칠수 있지 않을까
+    void SetupHiddenTile()
+    {
+
+        hiddenTiles = new ArrayList();
+
+        
+        for (int i = 0; i < numberOfHidden; i++)
+        {
+            Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
+            currentTile.GetComponent<Tiles>().isHidden = true;
+
+            hiddenTiles.Add(currentTile);
+            plainTiles.Remove(currentTile);
+        }
+
+        // 여기서 값을 미리 바꿔놓자
+        
+    }
+
+
     void SetupAdjacentTiles()
     {
         for(int i=0;i<allTiles.Length;i++)
@@ -184,18 +208,18 @@ public class GridScript : MonoBehaviour
     }
 
     // 과거의 유산 ㅂㅂ
-    public void DestroyAllTiles()
-    {
-        for(int i=0;i<allTiles.Length;i++)
-        {
-            // 왜 두번째 Grid에서 첫번째 Tile을 보는가?
-            if (allTiles[i].gameObject)
-            {
-                Destroy(allTiles[i].gameObject);
-            }
+    //public void DestroyAllTiles()
+    //{
+    //    for(int i=0;i<allTiles.Length;i++)
+    //    {
+    //        // 왜 두번째 Grid에서 첫번째 Tile을 보는가?
+    //        if (allTiles[i].gameObject)
+    //        {
+    //            Destroy(allTiles[i].gameObject);
+    //        }
             
-        }
-    }
+    //    }
+    //}
 
 
 }

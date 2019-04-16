@@ -6,13 +6,17 @@ public class Tiles : MonoBehaviour
 {
 
 
-    
-    Sprite[] background;
-    public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8;
+
+    Sprite baseTileSprite;
+    Sprite tileSprite;
+    public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, questionTile;
     public bool isMine;
+    public bool isHidden = false;
     public int displayNumber=0;
     public int id;
     public int rowLength;
+
+    
     
 
     //public int hPoint = 3;
@@ -33,6 +37,10 @@ public class Tiles : MonoBehaviour
     public GridScript parentGrid;
     public Tiles upperLeft, upper, upperRight, left, right, lowerLeft, lower, lowerRight;
     public List<Tiles> neighborTiles;
+
+    // 비쥬얼
+    public Transform explosionHolder;
+    public ParticleSystem explosionEffect;
 
 
     private void Awake()
@@ -155,7 +163,8 @@ public class Tiles : MonoBehaviour
     {
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
-        
+
+
 
         switch (displayNumber)
         {
@@ -190,20 +199,38 @@ public class Tiles : MonoBehaviour
 
 
         }
-        
+
+
+        // ? 타일이면 ?로 덮어씌우자.
+        if (isHidden)
+        {
+            spriteArray[1].sprite = questionTile;
+            
+            
+        }
+
         // 일단 숨겨놓자, isRevealed에 반응하도록
         spriteArray[1].enabled = false;
+
+
     }
 
-    public void SetBackground(int x, string name, int difficulty)
+    public void SetSprite(int x, string name, int difficulty)
+    {
+        SetBaseTile(x, name, difficulty);
+        SetTileDisplayInfoSize();
+    }
+
+    public void SetBaseTile(int x, string name, int difficulty)
     {
 
-        background = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + name + "" + (difficulty + 1));
+       
+        baseTileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_B");
 
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
-        spriteArray[0].sprite = background[x];
+        spriteArray[0].sprite = baseTileSprite;
 
 
         float width = spriteArray[0].sprite.bounds.size.x;
@@ -224,11 +251,36 @@ public class Tiles : MonoBehaviour
 
         spriteArray[0].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
 
-
-
-
-
     }
+
+    void SetTileDisplayInfoSize()
+    {
+        
+        tileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_1");
+
+        // 기준 점으로 아무나 하나 데려오자
+        spriteArray[1].sprite = tileSprite;
+
+
+        float width = spriteArray[1].sprite.bounds.size.x;
+        float height = spriteArray[1].sprite.bounds.size.y;
+
+        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
+
+        // 베이스
+        //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
+
+        // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
+        float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) * (0.12f);
+
+        // w * (1/8) , 1/8 = tile size
+        float modifiedWidth = (worldScreenWidth / width) * 0.12f;
+
+        spriteArray[1].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
+    }
+
 
 
 
@@ -237,8 +289,11 @@ public class Tiles : MonoBehaviour
         isRevealed = true;
         if (isMine)
         {
+            StartCoroutine("ExplosionEffectTimer");
             Explode();
             //ChainExplosion();
+            
+
         }
         else
         {
@@ -246,12 +301,21 @@ public class Tiles : MonoBehaviour
             
             spriteArray[1].enabled = true;
 
+            if (isHidden)
+            {
+                isHidden = false;
+                SetTileNumber();
+                spriteArray[1].enabled = true;
+                
+            }
+
             if(displayNumber == 0)
             {
                 RevealNeighborTiles();
                 spriteArray[0].color = Color.clear;
                 spriteArray[1].sprite = null;
                 cubeController.hideCube();
+                
             }
         }
 
@@ -281,7 +345,9 @@ public class Tiles : MonoBehaviour
     // 0짜리가 퍼져나가다가 숫자를 만나면 멈춤.
     void RevealNeighborTilesWithNumber()
     {
+        if(!isHidden)
         isRevealed = true;
+
         spriteArray[1].enabled = true;
     }
 
@@ -355,11 +421,11 @@ public class Tiles : MonoBehaviour
         parentGrid.currentMines -= 1;
 
         // 이거 분명 나중에 이펙트랑 같이할 때 에러가 터질 것 같이 생겼다.
-        if(parentGrid.currentMines == 0)
-        {
-            // 나머지도 다 없애자 . 깔-끔
-            parentGrid.DestroyAllTiles();
-        }
+        //if(parentGrid.currentMines == 0)
+        //{
+        //    // 나머지도 다 없애자 . 깔-끔
+        //    parentGrid.DestroyAllTiles();
+        //}
         
     }
 
@@ -372,5 +438,21 @@ public class Tiles : MonoBehaviour
     public void SetParentGrid(GridScript gridScript)
     {
         parentGrid = gridScript;
+    }
+
+    // 비쥬얼
+
+    IEnumerator ExplosionEffectTimer()
+    {
+        CreateExplosionEffect();
+
+        yield return new WaitForSeconds(1.0f);
+        
+    }
+
+    void CreateExplosionEffect()
+    {
+        ParticleSystem particleSystem = Instantiate(explosionEffect, explosionHolder);
+       
     }
 }

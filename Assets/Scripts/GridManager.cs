@@ -7,6 +7,7 @@ public class GridManager : MonoBehaviour
     // 그리드를 가져오자
     public GridScript[] gridScript;
     public GridScript gridScriptPrefab;
+    public BackgroundSprite backgroundSpritePrefab;
     // 임시방편
     public Transform startingPoint;
 
@@ -14,8 +15,8 @@ public class GridManager : MonoBehaviour
     PlayerManager playerManager;
 
 
-    // 나중에는 다른데서 가져오자
-    public int numberOfGrids = 2;
+    // 2개 이상일 때는 의미가 있었지만, 일단 지금은 1개로 축소됬다. 하지만 앞 일은 모르므로 남겨놓자
+    public int numberOfGrids = 1;
 
     public int count = 20;
 
@@ -29,8 +30,11 @@ public class GridManager : MonoBehaviour
         playerManager = FindObjectOfType<PlayerManager>();
         playerManager.count = count;
 
-        
-        
+
+        // 배경만드는 애한테 정보를 넘겨주자
+        BackgroundSprite backgroundSprite = Instantiate(backgroundSpritePrefab, gameObject.transform);
+        backgroundSprite.SetupStageInfo(playerManager);
+        backgroundSprite.SetupBackground();
 
         for (int i=0;i<numberOfGrids;i++)
         {
