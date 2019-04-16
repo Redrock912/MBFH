@@ -38,7 +38,7 @@ public class StageSelect : MonoBehaviour
             tempObject.stageID = i;
 
             tempObject.unlockedDifficulties = PlayerPrefs.GetInt("stage" + i,1);
-            print("저장된 값들은 "+PlayerPrefs.GetInt("stage" + i));
+            //print("저장된 값들은 "+PlayerPrefs.GetInt("stage" + i));
             tempObject.SetButtons();
             tempObject.GetComponent<Image>().sprite = stageSprite;
         }

@@ -23,24 +23,24 @@ public class BackgroundSprite : MonoBehaviour
 
     public void SetupBackground()
     {
-        print(stageName);
-        print(currentDifficulty);
+        //print(stageName);
+        //print(currentDifficulty);
 
         background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "" + (currentDifficulty+1));
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = background;
 
-        if (background)
-        {
-            print(background);
-            print(stageName);
-            print(currentDifficulty);
+        //if (background)
+        //{
+        //    print(background);
+        //    print(stageName);
+        //    print(currentDifficulty);
 
-        }
-        else
-        {
-            print("NULLLLL");
-        }
+        //}
+        //else
+        //{
+        //    print("NULLLLL");
+        //}
 
         
         float width = background.bounds.size.x;

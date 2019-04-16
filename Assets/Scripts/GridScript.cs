@@ -11,7 +11,8 @@ public class GridScript : MonoBehaviour
     public float distanceY = 1.75f;
   
     public int numberOfMines = 10;
-    public int numberOfHidden = 5;
+    public int numberOfHidden = 15;
+    public int numberOfFlip = 15;
     public int currentMines;
     public int rowLength = 8;
     public Transform startingPoint;
@@ -20,6 +21,7 @@ public class GridScript : MonoBehaviour
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
     public ArrayList hiddenTiles;
+    public ArrayList flipTiles;
 
     public string stageName;
     public int currentDifficulty;
@@ -49,8 +51,11 @@ public class GridScript : MonoBehaviour
         // 주변 타일들을 설정, 그리고 그걸 기반으로 지뢰 갯수 표시
         SetupAdjacentTiles();
 
-
+        // 흠터레스팅 타일을 깐다.
         SetupHiddenTile();
+
+        // 논리회로 타일을 깐다
+        SetupFlipTile();
 
     }
 
@@ -197,6 +202,23 @@ public class GridScript : MonoBehaviour
         
     }
 
+    void SetupFlipTile()
+    {
+        flipTiles = new ArrayList();
+
+        for(int i = 0; i < numberOfFlip; i++)
+        {
+            Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
+            
+            // 생각해보니 이 부분은 없어도 될듯?
+            //currentTile.GetComponent<Tiles>().isFlip = true;
+
+
+            flipTiles.Add(currentTile);
+            plainTiles.Remove(currentTile);
+        }
+    }
+
 
     void SetupAdjacentTiles()
     {
@@ -204,6 +226,25 @@ public class GridScript : MonoBehaviour
         {
             allTiles[i].SetNeighbor();
             allTiles[i].SetTileNumber();
+        }
+    }
+
+
+    public void FlipTilesToBaseState()
+    {
+        for (int i = 0; i < flipTiles.Count; i++)
+        {
+
+            Tiles currentTile = (Tiles)flipTiles[i];
+
+            if (currentTile.isRevealedThisTurn == true)
+            {
+                currentTile.isRevealedThisTurn = false;
+            }
+            else
+            {
+                currentTile.Flip();
+            }
         }
     }
 

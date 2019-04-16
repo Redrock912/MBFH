@@ -71,7 +71,7 @@ public class PlayerManager : MonoBehaviour
             }
             else
             {
-                print("Make keys!");
+
                 PlayerPrefs.SetInt("stage" + i, 1);
                 stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
             }
@@ -113,12 +113,9 @@ public class PlayerManager : MonoBehaviour
         {
             // 다 찾으면 클리어, 
             Clear();
-            print("justbefore");
-            print(currentDifficulty);
-            print(PlayerPrefs.GetInt("stage1"));
             if ((currentDifficulty + 1) == PlayerPrefs.GetInt("stage" + currentStage, 1) && (currentDifficulty + 1) < 4)
             {
-                print("cleared so doing my thing");
+
                 stageList[currentStage] += 1;
                 PlayerPrefs.SetInt("stage" + currentStage, stageList[currentStage]);
             }
@@ -126,13 +123,10 @@ public class PlayerManager : MonoBehaviour
         }
         else if (count == 0)
         {
-            print("ALSLSLF");
             CountOver();
             // 일단 클리어 시에 다른거 터치 막아놓기
             gridScript.isTopGrid = false;
         }
-
-        print("Current count is: " + count);
     }
 
     public void Clear()

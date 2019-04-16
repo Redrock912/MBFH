@@ -47,6 +47,8 @@ public class PlayerInput : MonoBehaviour
 
             Instantiate(testEffectPrefab, tempTile.transform);
 
+            GridScript tempGrid = tempTile.parentGrid;
+
             if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true)
             {
                 // 타일을 까도록하자.
@@ -65,6 +67,13 @@ public class PlayerInput : MonoBehaviour
 
                 // 클릭할 때마다 기회 사용
                 playerManager.UseCount();
+
+                // 클릭할 떄마다 GridScript 에다가 flip tile을 되돌리라고 말하자.
+                tempGrid.FlipTilesToBaseState();
+
+                print(tempGrid.flipTiles.Count);
+
+
             }
       
             

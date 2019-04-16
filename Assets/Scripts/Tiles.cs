@@ -12,6 +12,7 @@ public class Tiles : MonoBehaviour
     public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, questionTile;
     public bool isMine;
     public bool isHidden = false;
+    public bool isRevealedThisTurn = false;
     public int displayNumber=0;
     public int id;
     public int rowLength;
@@ -287,6 +288,7 @@ public class Tiles : MonoBehaviour
     public void RevealTile()
     {
         isRevealed = true;
+        isRevealedThisTurn = true;
         if (isMine)
         {
             StartCoroutine("ExplosionEffectTimer");
@@ -348,7 +350,10 @@ public class Tiles : MonoBehaviour
         if(!isHidden)
         isRevealed = true;
 
+        isRevealedThisTurn = true;
+
         spriteArray[1].enabled = true;
+        
     }
 
     void Explode()
@@ -440,12 +445,24 @@ public class Tiles : MonoBehaviour
         parentGrid = gridScript;
     }
 
+
+    public void Flip()
+    {
+        // 다시 가려
+        spriteArray[1].enabled = false;
+        isRevealed = false;
+        
+        
+    }
+
+
     // 비쥬얼
 
     IEnumerator ExplosionEffectTimer()
     {
         CreateExplosionEffect();
 
+        // 왜 1 초 안기다리니....
         yield return new WaitForSeconds(1.0f);
         
     }
@@ -455,4 +472,6 @@ public class Tiles : MonoBehaviour
         ParticleSystem particleSystem = Instantiate(explosionEffect, explosionHolder);
        
     }
+
+
 }
