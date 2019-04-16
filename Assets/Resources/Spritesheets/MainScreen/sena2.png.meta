@@ -1,107 +1,103 @@
 fileFormatVersion: 2
-guid: e1dde828fa01eed4d92bf1892f5a3d3b
+guid: 67fa4d11c824ca5408557610e66315e0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: flaminica_0
-    21300002: flaminica_1
-    21300004: flaminica_2
-    21300006: flaminica_3
-    21300008: flaminica_4
-    21300010: flaminica_5
-    21300012: flaminica_6
-    21300014: flaminica_7
-    21300016: flaminica_8
-    21300018: flaminica_9
-    21300020: flaminica_10
-    21300022: flaminica_11
-    21300024: flaminica_12
-    21300026: flaminica_13
-    21300028: flaminica_14
-    21300030: flaminica_15
-    21300032: flaminica_16
-    21300034: flaminica_17
-    21300036: flaminica_18
-    21300038: flaminica_19
-    21300040: flaminica_20
-    21300042: flaminica_21
-    21300044: flaminica_22
-    21300046: flaminica_23
-    21300048: flaminica_24
-    21300050: flaminica_25
-    21300052: flaminica_26
-    21300054: flaminica_27
-    21300056: flaminica_28
-    21300058: flaminica_29
-    21300060: flaminica_30
-    21300062: flaminica_31
-    21300064: flaminica_32
-    21300066: flaminica_33
-    21300068: flaminica_34
-    21300070: flaminica_35
-    21300072: flaminica_36
-    21300074: flaminica_37
-    21300076: flaminica_38
-    21300078: flaminica_39
-    21300080: flaminica_40
-    21300082: flaminica_41
-    21300084: flaminica_42
-    21300086: flaminica_43
-    21300088: flaminica_44
-    21300090: flaminica_45
-    21300092: flaminica_46
-    21300094: flaminica_47
-    21300096: flaminica_48
-    21300098: flaminica_49
-    21300100: flaminica_50
-    21300102: flaminica_51
-    21300104: flaminica_52
-    21300106: flaminica_53
-    21300108: flaminica_54
-    21300110: flaminica_55
-    21300112: flaminica_56
-    21300114: flaminica_57
-    21300116: flaminica_58
-    21300118: flaminica_59
-    21300120: flaminica_60
-    21300122: flaminica_61
-    21300124: flaminica_62
-    21300126: flaminica_63
-    21300128: flaminica_64
-    21300130: flaminica_65
-    21300132: flaminica_66
-    21300134: flaminica_67
-    21300136: flaminica_68
-    21300138: flaminica_69
-    21300140: flaminica_70
-    21300142: flaminica_71
-    21300144: flaminica_72
-    21300146: flaminica_73
-    21300148: flaminica_74
-    21300150: flaminica_75
-    21300152: flaminica_76
-    21300154: flaminica_77
-    21300156: flaminica_78
-    21300158: flaminica_79
-    21300160: flaminica_80
-    21300162: flaminica_81
-    21300164: flaminica_82
-    21300166: flaminica_83
-    21300168: flaminica_84
-    21300170: flaminica_85
-    21300172: flaminica_86
-    21300174: flaminica_87
-    21300176: flaminica_88
-    21300178: flaminica_89
-    21300180: flaminica_90
-    21300182: flaminica_91
-    21300184: flaminica_92
-    21300186: flaminica_93
-    21300188: flaminica_94
-    21300190: flaminica_95
-    21300192: flaminica_96
-    21300194: flaminica_97
-    21300196: flaminica_98
-    21300198: flaminica_99
+    21300000: sena2_0
+    21300002: sena2_1
+    21300004: sena2_2
+    21300006: sena2_3
+    21300008: sena2_4
+    21300010: sena2_5
+    21300012: sena2_6
+    21300014: sena2_7
+    21300016: sena2_8
+    21300018: sena2_9
+    21300020: sena2_10
+    21300022: sena2_11
+    21300024: sena2_12
+    21300026: sena2_13
+    21300028: sena2_14
+    21300030: sena2_15
+    21300032: sena2_16
+    21300034: sena2_17
+    21300036: sena2_18
+    21300038: sena2_19
+    21300040: sena2_20
+    21300042: sena2_21
+    21300044: sena2_22
+    21300046: sena2_23
+    21300048: sena2_24
+    21300050: sena2_25
+    21300052: sena2_26
+    21300054: sena2_27
+    21300056: sena2_28
+    21300058: sena2_29
+    21300060: sena2_30
+    21300062: sena2_31
+    21300064: sena2_32
+    21300066: sena2_33
+    21300068: sena2_34
+    21300070: sena2_35
+    21300072: sena2_36
+    21300074: sena2_37
+    21300076: sena2_38
+    21300078: sena2_39
+    21300080: sena2_40
+    21300082: sena2_41
+    21300084: sena2_42
+    21300086: sena2_43
+    21300088: sena2_44
+    21300090: sena2_45
+    21300092: sena2_46
+    21300094: sena2_47
+    21300096: sena2_48
+    21300098: sena2_49
+    21300100: sena2_50
+    21300102: sena2_51
+    21300104: sena2_52
+    21300106: sena2_53
+    21300108: sena2_54
+    21300110: sena2_55
+    21300112: sena2_56
+    21300114: sena2_57
+    21300116: sena2_58
+    21300118: sena2_59
+    21300120: sena2_60
+    21300122: sena2_61
+    21300124: sena2_62
+    21300126: sena2_63
+    21300128: sena2_64
+    21300130: sena2_65
+    21300132: sena2_66
+    21300134: sena2_67
+    21300136: sena2_68
+    21300138: sena2_69
+    21300140: sena2_70
+    21300142: sena2_71
+    21300144: sena2_72
+    21300146: sena2_73
+    21300148: sena2_74
+    21300150: sena2_75
+    21300152: sena2_76
+    21300154: sena2_77
+    21300156: sena2_78
+    21300158: sena2_79
+    21300160: sena2_80
+    21300162: sena2_81
+    21300164: sena2_82
+    21300166: sena2_83
+    21300168: sena2_84
+    21300170: sena2_85
+    21300172: sena2_86
+    21300174: sena2_87
+    21300176: sena2_88
+    21300178: sena2_89
+    21300180: sena2_90
+    21300182: sena2_91
+    21300184: sena2_92
+    21300186: sena2_93
+    21300188: sena2_94
+    21300190: sena2_95
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -140,7 +136,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -195,13 +191,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flaminica_0
+      name: sena2_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
-        width: 64
-        height: 64
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,19 +205,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 082c81b6fb3d10b41b0de15c8e9f9c32
+      spriteID: b56d986cff891c14fb7981cbb932193f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_1
+      name: sena2_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 576
-        width: 64
-        height: 64
+        x: 225
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,19 +225,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49f12c8cf5422494383772eb1e0c09aa
+      spriteID: 39466183f47ed8046b3dcfb43fcdada3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_2
+      name: sena2_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 576
-        width: 64
-        height: 64
+        x: 450
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,19 +245,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40cb9644d91b5c54abb3036a09861e08
+      spriteID: 1c7f233a8ad5098408f265ed3d1d3752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_3
+      name: sena2_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 576
-        width: 64
-        height: 64
+        x: 675
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,19 +265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2510c02c93b775d45a157360a6e31482
+      spriteID: a90449eff4ae5704a9bdfc78f2ea6500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_4
+      name: sena2_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 576
-        width: 64
-        height: 64
+        x: 900
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,19 +285,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46b834eeb59400842b13bc94b147bfee
+      spriteID: c0ab154f6b22aa943af1b9c7a053fede
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_5
+      name: sena2_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 576
-        width: 64
-        height: 64
+        x: 1125
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,19 +305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaa0dc7252b6ab94c9d3160722dc26b8
+      spriteID: 6e6742411258fc1489567ae833ccf56f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_6
+      name: sena2_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 576
-        width: 64
-        height: 64
+        x: 1350
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,19 +325,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b41595caa04ccd4994f25bcdae654c8
+      spriteID: d6762fb21fce7224d9cdac8c8be2fcca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_7
+      name: sena2_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 576
-        width: 64
-        height: 64
+        x: 1575
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,59 +345,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bfd81e4df4135d4890b60ec122caab1
+      spriteID: 86aed94c7f7808545b5e6f1ce74c3fd0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 665e4ff0346723b459ce8976378a6493
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e089ab99af0a14f4e856f1d9cd92855d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_10
+      name: sena2_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 512
-        width: 64
-        height: 64
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,19 +365,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc40ff7f4be809e46a83c10932770b9c
+      spriteID: a69d5642227994c4db65920f6a0ec4a0
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_11
+      name: sena2_9
       rect:
         serializedVersion: 2
-        x: 64
-        y: 512
-        width: 64
-        height: 64
+        x: 225
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,19 +385,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d5e565aa5879094e87e61f6387930d0
+      spriteID: 225661eba3fc1ab4baab82955f7e2914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_12
+      name: sena2_10
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
-        width: 64
-        height: 64
+        x: 450
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,19 +405,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b1799627a5e7ad45acb10d817308db9
+      spriteID: 978006dbf39b3fb46be128e97d7f8d33
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_13
+      name: sena2_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 512
-        width: 64
-        height: 64
+        x: 675
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,19 +425,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20fa132b08b291447940977e4b313f5d
+      spriteID: c979a444e84acac4f9a641a0187ca809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_14
+      name: sena2_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 64
-        height: 64
+        x: 900
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,19 +445,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf89b5d759cd8804f89b5b5da1367391
+      spriteID: a29284df1227795418bd9aaa378bbd54
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_15
+      name: sena2_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 512
-        width: 64
-        height: 64
+        x: 1125
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,19 +465,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75458d82f0536cd47ab8e4ee1bec8993
+      spriteID: ce6ecf24ad4e8cb46b5dfd5009e20c0c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_16
+      name: sena2_14
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
-        width: 64
-        height: 64
+        x: 1350
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,19 +485,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 650539485fa996a47993b009ef50861a
+      spriteID: d7adebb5779afa34db80ac1982e79f1e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_17
+      name: sena2_15
       rect:
         serializedVersion: 2
-        x: 448
-        y: 512
-        width: 64
-        height: 64
+        x: 1575
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,59 +505,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85874d53d19dcc143a6562bbcc647c38
+      spriteID: 4abbe7faa92339f479054bc8adb807e3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_18
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc4e8e84a0c677740bc505c0922e39ba
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_19
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c59865ad8b3a5145a43a83746978dc1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_20
+      name: sena2_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 448
-        width: 64
-        height: 64
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,19 +525,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9b3d5fced561014bac9ade86cdde73b
+      spriteID: 8caefe033b6e1a64b8f934db96edf1e1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_21
+      name: sena2_17
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
-        width: 64
-        height: 64
+        x: 225
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,19 +545,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5140da719e6cdb44f833793ed8db67a3
+      spriteID: ed9103a8561029a48a59d083d5b4f5df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_22
+      name: sena2_18
       rect:
         serializedVersion: 2
-        x: 128
-        y: 448
-        width: 64
-        height: 64
+        x: 450
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,19 +565,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d527377655df51b4b889c7a92a818152
+      spriteID: dea33e207e9b54740b42e7c77e25d622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_23
+      name: sena2_19
       rect:
         serializedVersion: 2
-        x: 192
-        y: 448
-        width: 64
-        height: 64
+        x: 675
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,19 +585,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f054eb51177b647bf499605f5f5b8f
+      spriteID: cd00c5e4e0273ad45af72fb335648c60
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_24
+      name: sena2_20
       rect:
         serializedVersion: 2
-        x: 256
-        y: 448
-        width: 64
-        height: 64
+        x: 900
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,19 +605,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d979b09726a96d44873be5e6653baab
+      spriteID: 79d45cc69921e124595c2374de26ea92
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_25
+      name: sena2_21
       rect:
         serializedVersion: 2
-        x: 320
-        y: 448
-        width: 64
-        height: 64
+        x: 1125
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,19 +625,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9835fca49b7fb0548a489fa0ebec701c
+      spriteID: 399317a6c4ab8e94185b37e3d1e873c3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_26
+      name: sena2_22
       rect:
         serializedVersion: 2
-        x: 384
-        y: 448
-        width: 64
-        height: 64
+        x: 1350
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,19 +645,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eb1a50b08608354fb60af5272eba8e8
+      spriteID: 7162b73512228e14f96312572896c1fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_27
+      name: sena2_23
       rect:
         serializedVersion: 2
-        x: 448
-        y: 448
-        width: 64
-        height: 64
+        x: 1575
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,59 +665,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f86c0df42abb0d438f60905cb51d73f
+      spriteID: 9e27e8bb0d2987d498a45cc68e207691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_28
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1ed60ec1b3086d42b948b9bc7adf80b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_29
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cce70c6e8db97fe45ad67eadf62be116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_30
+      name: sena2_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 64
-        height: 64
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,19 +685,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6943e340e542c64c8dfef8bc600e28d
+      spriteID: 6fefcf778a6cf1e4682acda8440cc5a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_31
+      name: sena2_25
       rect:
         serializedVersion: 2
-        x: 64
-        y: 384
-        width: 64
-        height: 64
+        x: 225
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,19 +705,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04256c037a3c45e45af5d345214ae808
+      spriteID: db17fd4810a884943b1a6f3e0f46d93f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_32
+      name: sena2_26
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 64
-        height: 64
+        x: 450
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -849,19 +725,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e673445e63fc3b48ae7f67615d8adcb
+      spriteID: 1a145dcc5e8d98f4da969ea9e50439ab
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_33
+      name: sena2_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
-        width: 64
-        height: 64
+        x: 675
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,19 +745,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4032e6dd484fcfb449c7451f742e2d54
+      spriteID: fa9403d42e0767c449378bdeda938080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_34
+      name: sena2_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 64
-        height: 64
+        x: 900
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -889,19 +765,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4da9a202d778c834e8e0f5eebab705db
+      spriteID: 3ad07be691f0f3643b8b8fdf18b508d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_35
+      name: sena2_29
       rect:
         serializedVersion: 2
-        x: 320
-        y: 384
-        width: 64
-        height: 64
+        x: 1125
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,19 +785,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cbaaa8d92bd9c44993462290d5feafd
+      spriteID: db052e8dee19de84c8be1c7925e453c6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_36
+      name: sena2_30
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 64
-        height: 64
+        x: 1350
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,19 +805,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2ba33eb167b4064f9644c022d63a5c8
+      spriteID: d0233507d070ef2448099edbb9e109a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_37
+      name: sena2_31
       rect:
         serializedVersion: 2
-        x: 448
-        y: 384
-        width: 64
-        height: 64
+        x: 1575
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,59 +825,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53a5984adc542a41b90bc85d89cbee4
+      spriteID: a69638da26cc3044ab7ad08ce9c4556c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_38
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b20cbbdb8abb41940874aab7f4bb506f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_39
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 447bd7797b65df448b8c83f7fff27869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_40
+      name: sena2_32
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 64
-        height: 64
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,19 +845,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba74639a4a7b5b408cede52c5cfcfda
+      spriteID: 33d1040a3d81de645bc694d57817a808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_41
+      name: sena2_33
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 64
+        x: 225
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,19 +865,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de58793a9b171814fb6878129294d6ff
+      spriteID: 476d6161b746b734fb4c26ca6629a117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_42
+      name: sena2_34
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
-        width: 64
-        height: 64
+        x: 450
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1049,19 +885,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf2f626afe6e9c49a6eee52bd8a6be3
+      spriteID: 2c7849b75a03d40419fa4f1bcdfbf57b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_43
+      name: sena2_35
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
+        x: 675
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,19 +905,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7447f474417bd1e42a8ec38616d2aca0
+      spriteID: 5f510ffee8f943e49931985af2e28b3b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_44
+      name: sena2_36
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
-        width: 64
-        height: 64
+        x: 900
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1089,19 +925,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7809de932af41b4aab39a3a89282f87
+      spriteID: 506c90504a512334bb9d5a27cadcf750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_45
+      name: sena2_37
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
+        x: 1125
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1109,19 +945,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50c761f6b0492834aab03af107e65dae
+      spriteID: cc4b2d940156e45459120e5064e034a9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_46
+      name: sena2_38
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
-        width: 64
-        height: 64
+        x: 1350
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1129,19 +965,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0837857758462d842bfd3bb4832d3bd1
+      spriteID: 2d11771f79c1f7f4a86e1d8f24530bce
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_47
+      name: sena2_39
       rect:
         serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 64
+        x: 1575
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,59 +985,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9be8b7f018be09841a9e346764048889
+      spriteID: e165903c3d5b24840b2235991e2893ca
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_48
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a9cbea7a3584b5498e1c47891f26abf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_49
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f99d20843ab3d6842a858ae6899f7235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_50
+      name: sena2_40
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 64
-        height: 64
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1209,19 +1005,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbd0cfc8dc7b7674fb21ede489bb8dba
+      spriteID: 6f06db90a41682345b5f4079eaff377a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_51
+      name: sena2_41
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
+        x: 225
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,19 +1025,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dc4092da73f38c4f8d863c2843f8f4c
+      spriteID: be1df6879e0edc74e8762b39ddedeebe
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_52
+      name: sena2_42
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
+        x: 450
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1249,19 +1045,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3292886cd917d6949a16f04941888804
+      spriteID: e1092f00366446740a72521007806954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_53
+      name: sena2_43
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
+        x: 675
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1269,19 +1065,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6846a4d56fac42a448a895f9e9ff106b
+      spriteID: ab6cbf10e9f2c36458c2a2e5c405b8d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_54
+      name: sena2_44
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 64
-        height: 64
+        x: 900
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,19 +1085,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f031a38a8a05ce4ea73dbd7018595bf
+      spriteID: eb1209c8fbf571544bbcad25f6dd0355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_55
+      name: sena2_45
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64
-        height: 64
+        x: 1125
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1309,19 +1105,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 933ceaff84fba7b4cb28d4df0b05e3e3
+      spriteID: 80ece50f88d91b9498d8bb5cc8ae46ba
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_56
+      name: sena2_46
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
-        height: 64
+        x: 1350
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,19 +1125,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ca87c22b4b21fe468fb780060232b13
+      spriteID: fa944b38adc752649a4dc9501fb2164f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_57
+      name: sena2_47
       rect:
         serializedVersion: 2
-        x: 448
-        y: 256
-        width: 64
-        height: 64
+        x: 1575
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,59 +1145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b0d2e08a5e27f64caabbe3eb080f821
+      spriteID: 30fd670fd474b3b4b85fb62dcfb1d759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_58
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74606d94c35756b47a5efc93361dd3b9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_59
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3a9432cf27c2054bb129a9f5c86e52d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_60
+      name: sena2_48
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 64
-        height: 64
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1409,19 +1165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6a89c90c8c305847993f66be0eee2d9
+      spriteID: d113b49cce88be849b11a54a9c71e55e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_61
+      name: sena2_49
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
+        x: 225
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1429,19 +1185,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f1acc84c8dd1ce42b881c2da170d331
+      spriteID: 993e64112e2c2734cb8f0310c4c53b3f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_62
+      name: sena2_50
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
+        x: 450
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,19 +1205,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6e400127be3a4242ad2d3d5cde6eaf8
+      spriteID: f4acce4ba780603479da558f6bbe2d05
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_63
+      name: sena2_51
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
+        x: 675
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1469,19 +1225,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05ac0b651969c0540b3c20b3c53de7eb
+      spriteID: 83d61f3969048684d9debc86f6955329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_64
+      name: sena2_52
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
+        x: 900
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1489,19 +1245,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f4f625d3e2ca04dab88ee8a58a2cea
+      spriteID: 67ada507a4d67fb47a310a15bd355767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_65
+      name: sena2_53
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
+        x: 1125
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1509,19 +1265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213bfadaf0a063f4e8f8751c8e326a28
+      spriteID: 77b795a6e70feb3448c8641c6861bfcb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_66
+      name: sena2_54
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
+        x: 1350
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1529,19 +1285,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b6b7f6e3ddc3c840be4156ceadbe512
+      spriteID: 5caa62c9c5e1ef648adf00eebf679397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_67
+      name: sena2_55
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
+        x: 1575
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1549,59 +1305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fb593374171e6c439485ad8c620412d
+      spriteID: 659a2acbbc3e58645bec1881c9d7bd9e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_68
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 772ea1e006d7c4e4c82145d0606190ce
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_69
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb440a801429d7a41b839b5a74a39b2a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_70
+      name: sena2_56
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1609,19 +1325,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7b529e4aa6a4a34b9f07c44b55e2eb4
+      spriteID: e53ef71d3897a544fa5aaa51bd6c7bdb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_71
+      name: sena2_57
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 225
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1629,19 +1345,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fac4213c5126a945aeb495e2f09af15
+      spriteID: 8fc86cbfebc59004cad0961253150c93
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_72
+      name: sena2_58
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
+        x: 450
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1649,19 +1365,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ca213f7a0b37b540b7ffe0242d40f5a
+      spriteID: 71c5006d345bdaf408fe0a3c0bcb0413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_73
+      name: sena2_59
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
+        x: 675
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1669,19 +1385,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce666264992eb6043a9c457b089e47ad
+      spriteID: 44c00609ffee0c342be817361b99dc83
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_74
+      name: sena2_60
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
+        x: 900
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1689,19 +1405,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c3a523e925e7084b96f13f181e9626f
+      spriteID: 6b756edc244fcad40bc7f67cac63543e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_75
+      name: sena2_61
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
+        x: 1125
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1709,19 +1425,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a419c8ef7d9a27343be5b34acc0a3a4a
+      spriteID: 76bf7a7306d06d044bed5a0f350d452e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_76
+      name: sena2_62
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
+        x: 1350
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1729,19 +1445,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7651ea5ceac3a5146b8183098e19cfe3
+      spriteID: 0cfa3ec189e69b4458ddbc3eb9389d47
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_77
+      name: sena2_63
       rect:
         serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
+        x: 1575
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1749,59 +1465,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8778da6483668684592e6cbb82201f96
+      spriteID: 1c0416416780bcc44aeaaef754be83a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_78
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2db55c9c04545434286431c30de84ac2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_79
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 508e46cf59a493848b397e9d977a99b3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_80
+      name: sena2_64
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1809,19 +1485,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88a9e9185638c4641ad3ff724965ae7f
+      spriteID: 9272e8cab5cdc7942b0f5196d1e3c7f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_81
+      name: sena2_65
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 225
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1829,19 +1505,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2c5b7fb16af6a54fa4a8d8bae149f76
+      spriteID: c4754fa48380af54cba210acd0ab4c46
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_82
+      name: sena2_66
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 450
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1849,19 +1525,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25e0b985cec60546a3a47fbd818b930
+      spriteID: 248ed5c03ea3e4445a3c43dede763b93
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_83
+      name: sena2_67
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 675
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,19 +1545,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73042b515652160458a145bb2ab758cb
+      spriteID: 030169716be038447970c989631400c2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_84
+      name: sena2_68
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 900
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1889,19 +1565,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14fef3641ab6b70488354511fd0ade30
+      spriteID: b4097634aebf38740af1c182dbb7d178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_85
+      name: sena2_69
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
+        x: 1125
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1909,19 +1585,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a320b9df0932c1c4ea49dbaf4e179889
+      spriteID: 9bac82e8640244c469e9e5267838a145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_86
+      name: sena2_70
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
+        x: 1350
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1929,19 +1605,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8e5c374a7090334a97b826059863ae4
+      spriteID: 273a2368354649648a21a82a378c7e9b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_87
+      name: sena2_71
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
+        x: 1575
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1949,19 +1625,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2de1f0e974cb43445a56805c79284043
+      spriteID: bb58c616458282a4d928cb2cd6aab8d6
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_88
+      name: sena2_72
       rect:
         serializedVersion: 2
-        x: 512
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 480
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1969,19 +1645,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebc21578e5528a243a0e5c2ccdde5194
+      spriteID: 9d0f0164c3f2a834480e54091a5f7237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_89
+      name: sena2_73
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
-        width: 64
-        height: 64
+        x: 225
+        y: 480
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1989,19 +1665,299 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f577c5bb01c91f64b94d258dff110aa0
+      spriteID: ffde98e35138bca4daf09194e1a15ee3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_90
+      name: sena2_74
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553232c3b902b9e42a834a3911c46414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_75
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01922ab42ce1c8c41919c8698142bcd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_76
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7f651ae3bcc1a47917f965bf2b4dca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_77
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3641560e9eccf5740a05aaf276f65161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_78
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef35e77872d9504eaabb7b200e06b1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_79
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3220fe68cadf994ea35b312b193db46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8823440610bc8c54fa927f191168a6d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_81
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14a8778188cd7e4e8126b9b20be49ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_82
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf0b52ff05a06a4e9336fec925ac6a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9979a3dddc7553f4cb1ddb2717674a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_84
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adaba8a79339404183c7d67c27f180f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_85
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf2616eaabbc664e9327ddb874cefa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_86
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1c8e798461cb246ba4cd2809dddb00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_87
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c16bc4579dd87840bfb28122fce916d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena2_88
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2009,19 +1965,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97ab8765cc6d35d45a85e75db5174871
+      spriteID: d3169b28162c601499490c973db5c609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_91
+      name: sena2_89
       rect:
         serializedVersion: 2
-        x: 64
+        x: 225
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2029,19 +1985,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 143fa39070a3fa44f89f62f6ae233345
+      spriteID: 8c508fd0c7e51c4418a26fc32f59c649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_92
+      name: sena2_90
       rect:
         serializedVersion: 2
-        x: 128
+        x: 450
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2049,19 +2005,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bcdd02358293b34890f45b4f46a9b2b
+      spriteID: aec697be1071a4f468fd7e67bd0e9a4f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_93
+      name: sena2_91
       rect:
         serializedVersion: 2
-        x: 192
+        x: 675
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2069,19 +2025,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6d598c93956ab48a043d03c291e710
+      spriteID: 72c1cbb71fa0a2a4e813d60f6a6236ef
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_94
+      name: sena2_92
       rect:
         serializedVersion: 2
-        x: 256
+        x: 900
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2089,19 +2045,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7665ca9e49a044c4c8559a003241ea44
+      spriteID: aad2c47d96343694e9493c80aaf45123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_95
+      name: sena2_93
       rect:
         serializedVersion: 2
-        x: 320
+        x: 1125
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2109,19 +2065,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: caa805243736c9b45904f2064432ff1e
+      spriteID: 3955511135f6550469c49d4ae718e984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_96
+      name: sena2_94
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1350
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2129,19 +2085,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dc8e7352c193a445a156f5f78004189
+      spriteID: d6f4398b78234d44f83362c4adf65604
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flaminica_97
+      name: sena2_95
       rect:
         serializedVersion: 2
-        x: 448
+        x: 1575
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2149,47 +2105,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e724711686b7b2c40b9e318ee4d8cb74
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_98
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35ff28feef7e18940a79f5a0a2afc71b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: flaminica_99
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 131141e54560990408ac82eb12566d88
+      spriteID: d47cc247ca04d304c8d1ef08141c2ee1
       vertices: []
       indices: 
       edges: []
@@ -2197,7 +2113,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 72e4f2d793bbabe49939faa6ff517e48
+    spriteID: 8685d4fea163e6041b296c810dac54a4
     vertices: []
     indices: 
     edges: []

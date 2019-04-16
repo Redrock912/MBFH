@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1198464164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1198464165}
+  m_Layer: 0
+  m_Name: EffectHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1198464165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198464164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 206756032329016036}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &206756032329016037
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,6 +61,7 @@ Transform:
   - {fileID: 7031013525691735929}
   - {fileID: 374063203873685409}
   - {fileID: 7401505405195751270}
+  - {fileID: 1198464165}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46,21 +77,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bf8b99765605d4e93d91596f576d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tile1: {fileID: 21300046, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile2: {fileID: 21300048, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile3: {fileID: 21300050, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile4: {fileID: 21300052, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile5: {fileID: 21300054, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile6: {fileID: 21300056, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile7: {fileID: 21300058, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
-  tile8: {fileID: 21300060, guid: bbf1608df437159458ebfa96e34067ae, type: 3}
+  tile1: {fileID: 21300000, guid: ebb4c1168d2c45a4fab1ff7291d4c017, type: 3}
+  tile2: {fileID: 21300000, guid: fec4c65b6742c0e4fb1e5cc37b8f281c, type: 3}
+  tile3: {fileID: 21300000, guid: c3265cc297527ca42882a40900b468ae, type: 3}
+  tile4: {fileID: 21300000, guid: e542ff2c04183a94da79611e3286a59c, type: 3}
+  tile5: {fileID: 21300000, guid: d05ef7f657ae7ee48aaac5e50db221d8, type: 3}
+  tile6: {fileID: 21300000, guid: cfb3e8d90c5ae84429e2980859ca2fb3, type: 3}
+  tile7: {fileID: 21300000, guid: 430731ba6a272b848be80d1b61128490, type: 3}
+  tile8: {fileID: 21300000, guid: 7ec6951f87f954547abb02b952dbd236, type: 3}
+  questionTile: {fileID: 21300000, guid: a73e3715e25247e40a69ee3af38bea04, type: 3}
   isMine: 0
+  isHidden: 0
   displayNumber: 0
   id: 0
   rowLength: 0
-  hPoint: 5
+  spriteArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  cubeController: {fileID: 0}
   isRevealed: 0
   isExploded: 0
+  parentGrid: {fileID: 0}
   upperLeft: {fileID: 0}
   upper: {fileID: 0}
   upperRight: {fileID: 0}
@@ -70,6 +107,9 @@ MonoBehaviour:
   lower: {fileID: 0}
   lowerRight: {fileID: 0}
   neighborTiles: []
+  explosionHolder: {fileID: 1198464165}
+  explosionEffect: {fileID: 884144246432963102, guid: 94c4c5622d26dfc4e944084c5b484162,
+    type: 3}
 --- !u!1 &5211557561526499942
 GameObject:
   m_ObjectHideFlags: 0
@@ -165,7 +205,8 @@ GameObject:
   - component: {fileID: 7401505405195751270}
   - component: {fileID: 2258397103976241618}
   - component: {fileID: 415316177385449661}
-  - component: {fileID: 4826252101193040883}
+  - component: {fileID: 6995879694408162974}
+  - component: {fileID: 6001943216850921919}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -182,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 7962870723615507575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.15}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.1}
+  m_LocalScale: {x: 1, y: 1, z: 0.1}
   m_Children: []
   m_Father: {fileID: 206756032329016036}
   m_RootOrder: 2
@@ -232,7 +273,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &4826252101193040883
+--- !u!65 &6995879694408162974
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -245,6 +286,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6001943216850921919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7962870723615507575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 057c5edfab6afc84289a93313ce39edb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cube: {fileID: 415316177385449661}
+  box: {fileID: 6995879694408162974}
 --- !u!1001 &206756033098313578
 PrefabInstance:
   m_ObjectHideFlags: 0

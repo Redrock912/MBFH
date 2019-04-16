@@ -45,9 +45,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tilePrefab: {fileID: 8836446824429007275, guid: c954354deefbd4346901122befcb958d,
     type: 3}
-  numberOfTiles: 100
-  distanceX: 0.65
+  numberOfTiles: 96
+  distanceX: 0.6
   distanceY: 0.65
-  numberOfMines: 10
-  rowLength: 10
+  numberOfMines: 1
+  currentMines: 0
+  rowLength: 8
   startingPoint: {fileID: 0}
+  allTiles: []
+  stageName: 
+  currentDifficulty: 0
+  stageNumber: 0
+  playerManager: {fileID: 0}
+  isTopGrid: 0

@@ -6,13 +6,17 @@ public class Tiles : MonoBehaviour
 {
 
 
-    // Start is called before the first frame update
-    Sprite[] background;
-    public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8;
+
+    Sprite baseTileSprite;
+    Sprite tileSprite;
+    public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, questionTile;
     public bool isMine;
+    public bool isHidden = false;
     public int displayNumber=0;
     public int id;
     public int rowLength;
+
+    
     
 
     //public int hPoint = 3;
@@ -20,7 +24,8 @@ public class Tiles : MonoBehaviour
     // 입력 최고 권위자
     private PlayerInput playerInput;
 
-    private SpriteRenderer[] spriteArray = new SpriteRenderer[2];
+    public SpriteRenderer[] spriteArray = new SpriteRenderer[2];
+    public CubeController cubeController;
 
 
 
@@ -33,6 +38,10 @@ public class Tiles : MonoBehaviour
     public Tiles upperLeft, upper, upperRight, left, right, lowerLeft, lower, lowerRight;
     public List<Tiles> neighborTiles;
 
+    // 비쥬얼
+    public Transform explosionHolder;
+    public ParticleSystem explosionEffect;
+
 
     private void Awake()
     {
@@ -40,6 +49,9 @@ public class Tiles : MonoBehaviour
         playerInput = GameObject.Find("GridManager").GetComponent<PlayerInput>();
         
         spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
+        cubeController = gameObject.GetComponentInChildren<CubeController>();
+
+       
     }
 
 
@@ -151,7 +163,8 @@ public class Tiles : MonoBehaviour
     {
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
-        
+
+
 
         switch (displayNumber)
         {
@@ -186,34 +199,101 @@ public class Tiles : MonoBehaviour
 
 
         }
-        
+
+
+        // ? 타일이면 ?로 덮어씌우자.
+        if (isHidden)
+        {
+            spriteArray[1].sprite = questionTile;
+            
+            
+        }
+
         // 일단 숨겨놓자, isRevealed에 반응하도록
         spriteArray[1].enabled = false;
+
+
     }
 
-    public void SetBackground(int x, string name)
+    public void SetSprite(int x, string name, int difficulty)
     {
-        background = Resources.LoadAll<Sprite>("Spritesheets/" + name);
+        SetBaseTile(x, name, difficulty);
+        SetTileDisplayInfoSize();
+    }
+
+    public void SetBaseTile(int x, string name, int difficulty)
+    {
+
+       
+        baseTileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_B");
 
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
-        spriteArray[0].sprite = background[x];
+        spriteArray[0].sprite = baseTileSprite;
 
-        
 
-      
+        float width = spriteArray[0].sprite.bounds.size.x;
+        float height = spriteArray[0].sprite.bounds.size.y;
 
+        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
+
+        // 베이스
+        //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
+
+        // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
+        float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) * (0.125f);
+
+        // w * (1/8) , 1/8 = tile size
+        float modifiedWidth = (worldScreenWidth / width) * 0.125f;
+
+        spriteArray[0].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
 
     }
+
+    void SetTileDisplayInfoSize()
+    {
+        
+        tileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_1");
+
+        // 기준 점으로 아무나 하나 데려오자
+        spriteArray[1].sprite = tileSprite;
+
+
+        float width = spriteArray[1].sprite.bounds.size.x;
+        float height = spriteArray[1].sprite.bounds.size.y;
+
+        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
+
+        // 베이스
+        //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
+
+        // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
+        float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) * (0.12f);
+
+        // w * (1/8) , 1/8 = tile size
+        float modifiedWidth = (worldScreenWidth / width) * 0.12f;
+
+        spriteArray[1].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
+    }
+
+
+
 
     public void RevealTile()
     {
         isRevealed = true;
         if (isMine)
         {
+            StartCoroutine("ExplosionEffectTimer");
             Explode();
             //ChainExplosion();
+            
+
         }
         else
         {
@@ -221,9 +301,21 @@ public class Tiles : MonoBehaviour
             
             spriteArray[1].enabled = true;
 
+            if (isHidden)
+            {
+                isHidden = false;
+                SetTileNumber();
+                spriteArray[1].enabled = true;
+                
+            }
+
             if(displayNumber == 0)
             {
                 RevealNeighborTiles();
+                spriteArray[0].color = Color.clear;
+                spriteArray[1].sprite = null;
+                cubeController.hideCube();
+                
             }
         }
 
@@ -253,7 +345,9 @@ public class Tiles : MonoBehaviour
     // 0짜리가 퍼져나가다가 숫자를 만나면 멈춤.
     void RevealNeighborTilesWithNumber()
     {
+        if(!isHidden)
         isRevealed = true;
+
         spriteArray[1].enabled = true;
     }
 
@@ -267,22 +361,36 @@ public class Tiles : MonoBehaviour
         {
 
             // 주변이 존재하는가? 그리고 주변이 이미 터져있는가?
-            if (neighborTiles[i] && neighborTiles[i].isExploded==false)
+            if (neighborTiles[i] && neighborTiles[i].isMine == false)
             {
                 // 주변부도 폭탄이면 연쇄폭발, StackOverflow 
                 
-                neighborTiles[i].isExploded = true;
-                neighborTiles[i].spriteArray[0].color = Color.red;
+                //neighborTiles[i].isExploded = true;
+                neighborTiles[i].displayNumber -= 1;
+
+                
+                if(neighborTiles[i].displayNumber == 0)
+                {
+                    neighborTiles[i].spriteArray[0].color = Color.clear;
+                    neighborTiles[i].spriteArray[1].sprite = null;
+                    neighborTiles[i].cubeController.hideCube();
+                }
+                else
+                {
+                    neighborTiles[i].SetTileNumber();
+                    neighborTiles[i].RevealNeighborTilesWithNumber();
+                }
+
                 //neighborTiles[i].gameObject.SetActive(false);
                 //tempPoint += neighborTiles[i].hPoint;
-                if (neighborTiles[i].isMine)
-                {
-                    // 하나씩 넣자
-                    if(!GridScript.explosionTiles.Contains(neighborTiles[i]))
-                    {                        
-                        GridScript.explosionTiles.Enqueue(neighborTiles[i]);
-                    }
-                }                
+                //if (neighborTiles[i].isMine)
+                //{
+                //    // 하나씩 넣자
+                //    if(!GridScript.explosionTiles.Contains(neighborTiles[i]))
+                //    {                        
+                //        GridScript.explosionTiles.Enqueue(neighborTiles[i]);
+                //    }
+                //}                
             }           
         }
 
@@ -291,24 +399,34 @@ public class Tiles : MonoBehaviour
         if (isExploded == false)
         {
             isExploded = true;
-            spriteArray[0].color = Color.red;
+            spriteArray[0].color = Color.clear;
+            spriteArray[1].sprite = null;
+            cubeController.hideCube();
             //tempPoint += hPoint;
         }
 
-        
+
         //gameObject.SetActive(false);
         // 한번에 합산.
         //StageManager.AddHPoint(tempPoint,parentGrid);
 
 
         // 아까 저장했던 애들도 다시 한번 봐보자
-        while(GridScript.explosionTiles.Count != 0)
-        {
-            // 하나씩 빼자
-            GridScript.explosionTiles.Dequeue().Explode();
-        }
+        //while(GridScript.explosionTiles.Count != 0)
+        //{
+        //    // 하나씩 빼자
+        //    GridScript.explosionTiles.Dequeue().Explode();
+        //}
 
-        print(parentGrid.allTiles.Length);
+        parentGrid.currentMines -= 1;
+
+        // 이거 분명 나중에 이펙트랑 같이할 때 에러가 터질 것 같이 생겼다.
+        //if(parentGrid.currentMines == 0)
+        //{
+        //    // 나머지도 다 없애자 . 깔-끔
+        //    parentGrid.DestroyAllTiles();
+        //}
+        
     }
 
 
@@ -320,5 +438,21 @@ public class Tiles : MonoBehaviour
     public void SetParentGrid(GridScript gridScript)
     {
         parentGrid = gridScript;
+    }
+
+    // 비쥬얼
+
+    IEnumerator ExplosionEffectTimer()
+    {
+        CreateExplosionEffect();
+
+        yield return new WaitForSeconds(1.0f);
+        
+    }
+
+    void CreateExplosionEffect()
+    {
+        ParticleSystem particleSystem = Instantiate(explosionEffect, explosionHolder);
+       
     }
 }

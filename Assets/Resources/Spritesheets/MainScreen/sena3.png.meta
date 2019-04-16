@@ -1,107 +1,103 @@
 fileFormatVersion: 2
-guid: 3676701ac7ca5b24683a480d2ebe78d4
+guid: d97c124548f899c4fb0a8555810ecace
 TextureImporter:
   fileIDToRecycleName:
-    21300000: ritka_0
-    21300002: ritka_1
-    21300004: ritka_2
-    21300006: ritka_3
-    21300008: ritka_4
-    21300010: ritka_5
-    21300012: ritka_6
-    21300014: ritka_7
-    21300016: ritka_8
-    21300018: ritka_9
-    21300020: ritka_10
-    21300022: ritka_11
-    21300024: ritka_12
-    21300026: ritka_13
-    21300028: ritka_14
-    21300030: ritka_15
-    21300032: ritka_16
-    21300034: ritka_17
-    21300036: ritka_18
-    21300038: ritka_19
-    21300040: ritka_20
-    21300042: ritka_21
-    21300044: ritka_22
-    21300046: ritka_23
-    21300048: ritka_24
-    21300050: ritka_25
-    21300052: ritka_26
-    21300054: ritka_27
-    21300056: ritka_28
-    21300058: ritka_29
-    21300060: ritka_30
-    21300062: ritka_31
-    21300064: ritka_32
-    21300066: ritka_33
-    21300068: ritka_34
-    21300070: ritka_35
-    21300072: ritka_36
-    21300074: ritka_37
-    21300076: ritka_38
-    21300078: ritka_39
-    21300080: ritka_40
-    21300082: ritka_41
-    21300084: ritka_42
-    21300086: ritka_43
-    21300088: ritka_44
-    21300090: ritka_45
-    21300092: ritka_46
-    21300094: ritka_47
-    21300096: ritka_48
-    21300098: ritka_49
-    21300100: ritka_50
-    21300102: ritka_51
-    21300104: ritka_52
-    21300106: ritka_53
-    21300108: ritka_54
-    21300110: ritka_55
-    21300112: ritka_56
-    21300114: ritka_57
-    21300116: ritka_58
-    21300118: ritka_59
-    21300120: ritka_60
-    21300122: ritka_61
-    21300124: ritka_62
-    21300126: ritka_63
-    21300128: ritka_64
-    21300130: ritka_65
-    21300132: ritka_66
-    21300134: ritka_67
-    21300136: ritka_68
-    21300138: ritka_69
-    21300140: ritka_70
-    21300142: ritka_71
-    21300144: ritka_72
-    21300146: ritka_73
-    21300148: ritka_74
-    21300150: ritka_75
-    21300152: ritka_76
-    21300154: ritka_77
-    21300156: ritka_78
-    21300158: ritka_79
-    21300160: ritka_80
-    21300162: ritka_81
-    21300164: ritka_82
-    21300166: ritka_83
-    21300168: ritka_84
-    21300170: ritka_85
-    21300172: ritka_86
-    21300174: ritka_87
-    21300176: ritka_88
-    21300178: ritka_89
-    21300180: ritka_90
-    21300182: ritka_91
-    21300184: ritka_92
-    21300186: ritka_93
-    21300188: ritka_94
-    21300190: ritka_95
-    21300192: ritka_96
-    21300194: ritka_97
-    21300196: ritka_98
-    21300198: ritka_99
+    21300000: sena3_0
+    21300002: sena3_1
+    21300004: sena3_2
+    21300006: sena3_3
+    21300008: sena3_4
+    21300010: sena3_5
+    21300012: sena3_6
+    21300014: sena3_7
+    21300016: sena3_8
+    21300018: sena3_9
+    21300020: sena3_10
+    21300022: sena3_11
+    21300024: sena3_12
+    21300026: sena3_13
+    21300028: sena3_14
+    21300030: sena3_15
+    21300032: sena3_16
+    21300034: sena3_17
+    21300036: sena3_18
+    21300038: sena3_19
+    21300040: sena3_20
+    21300042: sena3_21
+    21300044: sena3_22
+    21300046: sena3_23
+    21300048: sena3_24
+    21300050: sena3_25
+    21300052: sena3_26
+    21300054: sena3_27
+    21300056: sena3_28
+    21300058: sena3_29
+    21300060: sena3_30
+    21300062: sena3_31
+    21300064: sena3_32
+    21300066: sena3_33
+    21300068: sena3_34
+    21300070: sena3_35
+    21300072: sena3_36
+    21300074: sena3_37
+    21300076: sena3_38
+    21300078: sena3_39
+    21300080: sena3_40
+    21300082: sena3_41
+    21300084: sena3_42
+    21300086: sena3_43
+    21300088: sena3_44
+    21300090: sena3_45
+    21300092: sena3_46
+    21300094: sena3_47
+    21300096: sena3_48
+    21300098: sena3_49
+    21300100: sena3_50
+    21300102: sena3_51
+    21300104: sena3_52
+    21300106: sena3_53
+    21300108: sena3_54
+    21300110: sena3_55
+    21300112: sena3_56
+    21300114: sena3_57
+    21300116: sena3_58
+    21300118: sena3_59
+    21300120: sena3_60
+    21300122: sena3_61
+    21300124: sena3_62
+    21300126: sena3_63
+    21300128: sena3_64
+    21300130: sena3_65
+    21300132: sena3_66
+    21300134: sena3_67
+    21300136: sena3_68
+    21300138: sena3_69
+    21300140: sena3_70
+    21300142: sena3_71
+    21300144: sena3_72
+    21300146: sena3_73
+    21300148: sena3_74
+    21300150: sena3_75
+    21300152: sena3_76
+    21300154: sena3_77
+    21300156: sena3_78
+    21300158: sena3_79
+    21300160: sena3_80
+    21300162: sena3_81
+    21300164: sena3_82
+    21300166: sena3_83
+    21300168: sena3_84
+    21300170: sena3_85
+    21300172: sena3_86
+    21300174: sena3_87
+    21300176: sena3_88
+    21300178: sena3_89
+    21300180: sena3_90
+    21300182: sena3_91
+    21300184: sena3_92
+    21300186: sena3_93
+    21300188: sena3_94
+    21300190: sena3_95
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -140,7 +136,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -195,13 +191,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ritka_0
+      name: sena3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 576
-        width: 64
-        height: 64
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,19 +205,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a754879528233cd4ab6914cd02dcf475
+      spriteID: d1a1a8d4eff33ab41917fb346a873fac
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_1
+      name: sena3_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 576
-        width: 64
-        height: 64
+        x: 225
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,19 +225,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab31a22132d4672488513ea9c34de61c
+      spriteID: 0ba3f414fb7fc634d94a3271265ae138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_2
+      name: sena3_2
       rect:
         serializedVersion: 2
-        x: 128
-        y: 576
-        width: 64
-        height: 64
+        x: 450
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,19 +245,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c88226db50d0284387b25d65a26c7e2
+      spriteID: e6f96b89084e70f429ddc308027da3fd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_3
+      name: sena3_3
       rect:
         serializedVersion: 2
-        x: 192
-        y: 576
-        width: 64
-        height: 64
+        x: 675
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,19 +265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdf9a9b5f0ebb9946904c417ea14e3b0
+      spriteID: 1b9cb81547a88494591a439efcd04883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_4
+      name: sena3_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 576
-        width: 64
-        height: 64
+        x: 900
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,19 +285,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a38909af7c90e948bd1d891d6391db1
+      spriteID: b5467fae59362814a8026f6b7e04d9f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_5
+      name: sena3_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 576
-        width: 64
-        height: 64
+        x: 1125
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,19 +305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca850da09df4ea34c84ee9dab6d707c0
+      spriteID: 253841e403968cf48a10324cc3dac158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_6
+      name: sena3_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 576
-        width: 64
-        height: 64
+        x: 1350
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,19 +325,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 078247944219b874682c766a46ded88e
+      spriteID: aee41c7843f6f5f48b86142ed75fea24
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_7
+      name: sena3_7
       rect:
         serializedVersion: 2
-        x: 448
-        y: 576
-        width: 64
-        height: 64
+        x: 1575
+        y: 2640
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,59 +345,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d45a121f6580d924ca29b1f0333b7b22
+      spriteID: 48abfdc65522f4d4ba84d6e28461838f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_8
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e541491376b2a5b4a8936daf50386030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_9
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 576
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 580616e9ebf190b438d6361de1cf735b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_10
+      name: sena3_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 512
-        width: 64
-        height: 64
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,19 +365,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc784284a2428224c957e93a227dee33
+      spriteID: 6d7d5961fe866e841b2f3026eea052a1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_11
+      name: sena3_9
       rect:
         serializedVersion: 2
-        x: 64
-        y: 512
-        width: 64
-        height: 64
+        x: 225
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -429,19 +385,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba4d86ba540bb31439ebe70d7854a365
+      spriteID: 7ea58b332d0486b4db987dec9c9cd1db
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_12
+      name: sena3_10
       rect:
         serializedVersion: 2
-        x: 128
-        y: 512
-        width: 64
-        height: 64
+        x: 450
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -449,19 +405,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b5c364df38c4a64d96659ec212a4001
+      spriteID: 210470ce8ff8b0249b70b019f5d7f970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_13
+      name: sena3_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 512
-        width: 64
-        height: 64
+        x: 675
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -469,19 +425,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84d0518a506b7f849ad0f5b1fbea9ba6
+      spriteID: 1a9ab6cc1f80d2d479c62d2a9808a87e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_14
+      name: sena3_12
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 64
-        height: 64
+        x: 900
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,19 +445,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 853510bf6846d9d4588b912528846f33
+      spriteID: 3313078b7968ec94399bb147a7e2489a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_15
+      name: sena3_13
       rect:
         serializedVersion: 2
-        x: 320
-        y: 512
-        width: 64
-        height: 64
+        x: 1125
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,19 +465,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47777bf729aacd7468468ab3162443cd
+      spriteID: 225927e774539f649adfd5db22e74a68
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_16
+      name: sena3_14
       rect:
         serializedVersion: 2
-        x: 384
-        y: 512
-        width: 64
-        height: 64
+        x: 1350
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,19 +485,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a737f4423e1be784b9b7fb52646564d3
+      spriteID: e42652808c3cc7b42ac1697d3ba4634c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_17
+      name: sena3_15
       rect:
         serializedVersion: 2
-        x: 448
-        y: 512
-        width: 64
-        height: 64
+        x: 1575
+        y: 2400
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -549,59 +505,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f55ec0acb7f98945b4046d22dba2f86
+      spriteID: 491d1aeef52b9ac4dbc39b725a6c986d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_18
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e89b5b2f5180c9d4e853af430e8f8c76
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_19
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 512
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f1c401325469934ebbc826f2ec0eea7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_20
+      name: sena3_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 448
-        width: 64
-        height: 64
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,19 +525,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55b80a3d8a195aa4eaa48c48e749a3ef
+      spriteID: c408907bb3b2d69428821c14a40b8694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_21
+      name: sena3_17
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
-        width: 64
-        height: 64
+        x: 225
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -629,19 +545,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42a1de340d867594caaeb7d84f216721
+      spriteID: 7059bdd81dc93f6419978e52e581dcb9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_22
+      name: sena3_18
       rect:
         serializedVersion: 2
-        x: 128
-        y: 448
-        width: 64
-        height: 64
+        x: 450
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,19 +565,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6bc23c585f8875448852ea8c376543f
+      spriteID: 41450fba22fa3ec4388fe97ab8d500d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_23
+      name: sena3_19
       rect:
         serializedVersion: 2
-        x: 192
-        y: 448
-        width: 64
-        height: 64
+        x: 675
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -669,19 +585,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e2b83bd405fc8945989d465cf09b36c
+      spriteID: 9bba4d4482fa61a4ebb96ba640326132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_24
+      name: sena3_20
       rect:
         serializedVersion: 2
-        x: 256
-        y: 448
-        width: 64
-        height: 64
+        x: 900
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,19 +605,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a25f5d6ec09f634aa3700d322f91710
+      spriteID: 2671f4b6e2b1bfd4799d2ef98e950059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_25
+      name: sena3_21
       rect:
         serializedVersion: 2
-        x: 320
-        y: 448
-        width: 64
-        height: 64
+        x: 1125
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -709,19 +625,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cae9e3919702ba46b1d022a1ea87160
+      spriteID: dffb5c4af05a88c40919d14ae3c0a686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_26
+      name: sena3_22
       rect:
         serializedVersion: 2
-        x: 384
-        y: 448
-        width: 64
-        height: 64
+        x: 1350
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -729,19 +645,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66e9d2b1b219a4842bdfe5142cb4759e
+      spriteID: c47e0734ef06a4344bc050a37c13992b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_27
+      name: sena3_23
       rect:
         serializedVersion: 2
-        x: 448
-        y: 448
-        width: 64
-        height: 64
+        x: 1575
+        y: 2160
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -749,59 +665,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bae9b9e17b7beb42a9d70a502204dbb
+      spriteID: a5bb510eaf1b33d459167265606095fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_28
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd1d489b3da5bf447b87566d57943555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_29
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 448
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5b3a3e6d1dbaee4798a9d64b80501cc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_30
+      name: sena3_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
-        width: 64
-        height: 64
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -809,19 +685,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59806cff815ccd3499b8ab83c08821f9
+      spriteID: 645d2e250ab29d84f8f79677d78c6405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_31
+      name: sena3_25
       rect:
         serializedVersion: 2
-        x: 64
-        y: 384
-        width: 64
-        height: 64
+        x: 225
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,19 +705,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c8fa6a57519f343bdac4aae22d2860
+      spriteID: efcac7a8547f48143a2d02db3c0a23bc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_32
+      name: sena3_26
       rect:
         serializedVersion: 2
-        x: 128
-        y: 384
-        width: 64
-        height: 64
+        x: 450
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -849,19 +725,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c3165e27dd12fc439f8b815c5454a21
+      spriteID: 731b207dccb7d0642ab4c4fe5590384a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_33
+      name: sena3_27
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
-        width: 64
-        height: 64
+        x: 675
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -869,19 +745,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc4be8a7595d6844e9b2a22614eb9df0
+      spriteID: 8baf00b7bdbb38f4ab34f174cc3e8fdb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_34
+      name: sena3_28
       rect:
         serializedVersion: 2
-        x: 256
-        y: 384
-        width: 64
-        height: 64
+        x: 900
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -889,19 +765,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed888db21a65de04984c2814d042444c
+      spriteID: efb467d7fe7e626479dc0ee8b40c2fbc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_35
+      name: sena3_29
       rect:
         serializedVersion: 2
-        x: 320
-        y: 384
-        width: 64
-        height: 64
+        x: 1125
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,19 +785,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa4ac12c9bfe93b419a153462e7d2289
+      spriteID: 70d502a3da89c404eb67289735837f1a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_36
+      name: sena3_30
       rect:
         serializedVersion: 2
-        x: 384
-        y: 384
-        width: 64
-        height: 64
+        x: 1350
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,19 +805,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6c90d97b483e64d956543676eca439
+      spriteID: 7f42b0d37961e4149904f90378d96b80
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_37
+      name: sena3_31
       rect:
         serializedVersion: 2
-        x: 448
-        y: 384
-        width: 64
-        height: 64
+        x: 1575
+        y: 1920
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,59 +825,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5aa7800d2d700634d8861fd9cf34e342
+      spriteID: 2ad6e511cde595740a2790a7c0dbffc3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_38
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4824c8cd7e92d8d478c1f97d2be2d826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_39
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 384
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c9c7c3bd941d1a489b067321e6df50f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_40
+      name: sena3_32
       rect:
         serializedVersion: 2
         x: 0
-        y: 320
-        width: 64
-        height: 64
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,19 +845,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5620577fcb5dea4b80cce1759ddf0d1
+      spriteID: 21e9681efc628a94c973601695087f6c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_41
+      name: sena3_33
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
-        width: 64
-        height: 64
+        x: 225
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1029,19 +865,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed0c2fd8391d4a409174887ec730d8e
+      spriteID: 9a7c30d0d0c35854ab4ca46c8bc3a19e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_42
+      name: sena3_34
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
-        width: 64
-        height: 64
+        x: 450
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1049,19 +885,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30308187ea9f1814da1a2b0960c9c499
+      spriteID: 871eb33dc10bc734e975afb5fc94bdbb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_43
+      name: sena3_35
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
-        width: 64
-        height: 64
+        x: 675
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,19 +905,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3394ed034009bb74483fb161044c7423
+      spriteID: 0f3f6ff62045c954c89476a6f60eef69
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_44
+      name: sena3_36
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
-        width: 64
-        height: 64
+        x: 900
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1089,19 +925,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01e8256baa46e5b468d811087c31b9c3
+      spriteID: 8880fb9be9017c74f965e70f2b73855a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_45
+      name: sena3_37
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 64
-        height: 64
+        x: 1125
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1109,19 +945,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b306b6651e83b46b26ea4dc48d8983
+      spriteID: ce204dc877ec99140b05a52fb5df1f5a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_46
+      name: sena3_38
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
-        width: 64
-        height: 64
+        x: 1350
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1129,19 +965,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a385b4679028da942aacf750c52ef1f5
+      spriteID: e0bfd0dd596cfa343a6290d3e023ccf5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_47
+      name: sena3_39
       rect:
         serializedVersion: 2
-        x: 448
-        y: 320
-        width: 64
-        height: 64
+        x: 1575
+        y: 1680
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1149,59 +985,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd3bb63316996324da117a69ca0b1b8c
+      spriteID: 54d492ce409a500439a47f385495eaea
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_48
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b2645ec58e5036841912cd9d8ce46ebd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_49
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 320
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: daf1368a775349946b09470507011126
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_50
+      name: sena3_40
       rect:
         serializedVersion: 2
         x: 0
-        y: 256
-        width: 64
-        height: 64
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1209,19 +1005,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bd64a1d84489c14085bd42aa4f2aa36
+      spriteID: fa7411a4a39c9fa4b8adb97bfdf5b234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_51
+      name: sena3_41
       rect:
         serializedVersion: 2
-        x: 64
-        y: 256
-        width: 64
-        height: 64
+        x: 225
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,19 +1025,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c39be80d40cf9c1458b779797ea777c0
+      spriteID: 63779b33a46864a4caeda849d70cc116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_52
+      name: sena3_42
       rect:
         serializedVersion: 2
-        x: 128
-        y: 256
-        width: 64
-        height: 64
+        x: 450
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1249,19 +1045,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d35149945605dc349a5a47b79f00427f
+      spriteID: 98d9f956c7667484f91838ee2c2e5a62
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_53
+      name: sena3_43
       rect:
         serializedVersion: 2
-        x: 192
-        y: 256
-        width: 64
-        height: 64
+        x: 675
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1269,19 +1065,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3d8f782cc54844ea1297f640eef64d
+      spriteID: 3c645eafd5503354993a10a0e485faee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_54
+      name: sena3_44
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 64
-        height: 64
+        x: 900
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1289,19 +1085,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 942c3f4cc066b3a45833a0601623568f
+      spriteID: ccbb01a1399295744b473c6e16784d9a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_55
+      name: sena3_45
       rect:
         serializedVersion: 2
-        x: 320
-        y: 256
-        width: 64
-        height: 64
+        x: 1125
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1309,19 +1105,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91b1371d35c86de4692d6caae531eae3
+      spriteID: ceb64d9fe9a421149bd0115b6bdc50ae
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_56
+      name: sena3_46
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
-        height: 64
+        x: 1350
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1329,19 +1125,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7caef0d16329ea4a8acfb6032044d3d
+      spriteID: 1ce0f0b52c7c6684c8459e19e3a99961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_57
+      name: sena3_47
       rect:
         serializedVersion: 2
-        x: 448
-        y: 256
-        width: 64
-        height: 64
+        x: 1575
+        y: 1440
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,59 +1145,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6bf987638c35cf479f20088613e594c
+      spriteID: 21bfebbcd80ad4e4896bd8aa6347da4f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_58
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb3f8dc5ec9c6ad40920b32311e6232a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_59
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 256
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3faa562ee5867b4b89b7c0b959d0745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_60
+      name: sena3_48
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 64
-        height: 64
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1409,19 +1165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d5a873eca8a269449ed6306607128f0
+      spriteID: 8917c998daa39464f839497e83719319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_61
+      name: sena3_49
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 64
-        height: 64
+        x: 225
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1429,19 +1185,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd318ca52e008384dbd57c5367ad4d2b
+      spriteID: 1b39246b15ceca14896b90114db704f1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_62
+      name: sena3_50
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 64
-        height: 64
+        x: 450
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1449,19 +1205,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b086863d986ac6c4db56c083f151c721
+      spriteID: 95168c5e259d41b44adccfcea8c96355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_63
+      name: sena3_51
       rect:
         serializedVersion: 2
-        x: 192
-        y: 192
-        width: 64
-        height: 64
+        x: 675
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1469,19 +1225,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6d51ac0d4b8f8145842b4f8177b2f55
+      spriteID: 28ba6b77686e54b41bc32080864db3df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_64
+      name: sena3_52
       rect:
         serializedVersion: 2
-        x: 256
-        y: 192
-        width: 64
-        height: 64
+        x: 900
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1489,19 +1245,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 847f34fdd5028db4c8f5d1ccf207062a
+      spriteID: 76f42316b96a14145a34cc8991db733f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_65
+      name: sena3_53
       rect:
         serializedVersion: 2
-        x: 320
-        y: 192
-        width: 64
-        height: 64
+        x: 1125
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1509,19 +1265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7d8c29f511663f4f9910584717fccfc
+      spriteID: ce57040265603fb4fb90f52700c5bd24
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_66
+      name: sena3_54
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
+        x: 1350
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1529,19 +1285,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 497eb33e2ef03ac419cb52c7a5cd9b1d
+      spriteID: 234f6155b01089642a21212368874986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_67
+      name: sena3_55
       rect:
         serializedVersion: 2
-        x: 448
-        y: 192
-        width: 64
-        height: 64
+        x: 1575
+        y: 1200
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1549,59 +1305,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33ec88cdd10f2b44fb455c61ba02c1f0
+      spriteID: 567f0382e22c03646a57502d5fdc62ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_68
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 181168ee469f2e8458f63f0cec7b724e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_69
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 192
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f253e421afe8b28469634b12c3089238
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_70
+      name: sena3_56
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 64
-        height: 64
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1609,19 +1325,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c33e9129957e8bb46ae9a393b31fa320
+      spriteID: 542ed397301070849a7ae0ef967a0368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_71
+      name: sena3_57
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 64
+        x: 225
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1629,19 +1345,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61aa3f98d1f433a4a85d9c16cb924ae0
+      spriteID: 29d2e52f05591c440a5177573eb41455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_72
+      name: sena3_58
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 64
-        height: 64
+        x: 450
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1649,19 +1365,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2809305a77e07034ca1bbe1f29c6511a
+      spriteID: d0ed3a0ecb1dc4e4f89959ed2549d1c5
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_73
+      name: sena3_59
       rect:
         serializedVersion: 2
-        x: 192
-        y: 128
-        width: 64
-        height: 64
+        x: 675
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1669,19 +1385,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb9e3bbecfa26f048976ea0baada4cb4
+      spriteID: 4727b51be655f3e4aa0f8207babc8891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_74
+      name: sena3_60
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 64
-        height: 64
+        x: 900
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1689,19 +1405,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 196155b73d272974491c7eedd567e399
+      spriteID: 3506fd1d433d52e4bab485492637cb86
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_75
+      name: sena3_61
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 64
-        height: 64
+        x: 1125
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1709,19 +1425,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd0233901a18cd843819b48608881023
+      spriteID: de5bcd8ae211d494bb820a68eaab9f99
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_76
+      name: sena3_62
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 64
-        height: 64
+        x: 1350
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1729,19 +1445,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c955a5083e37b5944aef2104ce03cf42
+      spriteID: 09e1bdbffe4bb8a4d9a23338a4900fd8
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_77
+      name: sena3_63
       rect:
         serializedVersion: 2
-        x: 448
-        y: 128
-        width: 64
-        height: 64
+        x: 1575
+        y: 960
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1749,59 +1465,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec0c8aad3c9b7c3428671faf8e35e620
+      spriteID: cd5d8a4661db693439d97a9f1bd487d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_78
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f7ac24cf24878fb4ca17c4e3ecd32a1a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_79
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 128
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c44025cac67c0d747b6272d580a30914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_80
+      name: sena3_64
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 64
-        height: 64
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1809,19 +1485,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dd09a34dd861cc48904a478a7d3e092
+      spriteID: 51d9bd82078f8e74a9795702702bf29b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_81
+      name: sena3_65
       rect:
         serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 64
+        x: 225
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1829,19 +1505,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66fbc00f9bdcb1d40b01817e8eebadb8
+      spriteID: 22de8c6845256374c94c2a612924639c
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_82
+      name: sena3_66
       rect:
         serializedVersion: 2
-        x: 128
-        y: 64
-        width: 64
-        height: 64
+        x: 450
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1849,19 +1525,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03c5357c86bae654d8d67deea9637899
+      spriteID: 403d9ce4cfb7d0b46bd56d2298dab722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_83
+      name: sena3_67
       rect:
         serializedVersion: 2
-        x: 192
-        y: 64
-        width: 64
-        height: 64
+        x: 675
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1869,19 +1545,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 131cbec100799ce48820abcae1318fd6
+      spriteID: 5c5ae23171880a14d82547b65236618a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_84
+      name: sena3_68
       rect:
         serializedVersion: 2
-        x: 256
-        y: 64
-        width: 64
-        height: 64
+        x: 900
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1889,19 +1565,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 394c5d702f1d01c488aaa779bed4862e
+      spriteID: 3eb3461d04bead242ac04b7d6cd579eb
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_85
+      name: sena3_69
       rect:
         serializedVersion: 2
-        x: 320
-        y: 64
-        width: 64
-        height: 64
+        x: 1125
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1909,19 +1585,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3013695ecc7bdf4d9b1f6286d2b723e
+      spriteID: 6a2107e66f0467b4f969d1dd0018182b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_86
+      name: sena3_70
       rect:
         serializedVersion: 2
-        x: 384
-        y: 64
-        width: 64
-        height: 64
+        x: 1350
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1929,19 +1605,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc663ed7b1a0f2349a8e6e4f00449fb1
+      spriteID: 1d6b5542cd9a4d14dbd4afa624811206
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_87
+      name: sena3_71
       rect:
         serializedVersion: 2
-        x: 448
-        y: 64
-        width: 64
-        height: 64
+        x: 1575
+        y: 720
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1949,19 +1625,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b703d0e3ba725f4884b5b1bf0820011
+      spriteID: 81cfbfc90d47a224783cf9abb8d398d9
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_88
+      name: sena3_72
       rect:
         serializedVersion: 2
-        x: 512
-        y: 64
-        width: 64
-        height: 64
+        x: 0
+        y: 480
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1969,19 +1645,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e95ce8ecb7889a04f9b47c19fa86062c
+      spriteID: 583079cde991e1c488768a204391c224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_89
+      name: sena3_73
       rect:
         serializedVersion: 2
-        x: 576
-        y: 64
-        width: 64
-        height: 64
+        x: 225
+        y: 480
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1989,19 +1665,299 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7697f10cfbda86a46806a8b1fad31dca
+      spriteID: 1bd61a76f88003f48aa58993a519bff3
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_90
+      name: sena3_74
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb8f0e2e1c7771439fa25a3179dd7e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_75
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4921d16518317074283e2d666d8acff3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_76
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdf2d54dbede6c46a9a01f319fa04aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_77
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b710195d178c144dbf7231de1167503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_78
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c9f620c22258249b8732848122eedb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_79
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 480
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc989e078280124ab976a7a68130ad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6f0e978bdc2384481f38d5998d3c68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_81
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf6609be460092488a94bd86810a4e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_82
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fa41f537b6f6f4f9aff76795a1b975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_83
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f088dafae73024393cd94f06471399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_84
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a3c842725885f439aa7eddc0f610df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_85
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cab49938714fe347a8da4f23fce08ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_86
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f518c33183284ee41984c21e7e937333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_87
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 240
+        width: 225
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ac55c401366f4448912e291876f2c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sena3_88
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2009,19 +1965,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7df17c0c224ef1847bfc3d9a8c5ff52a
+      spriteID: 4f3922d9bcf02be4b99629731de7d791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_91
+      name: sena3_89
       rect:
         serializedVersion: 2
-        x: 64
+        x: 225
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2029,19 +1985,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 498403a9eb731ed49abf0058d0456db4
+      spriteID: 65ae4abe62d2d1048ab4fe9866b39397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_92
+      name: sena3_90
       rect:
         serializedVersion: 2
-        x: 128
+        x: 450
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2049,19 +2005,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 954fc1fda72dbcb4f98ed900c4f4b9ba
+      spriteID: f9107f9a83df9e64c9a8069d1282af37
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_93
+      name: sena3_91
       rect:
         serializedVersion: 2
-        x: 192
+        x: 675
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2069,19 +2025,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7d1edc3879f3e8459a0c0056dd5e989
+      spriteID: 58c7f5387c42684408a4a32d469ba848
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_94
+      name: sena3_92
       rect:
         serializedVersion: 2
-        x: 256
+        x: 900
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2089,19 +2045,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13648b42e67ea964d8005861a41feccc
+      spriteID: 32c26c21f6ee66540bd04f3f07cca3a4
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_95
+      name: sena3_93
       rect:
         serializedVersion: 2
-        x: 320
+        x: 1125
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2109,19 +2065,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfcc58ddc5d8288419a47d284aa365f0
+      spriteID: 4ffca5c93acc17146a6dc92a8da776df
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_96
+      name: sena3_94
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1350
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2129,19 +2085,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ccd276a11dd01b4a8d1032289354406
+      spriteID: 706aa9555cb4ce94db3a74f8124fb0c1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ritka_97
+      name: sena3_95
       rect:
         serializedVersion: 2
-        x: 448
+        x: 1575
         y: 0
-        width: 64
-        height: 64
+        width: 225
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2149,47 +2105,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9acba9be6055e5e4db3104a0c1940323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_98
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc735e261ffaaa845901dc5bbe2ab86e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ritka_99
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 64
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b510aa67b2df39e45aa04edfe60f2286
+      spriteID: 9acdda9da9ff0454986991581d1a9479
       vertices: []
       indices: 
       edges: []
@@ -2197,7 +2113,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 6bc4674a30fb353498ef21db5b5ce599
+    spriteID: 02170c7ad5efa084f8cd8d7482ca0697
     vertices: []
     indices: 
     edges: []
