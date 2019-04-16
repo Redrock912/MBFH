@@ -312,7 +312,7 @@ public class Tiles : MonoBehaviour
             if(displayNumber == 0)
             {
                 RevealNeighborTiles();
-                spriteArray[0].color = Color.clear;
+                spriteArray[0].color = new Color(1, 1, 1, 0.3f);
                 spriteArray[1].sprite = null;
                 cubeController.hideCube();
                 
@@ -371,7 +371,7 @@ public class Tiles : MonoBehaviour
                 
                 if(neighborTiles[i].displayNumber == 0)
                 {
-                    neighborTiles[i].spriteArray[0].color = Color.clear;
+                    neighborTiles[i].spriteArray[0].color = new Color(1,1,1,0.3f);
                     neighborTiles[i].spriteArray[1].sprite = null;
                     neighborTiles[i].cubeController.hideCube();
                 }
@@ -399,7 +399,7 @@ public class Tiles : MonoBehaviour
         if (isExploded == false)
         {
             isExploded = true;
-            spriteArray[0].color = Color.clear;
+            spriteArray[0].color = new Color(1,1,1,0.3f);
             spriteArray[1].sprite = null;
             cubeController.hideCube();
             //tempPoint += hPoint;
