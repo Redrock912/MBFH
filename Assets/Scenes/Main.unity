@@ -2332,5 +2332,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4752899445405716525, guid: 84ef86a7b3804cf428aa60ae5256fca3,
         type: 3}
+    - target: {fileID: 6161622586580454172, guid: 92fdf4c9c8ab2ac449276e760a7e292a,
+        type: 3}
+      propertyPath: testEffectPrefab
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 92fdf4c9c8ab2ac449276e760a7e292a, type: 3}

@@ -88,6 +88,7 @@ MonoBehaviour:
   questionTile: {fileID: 21300000, guid: a73e3715e25247e40a69ee3af38bea04, type: 3}
   isMine: 0
   isHidden: 0
+  isRevealedThisTurn: 0
   displayNumber: 0
   id: 0
   rowLength: 0
@@ -108,7 +109,7 @@ MonoBehaviour:
   lowerRight: {fileID: 0}
   neighborTiles: []
   explosionHolder: {fileID: 1198464165}
-  explosionEffect: {fileID: 884144246432963102, guid: 94c4c5622d26dfc4e944084c5b484162,
+  explosionEffect: {fileID: 198915159206252654, guid: 562ddfe6f0744a242a191c032cce5fc2,
     type: 3}
 --- !u!1 &5211557561526499942
 GameObject:

@@ -12,7 +12,7 @@ public class PlayerInput : MonoBehaviour
     public AudioClip explosionSoundAudio;
     public AudioClip revealSoundAudio;
 
-    public Transform testEffectPrefab;
+    
     
 
     // Start is called before the first frame update
@@ -45,7 +45,7 @@ public class PlayerInput : MonoBehaviour
 
             Tiles tempTile = hit.transform.parent.GetComponent<Tiles>();
 
-            Instantiate(testEffectPrefab, tempTile.transform);
+         
 
             GridScript tempGrid = tempTile.parentGrid;
 
