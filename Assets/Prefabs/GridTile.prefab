@@ -40,6 +40,7 @@ GameObject:
   m_Component:
   - component: {fileID: 206756032329016036}
   - component: {fileID: 8836446824429007275}
+  - component: {fileID: 5757784127730519747}
   m_Layer: 0
   m_Name: GridTile
   m_TagString: Untagged
@@ -111,6 +112,22 @@ MonoBehaviour:
   explosionHolder: {fileID: 1198464165}
   explosionEffect: {fileID: 198915159206252654, guid: 562ddfe6f0744a242a191c032cce5fc2,
     type: 3}
+--- !u!111 &5757784127730519747
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 206756032329016037}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: 1b3673c7ad8c61c4b9d9bae2d1244b24, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &5211557561526499942
 GameObject:
   m_ObjectHideFlags: 0

@@ -248,19 +248,19 @@ public class GridScript : MonoBehaviour
         }
     }
 
-    // 과거의 유산 ㅂㅂ
-    //public void DestroyAllTiles()
-    //{
-    //    for(int i=0;i<allTiles.Length;i++)
-    //    {
-    //        // 왜 두번째 Grid에서 첫번째 Tile을 보는가?
-    //        if (allTiles[i].gameObject)
-    //        {
-    //            Destroy(allTiles[i].gameObject);
-    //        }
-            
-    //    }
-    //}
+    
+    public void HideAllTiles()
+    {
+        for (int i = 0; i < allTiles.Length; i++)
+        {
+            // 왜 두번째 Grid에서 첫번째 Tile을 보는가?
+            if (allTiles[i].gameObject)
+            {
+                allTiles[i].setHidden();
+            }
+
+        }
+    }
 
 
 }

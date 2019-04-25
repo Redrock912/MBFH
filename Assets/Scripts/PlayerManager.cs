@@ -118,7 +118,10 @@ public class PlayerManager : MonoBehaviour
 
                 stageList[currentStage] += 1;
                 PlayerPrefs.SetInt("stage" + currentStage, stageList[currentStage]);
+                
             }
+
+            gridScript.HideAllTiles();
 
         }
         else if (count == 0)

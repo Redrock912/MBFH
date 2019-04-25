@@ -17,6 +17,7 @@ public class Tiles : MonoBehaviour
     public int id;
     public int rowLength;
 
+    Animation anim;
     
     
 
@@ -52,7 +53,15 @@ public class Tiles : MonoBehaviour
         spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
         cubeController = gameObject.GetComponentInChildren<CubeController>();
 
-       
+        anim = GetComponent<Animation>();
+        if (anim)
+        {
+            print(anim);
+        }
+        else
+        {
+            print("None");
+        }
     }
 
 
@@ -291,7 +300,7 @@ public class Tiles : MonoBehaviour
         isRevealedThisTurn = true;
         if (isMine)
         {
-            StartCoroutine("ExplosionEffectTimer");
+            //StartCoroutine("ExplosionEffectTimer");
             Explode();
             //ChainExplosion();
             
@@ -376,8 +385,9 @@ public class Tiles : MonoBehaviour
                 
                 if(neighborTiles[i].displayNumber == 0)
                 {
-                    neighborTiles[i].spriteArray[0].color = new Color(1,1,1,0.3f);
-                    neighborTiles[i].spriteArray[1].sprite = null;
+                    //neighborTiles[i].spriteArray[0].color = new Color(1,1,1,0.3f);
+                    //neighborTiles[i].spriteArray[1].sprite = null;
+                    neighborTiles[i].anim.Play("TileExplosion");
                     neighborTiles[i].cubeController.hideCube();
                 }
                 else
@@ -404,10 +414,11 @@ public class Tiles : MonoBehaviour
         if (isExploded == false)
         {
             isExploded = true;
-            spriteArray[0].color = new Color(1,1,1,0.3f);
-            spriteArray[1].sprite = null;
+            //spriteArray[0].color = new Color(1,1,1,0.3f);
+            //spriteArray[1].sprite = null;
             cubeController.hideCube();
             //tempPoint += hPoint;
+            anim.Play("TileExplosion");
         }
 
 
@@ -460,17 +471,46 @@ public class Tiles : MonoBehaviour
 
     IEnumerator ExplosionEffectTimer()
     {
-        CreateExplosionEffect();
+
 
         // 왜 1 초 안기다리니....
-        yield return new WaitForSeconds(1.0f);
-        
+        anim.Play("TileExplosion");
+
+        if (!anim.isPlaying)
+        {
+
+        }
+
+       
+        yield return null;
+        CreateExplosionEffect();
+
     }
 
     void CreateExplosionEffect()
     {
-        ParticleSystem particleSystem = Instantiate(explosionEffect, explosionHolder);
-       
+        //ParticleSystem particleSystem = Instantiate(explosionEffect, explosionHolder);
+        anim.Play("TileExplosion");
+    }
+
+    void AfterExplosionAnimation()
+    {
+        
+
+        spriteArray[0].color = new Color(1, 1, 1, 0.3f);
+        spriteArray[1].sprite = null;
+    }
+
+    IEnumerator ExplosionAnimationTimer()
+    {
+        yield return new WaitForSeconds(2.0f);
+    }
+
+    public void setHidden()
+    {
+        spriteArray[0].color = new Color(1, 1, 1, 0);
+        spriteArray[1].sprite = null;
+        cubeController.hideCube();
     }
 
 
