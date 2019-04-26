@@ -16,15 +16,20 @@ public class GridManager : MonoBehaviour
 
 
     // 2개 이상일 때는 의미가 있었지만, 일단 지금은 1개로 축소됬다. 하지만 앞 일은 모르므로 남겨놓자
-    public int numberOfGrids = 1;
+    public int numberOfGrids = 3;
 
     public int count = 20;
 
+    int currentTop;
+
     GridScript currentTopGrid;
+
+    public int CurrentTop { get => currentTop; set => currentTop = value; }
 
     // Start is called before the first frame update
     void Awake()
     {
+
         gridScript = new GridScript[numberOfGrids];
 
         playerManager = FindObjectOfType<PlayerManager>();
@@ -39,6 +44,7 @@ public class GridManager : MonoBehaviour
         for (int i=0;i<numberOfGrids;i++)
         {
             GridScript currentGrid = Instantiate(gridScriptPrefab, startingPoint);
+            currentGrid.currentDifficulty = i;
             currentGrid.startingPoint = startingPoint;
             currentGrid.playerManager = playerManager;
             currentGrid.startingPoint.position += new Vector3(0, 0, -i);
@@ -53,7 +59,8 @@ public class GridManager : MonoBehaviour
 
         // 현재 최상단
         //currentTopGrid = gridScript[numberOfGrids - 1];
-        gridScript[numberOfGrids - 1].isTopGrid = true;
+        CurrentTop = numberOfGrids - 1;
+        gridScript[CurrentTop].isTopGrid = true;
         //SetGridPosition();
 
 
@@ -84,4 +91,24 @@ public class GridManager : MonoBehaviour
         }
     }
 
+
+    public void SetNextGridToTheTopGrid()
+    {
+        if(CurrentTop > 0)
+        {
+
+            CurrentTop -= 1;
+
+            gridScript[CurrentTop].isTopGrid = true;
+        }
+        else
+        {
+            print("There is no other grid left");
+            
+        }
+
+        
+
+
+    }
 }

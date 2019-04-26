@@ -225,18 +225,21 @@ public class Tiles : MonoBehaviour
 
     }
 
-    public void SetSprite(int x, string name, int difficulty)
+    public void SetSprite(string name, Sprite spritePart)
     {
-        SetBaseTile(x, name, difficulty);
+        SetBaseTile(name, spritePart);
         SetTileDisplayInfoSize();
     }
 
-    public void SetBaseTile(int x, string name, int difficulty)
+    public void SetBaseTile(string name, Sprite spritePart)
     {
 
-       
-        baseTileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_B");
 
+        //baseTileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_B");
+
+        baseTileSprite = spritePart;
+
+        
         //SpriteRenderer[] spriteArray = new SpriteRenderer[2];
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
@@ -369,7 +372,7 @@ public class Tiles : MonoBehaviour
     {
         // 임시 점수 저장소
         int tempPoint = 0;
-
+        
         // 주변부위를 살펴보자
         for (int i = 0; i < neighborTiles.Count; i++)
         {

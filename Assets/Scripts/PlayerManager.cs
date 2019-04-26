@@ -18,8 +18,8 @@ public class PlayerManager : MonoBehaviour
     public int maxStageNumber = 2;
     public int currentStage;
     public int currentDifficulty;
-    public int[] minesByDifficulty = { 5, 10, 15, 25 };
-    
+    public int[] minesByDifficulty = { 15, 10, 5, 25 };
+
 
     // Game Over~
     public event System.Action OnCountOver;
@@ -33,21 +33,21 @@ public class PlayerManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
         else
         {
             instance = this;
-            
+
             DontDestroyOnLoad(gameObject);
 
-            
-            
-            
+
+
+
             //OnCountOver = null;
-            
+
         }
     }
 
@@ -60,23 +60,23 @@ public class PlayerManager : MonoBehaviour
 
         stageList = new int[maxStageNumber];
 
-        
+
 
         // 플레이어 정보가져오기 (게임 시작 시 사용할 용도) , 뒤에 파라미터는 디폴트값
-        for(int i = 0; i < maxStageNumber; i++)
-        {
-            if (PlayerPrefs.HasKey("stage" + i))
-            {
-                stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
-            }
-            else
-            {
+        //for (int i = 0; i < maxStageNumber; i++)
+        //{
+        //    if (PlayerPrefs.HasKey("stage" + i))
+        //    {
+        //        stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
+        //    }
+        //    else
+        //    {
 
-                PlayerPrefs.SetInt("stage" + i, 1);
-                stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
-            }
-            
-        }
+        //        PlayerPrefs.SetInt("stage" + i, 1);
+        //        stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
+        //    }
+
+        //}
 
     }
 
@@ -86,7 +86,8 @@ public class PlayerManager : MonoBehaviour
         // 현재 탑 그리드스크립트
         if (gridManager != null)
         {
-            gridScript = gridManager.gridScript[gridManager.numberOfGrids - 1];
+            
+            gridScript = gridManager.gridScript[gridManager.CurrentTop];
         }
 
     }
@@ -109,19 +110,27 @@ public class PlayerManager : MonoBehaviour
         // 일단 명시적으로 해보자
 
         FindGridManager();
-        if (gridScript.currentMines == 0)
+        if (gridScript.currentMines == 0 )
         {
             // 다 찾으면 클리어, 
-            Clear();
-            if ((currentDifficulty + 1) == PlayerPrefs.GetInt("stage" + currentStage, 1) && (currentDifficulty + 1) < 4)
-            {
-
-                stageList[currentStage] += 1;
-                PlayerPrefs.SetInt("stage" + currentStage, stageList[currentStage]);
-                
-            }
+            print("CurrentTop = " + gridManager.CurrentTop);
+            print("CurrentGrid's difficulty = " + gridScript.currentDifficulty);
 
             gridScript.HideAllTiles();
+
+            if (gridManager.CurrentTop == 0)
+            {
+                Clear();
+            }
+            else
+            {
+                gridManager.SetNextGridToTheTopGrid();
+                //gridScript = gridManager.gridScript[gridManager.CurrentTop];
+                //print("Grid's difficulty = " + gridScript.currentDifficulty);
+            }
+            
+            
+            
 
         }
         else if (count == 0)
@@ -150,8 +159,8 @@ public class PlayerManager : MonoBehaviour
 
         OnCountOver();
         OnCountOver = null;
-        
+
         // 일단은 부셔볼까
-       // GameObject.Destroy(gameObject);
+        // GameObject.Destroy(gameObject);
     }
 }

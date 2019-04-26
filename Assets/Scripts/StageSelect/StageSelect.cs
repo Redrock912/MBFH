@@ -40,7 +40,7 @@ public class StageSelect : MonoBehaviour
             tempObject.unlockedDifficulties = PlayerPrefs.GetInt("stage" + i,1);
             //print("저장된 값들은 "+PlayerPrefs.GetInt("stage" + i));
             tempObject.SetButtons();
-            tempObject.GetComponent<Image>().sprite = stageSprite;
+            tempObject.GetComponent<Image>().sprite= stageSprite;
         }
 
         //// 버튼 높이 조절을 이걸로 할까 수동으로 할까... 그런데 이걸로할거면 다른것도 다 이걸로 하는게 좋지않나. 하나로 통일하자

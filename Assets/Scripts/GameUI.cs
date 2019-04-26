@@ -49,7 +49,7 @@ public class GameUI : MonoBehaviour
         gachaUI.text = (playerManager.count).ToString("D2");
 
         // 이 부분도 여러 레이어를 가정해서 만들었지만, 현재는 0 사용
-        bombUI.text = (gridManager.gridScript[0].currentMines).ToString("D2");
+        bombUI.text = (gridManager.gridScript[gridManager.CurrentTop].currentMines).ToString("D2");
         
     }
 

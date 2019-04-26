@@ -17,6 +17,8 @@ public class GridScript : MonoBehaviour
     public int rowLength = 8;
     public Transform startingPoint;
 
+
+    public Sprite[] currentSpriteSheet;
     public  Tiles[]   allTiles;        
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
@@ -35,13 +37,20 @@ public class GridScript : MonoBehaviour
 
     public bool isTopGrid = false;
 
-   
+    public void SetupStageInfo(int i, PlayerManager playerManager)
+    {
+        stageName = playerManager.stageNames[playerManager.currentStage];
+        //currentDifficulty = playerManager.currentDifficulty + i;
+    }
+
 
     // Start is called before the first frame update
     public void MakeGrids()
     {
 
-        
+        // 이 그리드에서 쓰일 배경이미지를 미리 로드한다.
+        LoadSprite();
+
         // 타일을 만든다.
         CreateTiles();
 
@@ -59,17 +68,16 @@ public class GridScript : MonoBehaviour
 
     }
 
-    public void SetupStageInfo(int i, PlayerManager playerManager)
+    // 스프라이트 로드, 정직한 제목
+    public void LoadSprite()
     {
+        Sprite[] tempSprites;
+        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName + "" + currentDifficulty);
 
-        
-        
-        stageName = playerManager.stageNames[playerManager.currentStage];
-        currentDifficulty = playerManager.currentDifficulty + i;
-
-        
-        
+        currentSpriteSheet = tempSprites;
     }
+
+
 
 
   
@@ -88,30 +96,6 @@ public class GridScript : MonoBehaviour
         float xOffSet = 0f;
         float yOffSet = 0f;
         int count = 0;
-        //for(int i=0;i<numberOfTiles;i++)
-        //{
-            
-            
-
-        //    for(int j=0;j<numberOfTiles;j++)
-        //    {
-
-             
-
-        //        Tiles spawnedTile = Instantiate(tilePrefab, startingPoint.position + new Vector3(xOffSet, -yOffSet, 0), Quaternion.identity) as Tiles;
-
-        //        spawnedTile.GetComponent<Tiles>().SetBackground(count,  "flaminica");
-
-
-        //        allTiles[i, j] = spawnedTile;
-        //        xOffSet += distanceX;
-        //        count++;
-        //    }
-        //    xOffSet = 0f;
-        //    yOffSet += distanceY;
-
-        //}
-
 
         for(int i=0;i<numberOfTiles;i++)
         {
@@ -136,7 +120,7 @@ public class GridScript : MonoBehaviour
             // 이 코드로 위치를 수정할지는 모르지만 일단 보류
             //spawnedTile.transform.localScale *= 2;
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            spawnedTile.GetComponent<Tiles>().SetSprite(i, stageName, currentDifficulty);
+            spawnedTile.GetComponent<Tiles>().SetSprite(stageName, currentSpriteSheet[i]);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
 
@@ -155,7 +139,7 @@ public class GridScript : MonoBehaviour
     void SetupMine()
     {
         // 난이도에 따라 지뢰개수를 달리한다.
-        numberOfMines = playerManager.minesByDifficulty[playerManager.currentDifficulty];
+        numberOfMines = playerManager.minesByDifficulty[currentDifficulty];
 
 
 
@@ -262,5 +246,6 @@ public class GridScript : MonoBehaviour
         }
     }
 
+    
 
 }

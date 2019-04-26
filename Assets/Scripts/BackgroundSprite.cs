@@ -26,7 +26,7 @@ public class BackgroundSprite : MonoBehaviour
         //print(stageName);
         //print(currentDifficulty);
 
-        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "" + (currentDifficulty+1));
+        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "B");
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = background;
 

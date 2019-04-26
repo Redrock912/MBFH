@@ -2324,7 +2324,7 @@ PrefabInstance:
     - target: {fileID: 6161622586580454171, guid: 92fdf4c9c8ab2ac449276e760a7e292a,
         type: 3}
       propertyPath: numberOfGrids
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6161622586580454171, guid: 92fdf4c9c8ab2ac449276e760a7e292a,
         type: 3}
