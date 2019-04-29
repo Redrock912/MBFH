@@ -16,7 +16,7 @@ public class CubeController : MonoBehaviour
         box = gameObject.GetComponent<BoxCollider>();
 
 
-        SetScaleToScreenSize();
+        //SetScaleToScreenSize();
     }
 
     public void hideCube()

@@ -19,6 +19,7 @@ public class PlayerManager : MonoBehaviour
     public int currentStage;
     public int currentDifficulty;
     public int[] minesByDifficulty = { 15, 10, 5, 25 };
+    public int[] countByDifficulty = { 30, 30, 30 };
 
 
     // Game Over~
@@ -29,7 +30,7 @@ public class PlayerManager : MonoBehaviour
     GridScript gridScript;
 
 
-    public string[] stageNames = { "gwent", "sena" };
+    public string[] stageNames = { "lila_", "lilith_" };
 
     private void Awake()
     {
@@ -162,5 +163,11 @@ public class PlayerManager : MonoBehaviour
 
         // 일단은 부셔볼까
         // GameObject.Destroy(gameObject);
+    }
+
+    // 난이도에 따라 시도 횟수 배정
+    public void SetCurrentCountByDifficulty(int difficulty)
+    {
+        count = countByDifficulty[difficulty];
     }
 }

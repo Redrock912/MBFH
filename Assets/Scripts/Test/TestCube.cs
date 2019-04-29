@@ -17,4 +17,12 @@ public class TestCube : MonoBehaviour, IParticle
 
         GetComponent<Rigidbody>().velocity = force;
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            gameObject.transform.localScale = new Vector3(2, 2, 1);
+        }
+    }
 }

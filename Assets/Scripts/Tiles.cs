@@ -17,7 +17,10 @@ public class Tiles : MonoBehaviour
     public int id;
     public int rowLength;
 
+
+    // 애니메이션 용 
     Animation anim;
+    Vector3 startScale;
     
     
 
@@ -225,10 +228,11 @@ public class Tiles : MonoBehaviour
 
     }
 
-    public void SetSprite(string name, Sprite spritePart)
+    public void SetData(string name, Sprite spritePart,int rowLength)
     {
         SetBaseTile(name, spritePart);
         SetTileDisplayInfoSize();
+        SetScale(rowLength);
     }
 
     public void SetBaseTile(string name, Sprite spritePart)
@@ -236,7 +240,7 @@ public class Tiles : MonoBehaviour
 
 
         //baseTileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_B");
-
+        
         baseTileSprite = spritePart;
 
         
@@ -246,23 +250,26 @@ public class Tiles : MonoBehaviour
         spriteArray[0].sprite = baseTileSprite;
 
 
-        float width = spriteArray[0].sprite.bounds.size.x;
-        float height = spriteArray[0].sprite.bounds.size.y;
+        //// 일단 보류
+        //float width = spriteArray[0].sprite.bounds.size.x;
+        //float height = spriteArray[0].sprite.bounds.size.y;
 
-        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
-        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+        //float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        //float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
 
-        // 베이스
-        //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
+        //// 베이스
+        ////spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
 
-        // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
-        float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) * (0.125f);
+        //// h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
+        //float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) *0.1f;
 
-        // w * (1/8) , 1/8 = tile size
-        float modifiedWidth = (worldScreenWidth / width) * 0.125f;
+        //// w * (1/8) , 1/8 = tile size
+        //float modifiedWidth = (worldScreenWidth / width) *0.1f;
 
-        spriteArray[0].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
+        //spriteArray[0].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
+
+        //// 여기 까지 보류
 
     }
 
@@ -286,15 +293,44 @@ public class Tiles : MonoBehaviour
         //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
 
         // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
-        float modifiedHeight = ((worldScreenHeight / height) * (9.0f / 16.0f)) * (0.12f);
+        float modifiedHeight = ((worldScreenHeight / height) * (10.0f / 16.0f)) * 0.1f ;
 
         // w * (1/8) , 1/8 = tile size
-        float modifiedWidth = (worldScreenWidth / width) * 0.12f;
+        float modifiedWidth = (worldScreenWidth / width) * 0.1f;
 
         spriteArray[1].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
     }
 
+    // SpriteArray가 아닌 이 객체의 전체 스케일 조정 
+    public void SetScale(int rowLength)
+    {
+        float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
+        float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
+
+        // 내가 원하는 길이
+        float tempLength = worldScreenWidth / (float)rowLength;
+
+        // 현재 이 녀석의 길이
+        MeshRenderer meshRenderer = GetComponentInChildren<MeshRenderer>();
+        float lengthX = meshRenderer.bounds.size.x;
+  
+
+        // 현재 비율
+        float currentScaleX = worldScreenWidth / gameObject.transform.localScale.x;
+        
+        // 비율 공식
+        float tempScaleX = (tempLength / lengthX) * currentScaleX;
+
+        float modifier = tempScaleX / currentScaleX;
+
+        Vector3 tempVector = gameObject.transform.localScale;
+        gameObject.transform.localScale = new Vector3(tempVector.x * modifier, tempVector.y * modifier, 1);
+
+        // 초기값 저장. 애니메이션 용도.
+        startScale = gameObject.transform.localScale;
+        
+    }
 
 
     public void RevealTile()
@@ -502,6 +538,13 @@ public class Tiles : MonoBehaviour
 
         spriteArray[0].color = new Color(1, 1, 1, 0.3f);
         spriteArray[1].sprite = null;
+
+        // 으악 애니메이션이 플레이 중일때는 애니메이션 localScale 값을 덮기 때문에 아래 식이 먹히지 않는다. 멈춰 주도록 하자
+        anim.Stop();
+        gameObject.transform.localScale = new Vector3(startScale.x, startScale.y, startScale.z);
+
+
+
     }
 
     IEnumerator ExplosionAnimationTimer()
@@ -516,5 +559,13 @@ public class Tiles : MonoBehaviour
         cubeController.hideCube();
     }
 
+
+
+    public void SetScaleValue()
+    {
+
+        
+        print(startScale);
+    }
 
 }

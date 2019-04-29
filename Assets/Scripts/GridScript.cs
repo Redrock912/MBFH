@@ -6,7 +6,7 @@ public class GridScript : MonoBehaviour
 {
     public Tiles tilePrefab;
 
-    public int numberOfTiles = 96;
+    public int numberOfTiles = 160;
      public float distanceX = 1.65f;
     public float distanceY = 1.75f;
   
@@ -14,7 +14,7 @@ public class GridScript : MonoBehaviour
     public int numberOfHidden = 15;
     public int numberOfFlip = 15;
     public int currentMines;
-    public int rowLength = 8;
+    public int rowLength = 10;
     public Transform startingPoint;
 
 
@@ -109,8 +109,9 @@ public class GridScript : MonoBehaviour
                 xOffSet = 0;
                 //yOffSet += distanceY;
                 yOffSet += worldScreenWidth / (float)rowLength;
+                
             }
-
+            
             //float startingPointX = (float)(Screen.width / (numberOfMines*2));
             //float startingPointY = (float)(Screen.height / (numberOfMines * 7 / 10));
             //startingPoint.SetPositionAndRotation(new Vector3(startingPointX,startingPointY,0), Quaternion.identity);
@@ -120,7 +121,7 @@ public class GridScript : MonoBehaviour
             // 이 코드로 위치를 수정할지는 모르지만 일단 보류
             //spawnedTile.transform.localScale *= 2;
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            spawnedTile.GetComponent<Tiles>().SetSprite(stageName, currentSpriteSheet[i]);
+            spawnedTile.GetComponent<Tiles>().SetData(stageName, currentSpriteSheet[i],rowLength);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
 
@@ -140,7 +141,7 @@ public class GridScript : MonoBehaviour
     {
         // 난이도에 따라 지뢰개수를 달리한다.
         numberOfMines = playerManager.minesByDifficulty[currentDifficulty];
-
+        
 
 
         plainTiles = new ArrayList(allTiles);

@@ -18,14 +18,15 @@ public class GridManager : MonoBehaviour
     // 2개 이상일 때는 의미가 있었지만, 일단 지금은 1개로 축소됬다. 하지만 앞 일은 모르므로 남겨놓자
     public int numberOfGrids = 3;
 
-    public int count = 20;
+    
+    public int count = 5;
 
     int currentTop;
 
     GridScript currentTopGrid;
 
     public int CurrentTop { get => currentTop; set => currentTop = value; }
-
+    
     // Start is called before the first frame update
     void Awake()
     {
@@ -33,14 +34,22 @@ public class GridManager : MonoBehaviour
         gridScript = new GridScript[numberOfGrids];
 
         playerManager = FindObjectOfType<PlayerManager>();
-        playerManager.count = count;
 
 
         // 배경만드는 애한테 정보를 넘겨주자
-        BackgroundSprite backgroundSprite = Instantiate(backgroundSpritePrefab, gameObject.transform);
+        float screenPositionX = Screen.width / 2;
+        Camera cam;
+        cam = Camera.main;
+        float screenPositionY = Screen.height / 2;
+        Vector3 screenPosition = new Vector3(screenPositionX, screenPositionY, 1);
+        print(cam.ScreenToWorldPoint(new Vector3(screenPositionX,screenPositionY,1)));
+        GameObject positionObject = new GameObject();
+        positionObject.transform.position = cam.ScreenToWorldPoint(new Vector3(screenPositionX, screenPositionY, 20)) ;
+
+        BackgroundSprite backgroundSprite = Instantiate(backgroundSpritePrefab, positionObject.transform);
         backgroundSprite.SetupStageInfo(playerManager);
         backgroundSprite.SetupBackground();
-
+        
         for (int i=0;i<numberOfGrids;i++)
         {
             GridScript currentGrid = Instantiate(gridScriptPrefab, startingPoint);
@@ -61,6 +70,9 @@ public class GridManager : MonoBehaviour
         //currentTopGrid = gridScript[numberOfGrids - 1];
         CurrentTop = numberOfGrids - 1;
         gridScript[CurrentTop].isTopGrid = true;
+        playerManager.SetCurrentCountByDifficulty(CurrentTop);
+        
+
         //SetGridPosition();
 
 
