@@ -6,36 +6,36 @@ public class GridScript : MonoBehaviour
 {
     public Tiles tilePrefab;
 
+    // Amount
     public int numberOfTiles = 160;
      public float distanceX = 1.65f;
     public float distanceY = 1.75f;
-  
     public int numberOfMines = 10;
     public int numberOfHidden = 15;
     public int numberOfFlip = 15;
     public int currentMines;
     public int rowLength = 10;
-    public Transform startingPoint;
 
 
-    public Sprite[] currentSpriteSheet;
+    // Tiles
     public  Tiles[]   allTiles;        
     public  ArrayList plainTiles;
     public  ArrayList mineTiles;
     public ArrayList hiddenTiles;
     public ArrayList flipTiles;
+    public static Queue<Tiles> explosionTiles;
 
     public string stageName;
     public int currentDifficulty;
     public int stageNumber = 0;
-
-    public static Queue<Tiles> explosionTiles;
+    
 
     public PlayerManager playerManager;
-
-
+    public Transform startingPoint;
+    public Sprite[] currentSpriteSheet;
 
     public bool isTopGrid = false;
+    public bool isHidden = false;
 
     public void SetupStageInfo(int i, PlayerManager playerManager)
     {
@@ -236,6 +236,8 @@ public class GridScript : MonoBehaviour
     
     public void HideAllTiles()
     {
+        isHidden = true;
+
         for (int i = 0; i < allTiles.Length; i++)
         {
             // 왜 두번째 Grid에서 첫번째 Tile을 보는가?

@@ -543,6 +543,11 @@ public class Tiles : MonoBehaviour
         anim.Stop();
         gameObject.transform.localScale = new Vector3(startScale.x, startScale.y, startScale.z);
 
+        if(parentGrid.isHidden)
+        {
+            setHidden();
+        }
+
 
 
     }
