@@ -7,48 +7,63 @@ public class GridManager : MonoBehaviour
     // 그리드를 가져오자
     public GridScript[] gridScript;
     public GridScript gridScriptPrefab;
+    public BackgroundSprite[] backgroundSprite;
     public BackgroundSprite backgroundSpritePrefab;
-    // 임시방편
+    // 임시방편, 임시방편2
     public Transform startingPoint;
+    public Transform backgroundStartingPoint;
 
     // Restart할 경우 이미 사용한 count를 보충해줘야한다.
     PlayerManager playerManager;
 
+    public event System.Action OnGridCleared;
 
-    // 2개 이상일 때는 의미가 있었지만, 일단 지금은 1개로 축소됬다. 하지만 앞 일은 모르므로 남겨놓자
+    // 갯수
     public int numberOfGrids = 3;
-
-    
     public int count = 5;
 
     int currentTop;
-
+    
     GridScript currentTopGrid;
-
     public int CurrentTop { get => currentTop; set => currentTop = value; }
     
+
     // Start is called before the first frame update
     void Awake()
     {
-
+        //초 기 화
         gridScript = new GridScript[numberOfGrids];
+        backgroundSprite = new BackgroundSprite[numberOfGrids];
 
         playerManager = FindObjectOfType<PlayerManager>();
 
 
-        // 배경만드는 애한테 정보를 넘겨주자
-        float screenPositionX = Screen.width / 2;
-        Camera cam;
-        cam = Camera.main;
-        float screenPositionY = Screen.height / 2;
-        Vector3 screenPosition = new Vector3(screenPositionX, screenPositionY, 1);
-        print(cam.ScreenToWorldPoint(new Vector3(screenPositionX,screenPositionY,1)));
-        GameObject positionObject = new GameObject();
-        positionObject.transform.position = cam.ScreenToWorldPoint(new Vector3(screenPositionX, screenPositionY, 20)) ;
+        //// 배경만드는 애한테 정보를 넘겨주자
+        //float screenPositionX = Screen.width / 2;
+        //Camera cam;
+        //cam = Camera.main;
+        //float screenPositionY = Screen.height / 2;
+        ////Vector3 screenPosition = new Vector3(screenPositionX, screenPositionY, 1);
 
-        BackgroundSprite backgroundSprite = Instantiate(backgroundSpritePrefab, positionObject.transform);
-        backgroundSprite.SetupStageInfo(playerManager);
-        backgroundSprite.SetupBackground();
+        //GameObject positionObject = new GameObject();
+        //Transform tempTransform = positionObject.transform;
+        //tempTransform.position = cam.ScreenToWorldPoint(new Vector3(screenPositionX, screenPositionY, 99));
+
+
+        for(int i=0;i<numberOfGrids;i++)
+        {
+            
+            BackgroundSprite currentBackgroundSprite = Instantiate(backgroundSpritePrefab, backgroundStartingPoint);
+
+            currentBackgroundSprite.SetupStageInfo(playerManager,this,i);
+            currentBackgroundSprite.SetupBackground();
+            // 여기는 Instantiate 시에 위의 positionObject의 자식으로 되기때문에 로컬 좌표계를 움직여야한다.
+            currentBackgroundSprite.transform.position += new Vector3(0, 0, -2 * i);
+
+            // 리스트로 관리하자
+            backgroundSprite[i] = currentBackgroundSprite;
+        }
+
         
         for (int i=0;i<numberOfGrids;i++)
         {
@@ -56,13 +71,14 @@ public class GridManager : MonoBehaviour
             currentGrid.currentDifficulty = i;
             currentGrid.startingPoint = startingPoint;
             currentGrid.playerManager = playerManager;
-            currentGrid.startingPoint.position += new Vector3(0, 0, -i);
+            currentGrid.startingPoint.position += new Vector3(0, 0, -2);
 
             currentGrid.SetupStageInfo(i,playerManager);
             //currentGrid.stageNumber = i;
             //currentGrid.currentDifficulty = playerManager.currentDifficulty+i;
             currentGrid.MakeGrids();
-            
+
+            // 리스트로 관리하자
             gridScript[i] = currentGrid;
         }
 
@@ -70,6 +86,7 @@ public class GridManager : MonoBehaviour
         //currentTopGrid = gridScript[numberOfGrids - 1];
         CurrentTop = numberOfGrids - 1;
         gridScript[CurrentTop].isTopGrid = true;
+        backgroundSprite[CurrentTop].isTopGrid = true;
         playerManager.SetCurrentCountByDifficulty(CurrentTop);
         
 
@@ -79,19 +96,6 @@ public class GridManager : MonoBehaviour
 
     }
 
-    //private void Start()
-    //{
-    //    playerManager = FindObjectOfType<PlayerManager>();
-    //    playerManager.count = count;
-    //}
-
-
-
-    // 쓰일지 안쓰일지 모르겠지만, 3가지 이상의 레이어를 이용하게 되면 최상단을 계속해서 바꿔주자
-    public void ChangeTopGrid()
-    {
-        
-    }
 
     void SetGridPosition()
     {
@@ -108,10 +112,14 @@ public class GridManager : MonoBehaviour
     {
         if(CurrentTop > 0)
         {
+            //
+            backgroundSprite[CurrentTop].isTopGrid = true;
 
             CurrentTop -= 1;
 
             gridScript[CurrentTop].isTopGrid = true;
+
+            GridCleared();
         }
         else
         {
@@ -119,8 +127,11 @@ public class GridManager : MonoBehaviour
             
         }
 
+    }
+
+    void GridCleared()
+    {
+        OnGridCleared();
         
-
-
     }
 }

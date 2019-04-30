@@ -9,16 +9,35 @@ public class BackgroundSprite : MonoBehaviour
     public string stageName;
     public int currentDifficulty;
 
-    public void SetupStageInfo( PlayerManager playerManager)
+    BoxCollider boxCollider;
+
+    Animation anim;
+
+    public bool isInteractive = false;
+    public bool isTopGrid = false;
+
+    public Transform localTransform;
+    public Vector3 localPosition;
+
+
+    GridManager parentGridManager;
+    PlayerManager playerManagerRef;
+    public int id = 0;
+
+    public void SetupStageInfo( PlayerManager playerManager, GridManager gridManager, int number)
     {
 
 
-
+        parentGridManager = gridManager;
         stageName = playerManager.stageNames[playerManager.currentStage];
         currentDifficulty = playerManager.currentDifficulty;
-
-
-
+        boxCollider = GetComponent<BoxCollider>();
+        playerManagerRef = playerManager;
+        anim = GetComponent<Animation>();
+        id = number;
+        localTransform = transform;
+        
+        parentGridManager.OnGridCleared += OnGridCleared;
     }
 
     public void SetupBackground()
@@ -30,24 +49,17 @@ public class BackgroundSprite : MonoBehaviour
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = background;
 
-        //if (background)
-        //{
-        //    print(background);
-        //    print(stageName);
-        //    print(currentDifficulty);
-
-        //}
-        //else
-        //{
-        //    print("NULLLLL");
-        //}
 
         
         float width = background.bounds.size.x;
         float height = background.bounds.size.y;
 
+        SetupCubeSize(width, height);
+
         float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
         float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
+
+
 
 
         // 베이스
@@ -67,6 +79,62 @@ public class BackgroundSprite : MonoBehaviour
         
 
         
+
+    }
+
+    void SetupCubeSize(float x, float y)
+    {
+        boxCollider.size = new Vector3(x, y, 1);
+    }
+
+    void OnGridCleared()
+    {
+        if (isTopGrid)
+        {
+            StartCoroutine("ClearAnimation");
+        }
+        
+    }
+
+    IEnumerator ClearAnimation()
+    {
+
+        //localTransform.localPosition += localPosition;
+        //anim.Play("LiiaClear1");
+        //print(localPosition);
+
+
+        anim.Play("LiiaClear1");
+        yield return new WaitForSeconds(2.0f);
+        
+
+    }
+
+
+    void AnimationFinished()
+    {
+        isInteractive = true;
+        
+        
+
+    }
+
+    public void ShowNextGrid()
+    {
+        if (id != 0)
+        {
+            // 백그라운드는 사라지도록 하자
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<BoxCollider>().enabled = false;
+
+            // 다음 카운트 갯수를 보시오
+            playerManagerRef.SetCurrentCountByDifficulty(id);
+        }
+        else
+        {
+            // 스테이지를 아예 깻다면
+            print("Finished");
+        }
 
     }
 }

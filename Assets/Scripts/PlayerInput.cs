@@ -40,41 +40,59 @@ public class PlayerInput : MonoBehaviour
         Ray ray = viewCamera.ScreenPointToRay(Input.mousePosition);
 
         Debug.DrawRay(ray.origin, ray.direction * 20, Color.yellow);
-        if(Physics.Raycast(ray,out hit, 100.0f))
+        
+        
+        if (Physics.Raycast(ray,out hit, 100.0f))
         {
 
             Tiles tempTile = hit.transform.parent.GetComponent<Tiles>();
+            
 
-         
-
-            GridScript tempGrid = tempTile.parentGrid;
-
-            if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true)
+            // 있니?
+            if (tempTile)
             {
-                // 타일을 까도록하자.
+                GridScript tempGrid = tempTile.parentGrid;
 
-                if (tempTile.isMine)
+                if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true)
                 {
-                    AudioManager.instance.PlaySound(explosionSoundAudio, transform.position);
+                    // 타일을 까도록하자.
+
+                    if (tempTile.isMine)
+                    {
+                        AudioManager.instance.PlaySound(explosionSoundAudio, transform.position);
+                    }
+                    else
+                    {
+                        AudioManager.instance.PlaySound(revealSoundAudio, transform.position);
+                    }
+
+                    tempTile.RevealTile();
+
+
+                    // 클릭할 때마다 기회 사용
+                    playerManager.UseCount();
+
+                    // 클릭할 떄마다 GridScript 에다가 flip tile을 되돌리라고 말하자.
+                    tempGrid.FlipTilesToBaseState();
+
+                    print(tempGrid.flipTiles.Count);
+
+
                 }
-                else
-                {
-                    AudioManager.instance.PlaySound(revealSoundAudio, transform.position);
-                }
-               
-                tempTile.RevealTile();
-
-
-                // 클릭할 때마다 기회 사용
-                playerManager.UseCount();
-
-                // 클릭할 떄마다 GridScript 에다가 flip tile을 되돌리라고 말하자.
-                tempGrid.FlipTilesToBaseState();
-
-                print(tempGrid.flipTiles.Count);
-
-
             }
+            else
+            {
+                BackgroundSprite backgroundSprite = hit.transform.GetComponent<BackgroundSprite>();
+                print(hit.transform);
+                if (Input.GetMouseButtonDown(0) && backgroundSprite && backgroundSprite.isInteractive == true)
+                {
+                    backgroundSprite.ShowNextGrid();
+                }
+            }
+           
+
+
+            
       
             
         }
