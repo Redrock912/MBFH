@@ -18,9 +18,9 @@ public class PlayerManager : MonoBehaviour
     public int maxStageNumber = 2;
     public int currentStage;
     public int currentDifficulty;
-    public int[] minesByDifficulty = { 15, 10, 5, 25 };
-    public int[] countByDifficulty = { 30, 30, 30 };
-
+    public int[] minesByDifficulty = { 3, 2, 1, 25 };
+    public int[] countByDifficulty = { 3, 3, 3 };
+    public int currentGrid = 0;
 
     // Game Over~
     public event System.Action OnCountOver;
@@ -64,20 +64,20 @@ public class PlayerManager : MonoBehaviour
 
 
         // 플레이어 정보가져오기 (게임 시작 시 사용할 용도) , 뒤에 파라미터는 디폴트값
-        //for (int i = 0; i < maxStageNumber; i++)
-        //{
-        //    if (PlayerPrefs.HasKey("stage" + i))
-        //    {
-        //        stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
-        //    }
-        //    else
-        //    {
+        for (int i = 0; i < maxStageNumber; i++)
+        {
+            if (PlayerPrefs.HasKey("stage" + i))
+            {
+                stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
+            }
+            else
+            {
 
-        //        PlayerPrefs.SetInt("stage" + i, 1);
-        //        stageList[i] = PlayerPrefs.GetInt("stage" + i, 1);
-        //    }
+                PlayerPrefs.SetInt("stage" + i, 1);
+                stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
+            }
 
-        //}
+        }
 
     }
 
@@ -119,6 +119,10 @@ public class PlayerManager : MonoBehaviour
 
             gridScript.HideAllTiles();
 
+            // 현재처럼 딱 3번만 깨면 되면, 별 갯수를 올릴 때 이것만 해주면 된다
+            currentGrid += 1;
+
+
             if (gridManager.CurrentTop == 0)
             {
                 Clear();
@@ -126,6 +130,7 @@ public class PlayerManager : MonoBehaviour
             else
             {
                 gridManager.SetNextGridToTheTopGrid();
+                
                 //gridScript = gridManager.gridScript[gridManager.CurrentTop];
                 //print("Grid's difficulty = " + gridScript.currentDifficulty);
             }
@@ -139,6 +144,7 @@ public class PlayerManager : MonoBehaviour
             CountOver();
             // 일단 클리어 시에 다른거 터치 막아놓기
             gridScript.isTopGrid = false;
+            
         }
     }
 

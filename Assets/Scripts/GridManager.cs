@@ -36,18 +36,9 @@ public class GridManager : MonoBehaviour
         backgroundSprite = new BackgroundSprite[numberOfGrids];
 
         playerManager = FindObjectOfType<PlayerManager>();
+        // 스테이지 정보 초기화 (별 갯수)
+        playerManager.currentGrid = 0;
 
-
-        //// 배경만드는 애한테 정보를 넘겨주자
-        //float screenPositionX = Screen.width / 2;
-        //Camera cam;
-        //cam = Camera.main;
-        //float screenPositionY = Screen.height / 2;
-        ////Vector3 screenPosition = new Vector3(screenPositionX, screenPositionY, 1);
-
-        //GameObject positionObject = new GameObject();
-        //Transform tempTransform = positionObject.transform;
-        //tempTransform.position = cam.ScreenToWorldPoint(new Vector3(screenPositionX, screenPositionY, 99));
 
 
         for(int i=0;i<numberOfGrids;i++)

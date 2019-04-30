@@ -14,8 +14,12 @@ public class GameUI : MonoBehaviour
     public Text heartUI;
     public Text goldUI;
 
+    public StarController starContainerPrefab;
+
+    Animation anim;
     public float initialTime = 100;
     float elapsedTime = 0f;
+
     PlayerManager playerManager;
     GridManager gridManager;
     
@@ -35,6 +39,8 @@ public class GameUI : MonoBehaviour
         countOverImage = countOverImageObject.GetComponent<RectTransform>();
 
         gridManager = FindObjectOfType<GridManager>();
+
+        anim = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -58,7 +64,8 @@ public class GameUI : MonoBehaviour
         print("GameUI OnCountOver");
         if (countOverImage != null)
         {
-            StartCoroutine("CountOverImageAnimation");
+            //StartCoroutine("CountOverImageAnimation");
+            anim.Play("CountOverAnimation");
         }
         
     }
@@ -67,29 +74,55 @@ public class GameUI : MonoBehaviour
     {
         print("GameUI OnClear");
 
-        if(clearImage != null)
+        if (clearImage != null)
         {
-            StartCoroutine("ClearImageAnimation");
+            //StartCoroutine("ClearImageAnimation");
+            anim.Play("ClearAnimation");
         }
+
+
+
         
     }
 
-    IEnumerator ClearImageAnimation()
+    public void AfterClearAnimation()
     {
-        float speed = 1;
-        float animatePercent = 0;
-        while (animatePercent < 1)
-        {
-            animatePercent += Time.deltaTime * speed;
-            clearImage.anchoredPosition = Vector2.up * Mathf.Lerp(-750, 0, animatePercent);
+        StarController starContainer = Instantiate(starContainerPrefab, transform);
 
-            yield return null;
-        }
+        starContainer.tier = playerManager.currentGrid;
+        starContainer.PlayAnimation();
 
-      
-
-        //yield return new WaitForSeconds(0.2f);
     }
+
+    public void ShowStarsDuringCountOverAnimation()
+    {
+        StarController starContainer = Instantiate(starContainerPrefab, transform);
+
+        // 생성된 다음에 붙자. 같이 움직이게
+        starContainer.transform.parent = countOverImage.transform;
+        starContainer.tier = playerManager.currentGrid;
+        starContainer.PlayAnimation();
+    }
+
+    
+
+
+    //IEnumerator ClearImageAnimation()
+    //{
+    //    float speed = 1;
+    //    float animatePercent = 0;
+    //    while (animatePercent < 1)
+    //    {
+    //        animatePercent += Time.deltaTime * speed;
+    //        clearImage.anchoredPosition = Vector2.up * Mathf.Lerp(-750, 0, animatePercent);
+
+    //        yield return null;
+    //    }
+
+        
+
+    //    //yield return new WaitForSeconds(0.2f);
+    //}
 
     IEnumerator CountOverImageAnimation()
     {
