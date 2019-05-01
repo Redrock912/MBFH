@@ -73,7 +73,7 @@ public class PlayerManager : MonoBehaviour
             else
             {
 
-                PlayerPrefs.SetInt("stage" + i, 1);
+                PlayerPrefs.SetInt("stage" + i, 0);
                 stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
             }
 
@@ -126,6 +126,7 @@ public class PlayerManager : MonoBehaviour
             if (gridManager.CurrentTop == 0)
             {
                 Clear();
+
             }
             else
             {
@@ -150,6 +151,17 @@ public class PlayerManager : MonoBehaviour
 
     public void Clear()
     {
+        // 체크
+        if (PlayerPrefs.HasKey("stage" + currentStage))
+        {
+            // 더 크다면 바깥을 더 큰값으로 바꾸자
+            if (PlayerPrefs.GetInt("stage" + currentStage) < currentGrid)
+            {
+                PlayerPrefs.SetInt("stage" + currentStage, currentGrid);
+            }
+
+        }
+
         OnClear();
         // 초기화 해줘야 하나..?
         OnClear = null;
@@ -159,11 +171,18 @@ public class PlayerManager : MonoBehaviour
 
     public void CountOver()
     {
-        //if (OnCountOver != null)
-        //{
-        //    OnCountOver();
-        //}
 
+        // 체크
+        if(PlayerPrefs.HasKey("stage"+currentStage))
+        {
+            // 더 크다면 바깥을 더 큰값으로 바꾸자
+            if(PlayerPrefs.GetInt("stage"+currentStage)<currentGrid)
+            {
+                PlayerPrefs.SetInt("stage" + currentStage, currentGrid);
+            }
+            
+        }
+        
         OnCountOver();
         OnCountOver = null;
 
