@@ -71,14 +71,15 @@ public class PlayerInput : MonoBehaviour
 
                     // 클릭할 때마다 기회 사용
                     playerManager.UseCount();
+                    playerManager.Click();
 
                     // 클릭할 떄마다 GridScript 에다가 flip tile을 되돌리라고 말하자.
                     tempGrid.FlipTilesToBaseState();
-
                     print(tempGrid.flipTiles.Count);
 
 
                 }
+                
             }
             else
             {

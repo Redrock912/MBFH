@@ -11,14 +11,15 @@ public class GameUI : MonoBehaviour
     public RectTransform countOverImage;
     public Text gachaUI;
     public Text bombUI;
-    public Text heartUI;
-    public Text goldUI;
+    public Text layerUI;
+    public Text scoreUI;
+    public Image timerBar;
 
     public StarController starContainerPrefab;
 
     Animation anim;
-    public float initialTime = 100;
-    float elapsedTime = 0f;
+    public float maxTime = 5.0f;
+    float leftTime = 0f;
 
     PlayerManager playerManager;
     GridManager gridManager;
@@ -29,6 +30,7 @@ public class GameUI : MonoBehaviour
         
         playerManager.OnCountOver += OnCountOver;
         playerManager.OnClear += OnClear;
+        playerManager.OnClick += OnClick;
 
         GameObject clearImageObject = GameObject.FindGameObjectWithTag("ClearImage");
 
@@ -41,6 +43,8 @@ public class GameUI : MonoBehaviour
         gridManager = FindObjectOfType<GridManager>();
 
         anim = GetComponent<Animation>();
+
+        leftTime = maxTime;
     }
 
     // Update is called once per frame
@@ -56,7 +60,37 @@ public class GameUI : MonoBehaviour
 
         // 이 부분도 여러 레이어를 가정해서 만들었지만, 현재는 0 사용
         bombUI.text = (gridManager.gridScript[gridManager.CurrentTop].currentMines).ToString("D2");
+
+        TimerBarUpdate();
+    }
+
+    void TimerBarUpdate()
+    {
+        // count 가 있을 시에만 하자
+        if(playerManager.count > 0 && playerManager.isAnimationPlaying == false)
+        {
+            if (leftTime > 0)
+            {
+                leftTime -= Time.deltaTime;
+
+                timerBar.fillAmount = leftTime / maxTime;
+
+
+            }
+            else
+            {
+                // 시간을 다 쓸 시에 행동갯수를 하나씩 줄인다.
+                playerManager.UseCount();
+                leftTime = maxTime;
+            }
+        }
         
+    }
+
+    // 다시 리셋시키자.
+    void OnClick()
+    {
+        leftTime = maxTime;
     }
 
     void OnCountOver()

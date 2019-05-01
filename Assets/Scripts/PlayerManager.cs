@@ -22,12 +22,16 @@ public class PlayerManager : MonoBehaviour
     public int[] countByDifficulty = { 3, 3, 3 };
     public int currentGrid = 0;
 
-    // Game Over~
+    // 혼자만 알지말고 다른 애들도 좀 알려줘라
     public event System.Action OnCountOver;
     public event System.Action OnClear;
+    public event System.Action OnClick;
 
     GridManager gridManager;
     GridScript gridScript;
+
+    // 조건값 
+    public bool isAnimationPlaying = false;
 
 
     public string[] stageNames = { "lila_", "lilith_" };
@@ -168,7 +172,6 @@ public class PlayerManager : MonoBehaviour
     }
 
 
-
     public void CountOver()
     {
 
@@ -185,9 +188,15 @@ public class PlayerManager : MonoBehaviour
         
         OnCountOver();
         OnCountOver = null;
+       
 
         // 일단은 부셔볼까
         // GameObject.Destroy(gameObject);
+    }
+
+    public void Click()
+    {
+        OnClick();
     }
 
     // 난이도에 따라 시도 횟수 배정

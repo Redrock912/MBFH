@@ -91,6 +91,7 @@ public class BackgroundSprite : MonoBehaviour
     {
         if (isTopGrid)
         {
+            playerManagerRef.isAnimationPlaying = true;
             StartCoroutine("ClearAnimation");
         }
         
@@ -129,6 +130,7 @@ public class BackgroundSprite : MonoBehaviour
 
             // 다음 카운트 갯수를 보시오
             playerManagerRef.SetCurrentCountByDifficulty(id);
+            playerManagerRef.isAnimationPlaying = false;
         }
         else
         {
