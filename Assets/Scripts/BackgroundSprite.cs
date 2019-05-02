@@ -45,7 +45,7 @@ public class BackgroundSprite : MonoBehaviour
         //print(stageName);
         //print(currentDifficulty);
 
-        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "B");
+        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "_B");
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = background;
 
@@ -129,7 +129,8 @@ public class BackgroundSprite : MonoBehaviour
             GetComponent<BoxCollider>().enabled = false;
 
             // 다음 카운트 갯수를 보시오
-            playerManagerRef.SetCurrentCountByDifficulty(id);
+            
+            playerManagerRef.SetCurrentCountByDifficulty(id-1);
             playerManagerRef.isAnimationPlaying = false;
         }
         else

@@ -7,12 +7,18 @@ public class GameUI : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public RectTransform clearImage;
-    public RectTransform countOverImage;
+    public Image clearImage;
+    public Image countOverImage;
     public Text gachaUI;
     public Text bombUI;
     public Text layerUI;
     public Text scoreUI;
+    public Text layerTextMesh;
+    public Text bombTextMesh;
+    public Text gachaTextMesh;
+    public CanvasGroup returnButton;
+
+    public RawImage upperUI;
     public Image timerBar;
 
     public StarController starContainerPrefab;
@@ -23,28 +29,32 @@ public class GameUI : MonoBehaviour
 
     PlayerManager playerManager;
     GridManager gridManager;
-    
+
     void Start()
     {
         playerManager = FindObjectOfType<PlayerManager>();
-        
+
         playerManager.OnCountOver += OnCountOver;
         playerManager.OnClear += OnClear;
         playerManager.OnClick += OnClick;
 
-        GameObject clearImageObject = GameObject.FindGameObjectWithTag("ClearImage");
+        //GameObject clearImageObject = GameObject.FindGameObjectWithTag("ClearImage");
 
-        GameObject countOverImageObject = GameObject.FindGameObjectWithTag("CountOverImage");
+        //GameObject countOverImageObject = GameObject.FindGameObjectWithTag("CountOverImage");
 
-        clearImage = clearImageObject.GetComponent<RectTransform>();
+        //clearImage = clearImageObject.GetComponent<RectTransform>();
 
-        countOverImage = countOverImageObject.GetComponent<RectTransform>();
+        //countOverImage = countOverImageObject.GetComponent<RectTransform>();
 
         gridManager = FindObjectOfType<GridManager>();
 
         anim = GetComponent<Animation>();
 
         leftTime = maxTime;
+
+        // 처음에는 숨겨두고
+        returnButton.alpha = 0;
+        returnButton.interactable = false;
     }
 
     // Update is called once per frame
@@ -61,13 +71,19 @@ public class GameUI : MonoBehaviour
         // 이 부분도 여러 레이어를 가정해서 만들었지만, 현재는 0 사용
         bombUI.text = (gridManager.gridScript[gridManager.CurrentTop].currentMines).ToString("D2");
 
-        TimerBarUpdate();
+        layerUI.text = (gridManager.CurrentTop + 1).ToString("D2");
+
+        if (timerBar.enabled)
+        {
+            TimerBarUpdate();
+        }
+
     }
 
     void TimerBarUpdate()
     {
         // count 가 있을 시에만 하자
-        if(playerManager.count > 0 && playerManager.isAnimationPlaying == false)
+        if (playerManager.count > 0 && playerManager.isAnimationPlaying == false)
         {
             if (leftTime > 0)
             {
@@ -84,8 +100,26 @@ public class GameUI : MonoBehaviour
                 leftTime = maxTime;
             }
         }
-        
+
     }
+
+    // 구에엑
+    void HideOtherUI()
+    {
+        gachaUI.enabled = false;
+        bombUI.enabled = false;
+        layerUI.enabled = false;
+        scoreUI.enabled = false;
+        timerBar.enabled = false;
+        layerTextMesh.enabled = false;
+        bombTextMesh.enabled = false;
+        gachaTextMesh.enabled = false;
+
+        returnButton.alpha = 1;
+        returnButton.interactable = true;
+    }
+
+
 
     // 다시 리셋시키자.
     void OnClick()
@@ -101,28 +135,30 @@ public class GameUI : MonoBehaviour
             //StartCoroutine("CountOverImageAnimation");
             anim.Play("CountOverAnimation");
         }
-        
+
     }
+
+
+
 
     void OnClear()
     {
         print("GameUI OnClear");
 
+
         if (clearImage != null)
         {
             //StartCoroutine("ClearImageAnimation");
+            HideOtherUI();
             anim.Play("ClearAnimation");
         }
 
-
-
-        
     }
 
     public void AfterClearAnimation()
     {
         StarController starContainer = Instantiate(starContainerPrefab, transform);
-
+        starContainer.transform.parent = clearImage.transform;
         starContainer.tier = playerManager.currentGrid;
         starContainer.PlayAnimation();
 
@@ -138,7 +174,14 @@ public class GameUI : MonoBehaviour
         starContainer.PlayAnimation();
     }
 
-    
+    public void FisnishClearAnimation()
+    {
+        clearImage.enabled = false;
+        clearImage.GetComponentInChildren<StarController>().Vanish();
+
+
+
+    }
 
 
     //IEnumerator ClearImageAnimation()
@@ -153,23 +196,23 @@ public class GameUI : MonoBehaviour
     //        yield return null;
     //    }
 
-        
+
 
     //    //yield return new WaitForSeconds(0.2f);
     //}
 
-    IEnumerator CountOverImageAnimation()
-    {
-        float speed = 1;
-        float animatePercent = 0;
-        while (animatePercent < 1)
-        {
-            animatePercent += Time.deltaTime * speed;
-            countOverImage.anchoredPosition = Vector2.up * Mathf.Lerp(-1000, 0, animatePercent);
+    //IEnumerator CountOverImageAnimation()
+    //{
+    //    float speed = 1;
+    //    float animatePercent = 0;
+    //    while (animatePercent < 1)
+    //    {
+    //        animatePercent += Time.deltaTime * speed;
+    //        countOverImage.anchoredPosition = Vector2.up * Mathf.Lerp(-1000, 0, animatePercent);
 
-            yield return null;
-        }
-        
+    //        yield return null;
+    //    }
 
-    }
+
+    //}
 }

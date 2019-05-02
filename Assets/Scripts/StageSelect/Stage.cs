@@ -25,7 +25,7 @@ public class Stage : MonoBehaviour
         stageButton.GetComponent<StageButton>().stageID = stageID;
         stageButton.interactable = true;
 
-        print("Stage ID : " + stageID);
+        
 
         
 

@@ -21,6 +21,8 @@ public class StageSelect : MonoBehaviour
         buttons = GetComponents<Button>();
 
         Deploy();
+
+        print("CurrentGrid = " + playerManager.currentGrid);
     }
 
     void Deploy()

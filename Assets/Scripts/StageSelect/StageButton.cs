@@ -21,13 +21,20 @@ public class StageButton : MonoBehaviour
         
         playerManager.currentStage = stageID;
 
+
+
+
+
+
+
+        if (playerManager.isGalleryMode)
+        {
+            SceneManager.LoadScene("Gallery");
+        }
+        else
+        {
+            SceneManager.LoadScene("Main");
+        }
         
-
-
-
-
-
-
-        SceneManager.LoadScene("Main");
     }
 }

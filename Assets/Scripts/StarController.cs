@@ -68,6 +68,13 @@ public class StarController : MonoBehaviour
         }
     }
 
+    public void Vanish()
+    {
+        leftStar.enabled = false;
+        centerStar.enabled = false;
+        rightStar.enabled = false;
+    }
+
 
     // StarAnimation 에서 티어별로 계속 체크함
     public void CheckTier()

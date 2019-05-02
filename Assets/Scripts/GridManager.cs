@@ -39,6 +39,7 @@ public class GridManager : MonoBehaviour
         // 스테이지 정보 초기화 (별 갯수)
         playerManager.currentGrid = 0;
 
+        
 
 
         for(int i=0;i<numberOfGrids;i++)
@@ -109,6 +110,8 @@ public class GridManager : MonoBehaviour
             CurrentTop -= 1;
 
             gridScript[CurrentTop].isTopGrid = true;
+
+            
 
             GridCleared();
         }

@@ -6,7 +6,7 @@ public class PlayerManager : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public static PlayerManager instance;
+    private static PlayerManager instance;
     // 골드는 표시용
     int gold;
 
@@ -19,7 +19,7 @@ public class PlayerManager : MonoBehaviour
     public int currentStage;
     public int currentDifficulty;
     public int[] minesByDifficulty = { 3, 2, 1, 25 };
-    public int[] countByDifficulty = { 3, 3, 3 };
+    public int[] countByDifficulty = { 3, 15, 9 };
     public int currentGrid = 0;
 
     // 혼자만 알지말고 다른 애들도 좀 알려줘라
@@ -32,19 +32,22 @@ public class PlayerManager : MonoBehaviour
 
     // 조건값 
     public bool isAnimationPlaying = false;
+    public bool isGalleryMode = false;
 
 
-    public string[] stageNames = { "lila_", "lilith_" };
+    public string[] stageNames = { "lila", "lilith" };
+
+    public static PlayerManager Instance { get => instance; set => instance = value; }
 
     private void Awake()
     {
-        if (instance != null)
+        if (Instance != null)
         {
             Destroy(gameObject);
         }
         else
         {
-            instance = this;
+            Instance = this;
 
             DontDestroyOnLoad(gameObject);
 
