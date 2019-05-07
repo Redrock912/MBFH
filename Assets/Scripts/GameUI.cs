@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,13 +10,14 @@ public class GameUI : MonoBehaviour
 
     public Image clearImage;
     public Image countOverImage;
-    public Text gachaUI;
-    public Text bombUI;
-    public Text layerUI;
-    public Text scoreUI;
+    public TextMeshProUGUI gachaUI;
+    public TextMeshProUGUI bombUI;
+    public TextMeshProUGUI layerUI;
+    public TextMeshProUGUI scoreUI;
     public Text layerTextMesh;
     public Text bombTextMesh;
     public Text gachaTextMesh;
+    public TextMeshProUGUI stageNameTMP;
     public CanvasGroup returnButton;
 
     public RawImage upperUI;
@@ -55,6 +57,8 @@ public class GameUI : MonoBehaviour
         // 처음에는 숨겨두고
         returnButton.alpha = 0;
         returnButton.interactable = false;
+
+        stageNameTMP.text = playerManager.stageNames[playerManager.currentStage];
     }
 
     // Update is called once per frame
@@ -77,6 +81,9 @@ public class GameUI : MonoBehaviour
         {
             TimerBarUpdate();
         }
+
+
+
 
     }
 

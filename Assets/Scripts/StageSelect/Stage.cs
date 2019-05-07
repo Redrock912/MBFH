@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using TMPro;
 
 public class Stage : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class Stage : MonoBehaviour
 
     public StarController starContainerPrefab;
     public Transform starHolder;
+    public Image backgroundImage;
+    public TextMeshProUGUI tmpText;
     private void Start()
     {
 
@@ -21,18 +24,32 @@ public class Stage : MonoBehaviour
         //{
         //    buttonLists[i].GetComponent<StageButton>().stageID = stageID;
         //}
+        PlayerManager playerManager = PlayerManager.Instance;
 
-        stageButton.GetComponent<StageButton>().stageID = stageID;
+
+        Sprite[] stageSprite;
+
+        stageSprite = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + playerManager.stageNames[stageID]);
+        stageTier = PlayerPrefs.GetInt("stage" + stageID, 0);
+
+        tmpText.text = playerManager.stageNames[stageID];
+
+
         stageButton.interactable = true;
-
-        
-
-        
 
         StarController starContainer = Instantiate(starContainerPrefab, starHolder);
         starContainer.tier = stageTier;
         starContainer.DisplayStageSelect();
 
+
+        if (stageTier == 0)
+        {
+            GetComponentInChildren<Image>().sprite = stageSprite[3];
+        }
+        else
+        {
+            GetComponentInChildren<Image>().sprite = stageSprite[stageTier - 1];
+        }
 
     }
 
