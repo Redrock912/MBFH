@@ -53,7 +53,7 @@ public class PlayerInput : MonoBehaviour
             {
                 GridScript tempGrid = tempTile.parentGrid;
 
-                if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true)
+                if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true && !playerManager.isPaused)
                 {
                     // 타일을 까도록하자.
 
@@ -85,7 +85,7 @@ public class PlayerInput : MonoBehaviour
             {
                 BackgroundSprite backgroundSprite = hit.transform.GetComponent<BackgroundSprite>();
                 print(hit.transform);
-                if (Input.GetMouseButtonDown(0) && backgroundSprite && backgroundSprite.isInteractive == true)
+                if (Input.GetMouseButtonDown(0) && backgroundSprite && backgroundSprite.isInteractive == true && !playerManager.isPaused)
                 {
                     backgroundSprite.ShowNextGrid();
                 }

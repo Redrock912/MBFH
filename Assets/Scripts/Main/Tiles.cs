@@ -342,7 +342,7 @@ public class Tiles : MonoBehaviour
             //StartCoroutine("ExplosionEffectTimer");
             Explode();
             //ChainExplosion();
-            
+            parentGrid.playerManager.AddScore(5);
 
         }
         else

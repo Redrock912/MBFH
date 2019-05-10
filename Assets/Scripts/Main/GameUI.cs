@@ -14,21 +14,29 @@ public class GameUI : MonoBehaviour
     public TextMeshProUGUI bombUI;
     public TextMeshProUGUI layerUI;
     public TextMeshProUGUI scoreUI;
-    public Text layerTextMesh;
-    public Text bombTextMesh;
-    public Text gachaTextMesh;
+    public TextMeshProUGUI scoreTMP;
+    public TextMeshProUGUI layerTextMesh;
+    public TextMeshProUGUI bombTextMesh;
+    public TextMeshProUGUI gachaTextMesh;
     public TextMeshProUGUI stageNameTMP;
+    public TextMeshProUGUI timerTMP;
+    public Button pauseButton;
+
     public CanvasGroup returnButton;
+    public CanvasGroup pauseMenu;
+    
 
     public RawImage upperUI;
     public Image timerBar;
+    public Image timerBarBackground;
 
     public StarController starContainerPrefab;
 
     Animation anim;
     public float maxTime = 5.0f;
     float leftTime = 0f;
-
+    bool isPaused = false;
+    
     PlayerManager playerManager;
     GridManager gridManager;
 
@@ -82,7 +90,7 @@ public class GameUI : MonoBehaviour
             TimerBarUpdate();
         }
 
-
+        scoreUI.text = (playerManager.currentScore).ToString("D6");
 
 
     }
@@ -116,14 +124,14 @@ public class GameUI : MonoBehaviour
         gachaUI.enabled = false;
         bombUI.enabled = false;
         layerUI.enabled = false;
-        scoreUI.enabled = false;
+        
         timerBar.enabled = false;
+        timerBarBackground.enabled = false;
         layerTextMesh.enabled = false;
         bombTextMesh.enabled = false;
         gachaTextMesh.enabled = false;
-
-        returnButton.alpha = 1;
-        returnButton.interactable = true;
+        timerTMP.enabled = false;
+        pauseButton.enabled = false;
     }
 
 
@@ -146,7 +154,7 @@ public class GameUI : MonoBehaviour
     }
 
 
-
+    
 
     void OnClear()
     {
@@ -157,7 +165,10 @@ public class GameUI : MonoBehaviour
         {
             //StartCoroutine("ClearImageAnimation");
             HideOtherUI();
+            returnButton.alpha = 1;
+            returnButton.interactable = true;
             anim.Play("ClearAnimation");
+           
         }
 
     }
@@ -190,6 +201,26 @@ public class GameUI : MonoBehaviour
 
     }
 
+    public void OnPause()
+    {
+        isPaused = !isPaused;
+
+        playerManager.isPaused = isPaused;
+
+        if (isPaused)
+        {
+            Time.timeScale = 0;
+            pauseMenu.alpha = 1;
+            pauseMenu.interactable = true;
+        }
+        else
+        {
+            Time.timeScale = 1;
+            pauseMenu.alpha = 0;
+            pauseMenu.interactable = false;
+        }
+
+    }
 
     //IEnumerator ClearImageAnimation()
     //{

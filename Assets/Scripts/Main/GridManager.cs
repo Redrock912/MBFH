@@ -38,6 +38,7 @@ public class GridManager : MonoBehaviour
         playerManager = FindObjectOfType<PlayerManager>();
         // 스테이지 정보 초기화 (별 갯수)
         playerManager.currentGrid = 0;
+        playerManager.ResetScore();
 
         
 

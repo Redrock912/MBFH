@@ -12,6 +12,7 @@ public class PlayerManager : MonoBehaviour
 
     // 카운트는 게임 로직용, 실제로 이 값을 지정하는 로직은 GridManager
     public int count = 15;
+    public int currentScore = 0;
 
     // 진행도, 귀찮지만 하두코딩
     public int[] stageList = { 1 };
@@ -33,6 +34,7 @@ public class PlayerManager : MonoBehaviour
     // 조건값 
     public bool isAnimationPlaying = false;
     public bool isGalleryMode = false;
+    public bool isPaused = false;
 
 
     public string[] stageNames = { "lila", "lilith" };
@@ -206,5 +208,19 @@ public class PlayerManager : MonoBehaviour
     public void SetCurrentCountByDifficulty(int difficulty)
     {
         count = countByDifficulty[difficulty];
+    }
+
+
+
+    // 스코어 관련
+
+    public void ResetScore()
+    {
+        currentScore = 0;
+    }
+
+    public void AddScore(int score)
+    {
+        currentScore += score;
     }
 }

@@ -132,10 +132,15 @@ public class BackgroundSprite : MonoBehaviour
             
             playerManagerRef.SetCurrentCountByDifficulty(id-1);
             playerManagerRef.isAnimationPlaying = false;
+
+            // 남은 갯수를 총합에 추가해주자
+            playerManagerRef.AddScore(playerManagerRef.count * 2);
         }
         else
         {
             // 스테이지를 아예 깻다면
+            // 남은 갯수를 총합에 추가해주자
+            playerManagerRef.AddScore(playerManagerRef.count * 2);
             print("Finished");
         }
 
