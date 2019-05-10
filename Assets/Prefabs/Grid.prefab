@@ -46,18 +46,19 @@ MonoBehaviour:
   tilePrefab: {fileID: 8836446824429007275, guid: c954354deefbd4346901122befcb958d,
     type: 3}
   numberOfTiles: 160
-  distanceX: 1.2
-  distanceY: 1.2
+  distanceX: 0.534
+  distanceY: 0.542
   numberOfMines: 1
   numberOfHidden: 15
   numberOfFlip: 15
   currentMines: 0
   rowLength: 10
-  startingPoint: {fileID: 0}
-  currentSpriteSheet: []
   allTiles: []
   stageName: 
   currentDifficulty: 0
   stageNumber: 0
   playerManager: {fileID: 0}
+  startingPoint: {fileID: 0}
+  currentSpriteSheet: []
   isTopGrid: 0
+  isHidden: 0

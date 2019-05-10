@@ -27,6 +27,7 @@ public class PlayerManager : MonoBehaviour
     public event System.Action OnCountOver;
     public event System.Action OnClear;
     public event System.Action OnClick;
+    public event System.Action OnGridCleared;
 
     GridManager gridManager;
     GridScript gridScript;
@@ -37,7 +38,7 @@ public class PlayerManager : MonoBehaviour
     public bool isPaused = false;
 
 
-    public string[] stageNames = { "lila", "lilith" };
+    public string[] stageNames = { "liia", "lilith" };
 
     public static PlayerManager Instance { get => instance; set => instance = value; }
 
@@ -139,6 +140,7 @@ public class PlayerManager : MonoBehaviour
             }
             else
             {
+                GridCleared();
                 gridManager.SetNextGridToTheTopGrid();
                 
                 //gridScript = gridManager.gridScript[gridManager.CurrentTop];
@@ -204,6 +206,17 @@ public class PlayerManager : MonoBehaviour
         OnClick();
     }
 
+    public void GridCleared()
+    {
+        OnGridCleared();
+    }
+
+    public void ResetGridClearEvents()
+    {
+        OnGridCleared = null;
+    }
+
+
     // 난이도에 따라 시도 횟수 배정
     public void SetCurrentCountByDifficulty(int difficulty)
     {
@@ -222,5 +235,11 @@ public class PlayerManager : MonoBehaviour
     public void AddScore(int score)
     {
         currentScore += score;
+    }
+
+    // 광고 보상용도
+    public void AddCount()
+    {
+        count += countByDifficulty[currentGrid];
     }
 }

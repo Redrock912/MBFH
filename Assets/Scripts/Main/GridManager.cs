@@ -16,7 +16,7 @@ public class GridManager : MonoBehaviour
     // Restart할 경우 이미 사용한 count를 보충해줘야한다.
     PlayerManager playerManager;
 
-    public event System.Action OnGridCleared;
+    //public event System.Action OnGridCleared;
 
     // 갯수
     public int numberOfGrids = 3;
@@ -38,10 +38,11 @@ public class GridManager : MonoBehaviour
         playerManager = FindObjectOfType<PlayerManager>();
         // 스테이지 정보 초기화 (별 갯수)
         playerManager.currentGrid = 0;
+        playerManager.isPaused = false; 
         playerManager.ResetScore();
+        playerManager.ResetGridClearEvents();
 
-        
-
+      
 
         for(int i=0;i<numberOfGrids;i++)
         {
@@ -106,15 +107,15 @@ public class GridManager : MonoBehaviour
         if(CurrentTop > 0)
         {
             //
-            backgroundSprite[CurrentTop].isTopGrid = true;
+            
 
             CurrentTop -= 1;
-
+            backgroundSprite[CurrentTop].isTopGrid = true;
             gridScript[CurrentTop].isTopGrid = true;
 
             
 
-            GridCleared();
+            //GridCleared();
         }
         else
         {
@@ -124,9 +125,10 @@ public class GridManager : MonoBehaviour
 
     }
 
-    void GridCleared()
-    {
-        OnGridCleared();
+    //void GridCleared()
+    //{
+    //    OnGridCleared();
         
-    }
+        
+    //}
 }

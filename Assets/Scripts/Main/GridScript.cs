@@ -8,8 +8,8 @@ public class GridScript : MonoBehaviour
 
     // Amount
     public int numberOfTiles = 160;
-     public float distanceX = 1.65f;
-    public float distanceY = 1.75f;
+     public float distanceX = 0.533f;
+    public float distanceY = 0.867f;
     public int numberOfMines = 10;
     public int numberOfHidden = 15;
     public int numberOfFlip = 15;
@@ -72,7 +72,7 @@ public class GridScript : MonoBehaviour
     public void LoadSprite()
     {
         Sprite[] tempSprites;
-        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName + "_" + currentDifficulty);
+        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName + "_B");
 
         currentSpriteSheet = tempSprites;
     }
@@ -99,16 +99,16 @@ public class GridScript : MonoBehaviour
 
         for(int i=0;i<numberOfTiles;i++)
         {
-            // 한 칸씩 옆으로 이동
-            //xOffSet += distanceX;
-            xOffSet += worldScreenWidth / (float)rowLength;
+            // 한 칸씩 옆으로 이동, distanceX => 1024:1080 = x*10 : 5.625 
+            xOffSet += distanceX;
+            //xOffSet += worldScreenWidth / (float)rowLength;
 
             // row row row the boat
             if (i % rowLength == 0)
             {
                 xOffSet = 0;
-                //yOffSet += distanceY;
-                yOffSet += worldScreenWidth / (float)rowLength;
+                yOffSet += distanceY;
+                //yOffSet += worldScreenWidth / (float)rowLength;
                 
             }
             
@@ -130,11 +130,12 @@ public class GridScript : MonoBehaviour
 
        
         }
-
-       
+        
+ 
     }
 
     
+
 
 
     void SetupMine()

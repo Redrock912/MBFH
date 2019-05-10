@@ -35,7 +35,7 @@ public class ChangeScene : MonoBehaviour
         {
             unityAds.ShowRewardedAd();
         }
-
+        Time.timeScale = 1;
         SceneManager.LoadScene("StageSelect");
         AudioManager.instance.PlayMusic(stageSelectTheme, 2);
     }
@@ -48,12 +48,24 @@ public class ChangeScene : MonoBehaviour
             unityAds.ShowRewardedAd();
         }
 
+        Time.timeScale = 1;
         SceneManager.LoadScene("Main");
         AudioManager.instance.PlayMusic(mainTheme, 2);
     }
 
 
+    public void ShowAdThanAddCount()
+    {
+        UnityAds unityAds = FindObjectOfType<UnityAds>();
+        if (unityAds)
+        {
+            unityAds.ShowRewardedAd();
+        }
 
+        PlayerManager playerManager = PlayerManager.Instance;
+        playerManager.AddCount();
+        
+    }
 
     
 

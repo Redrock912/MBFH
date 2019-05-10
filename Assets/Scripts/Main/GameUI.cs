@@ -20,7 +20,7 @@ public class GameUI : MonoBehaviour
     public TextMeshProUGUI gachaTextMesh;
     public TextMeshProUGUI stageNameTMP;
     public TextMeshProUGUI timerTMP;
-    public Button pauseButton;
+    public GameObject pauseButton;
 
     public CanvasGroup returnButton;
     public CanvasGroup pauseMenu;
@@ -131,7 +131,7 @@ public class GameUI : MonoBehaviour
         bombTextMesh.enabled = false;
         gachaTextMesh.enabled = false;
         timerTMP.enabled = false;
-        pauseButton.enabled = false;
+        pauseButton.SetActive(false);
     }
 
 

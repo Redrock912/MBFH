@@ -37,7 +37,7 @@ public class BackgroundSprite : MonoBehaviour
         id = number;
         localTransform = transform;
         
-        parentGridManager.OnGridCleared += OnGridCleared;
+        playerManagerRef.OnGridCleared += OnGridCleared;
     }
 
     public void SetupBackground()
@@ -45,7 +45,7 @@ public class BackgroundSprite : MonoBehaviour
         //print(stageName);
         //print(currentDifficulty);
 
-        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "_B");
+        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "_" + id);
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = background;
 
@@ -70,7 +70,8 @@ public class BackgroundSprite : MonoBehaviour
 
         // w * (1/8) , 1/8 = tile size
         float modifiedWidth = (worldScreenWidth / width);
-
+        modifiedWidth = modifiedWidth * 0.948f;
+        modifiedHeight = modifiedHeight * 0.867f;
         // 여기서부터!!!
 
         transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
@@ -106,6 +107,7 @@ public class BackgroundSprite : MonoBehaviour
 
 
         anim.Play("LiiaClear1");
+        
         yield return new WaitForSeconds(2.0f);
         
 
@@ -141,7 +143,7 @@ public class BackgroundSprite : MonoBehaviour
             // 스테이지를 아예 깻다면
             // 남은 갯수를 총합에 추가해주자
             playerManagerRef.AddScore(playerManagerRef.count * 2);
-            print("Finished");
+            
         }
 
     }

@@ -57,14 +57,7 @@ public class Tiles : MonoBehaviour
         cubeController = gameObject.GetComponentInChildren<CubeController>();
 
         anim = GetComponent<Animation>();
-        if (anim)
-        {
-            print(anim);
-        }
-        else
-        {
-            print("None");
-        }
+
     }
 
 
