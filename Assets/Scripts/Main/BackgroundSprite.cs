@@ -24,6 +24,16 @@ public class BackgroundSprite : MonoBehaviour
     PlayerManager playerManagerRef;
     public int id = 0;
 
+    GameUI currentGameUI;
+
+    private void Start()
+    {
+        currentGameUI = FindObjectOfType<GameUI>();
+
+    }
+
+
+
     public void SetupStageInfo( PlayerManager playerManager, GridManager gridManager, int number)
     {
 
@@ -38,7 +48,18 @@ public class BackgroundSprite : MonoBehaviour
         localTransform = transform;
         
         playerManagerRef.OnGridCleared += OnGridCleared;
+
+        SetupAnimation();
     }
+
+    void SetupAnimation()
+    {
+        AnimationClip animClip = Resources.Load<AnimationClip>("Animations/" + stageName + "Animation");
+        anim.AddClip(animClip, stageName);
+        
+        //anim.AddClip(animClip, stageName);
+    }
+
 
     public void SetupBackground()
     {
@@ -88,6 +109,11 @@ public class BackgroundSprite : MonoBehaviour
         boxCollider.size = new Vector3(x, y, 1);
     }
 
+    public void HideOtherUI()
+    {
+        currentGameUI.gameObject.SetActive(false) ;
+    }
+
     void OnGridCleared()
     {
         if (isTopGrid)
@@ -106,7 +132,7 @@ public class BackgroundSprite : MonoBehaviour
         //print(localPosition);
 
 
-        anim.Play("LiiaClear1");
+        anim.Play(stageName);
         
         yield return new WaitForSeconds(2.0f);
         
@@ -117,9 +143,9 @@ public class BackgroundSprite : MonoBehaviour
     void AnimationFinished()
     {
         isInteractive = true;
-        
-        
 
+        
+        currentGameUI.gameObject.SetActive(true);
     }
 
     public void ShowNextGrid()

@@ -36,7 +36,7 @@ public class PlayerManager : MonoBehaviour
     public bool isAnimationPlaying = false;
     public bool isGalleryMode = false;
     public bool isPaused = false;
-
+    public int seenTutorial = 0;
 
     public string[] stageNames = { "liia", "lilith" };
 
@@ -87,6 +87,16 @@ public class PlayerManager : MonoBehaviour
                 stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
             }
 
+        }
+
+        if (PlayerPrefs.HasKey("tutorial"))
+        {
+            seenTutorial = PlayerPrefs.GetInt("tutorial");
+        }
+        else
+        {
+            PlayerPrefs.SetInt("tutorial", 0);
+            
         }
 
     }

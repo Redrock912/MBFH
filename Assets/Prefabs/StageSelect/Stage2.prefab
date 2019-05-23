@@ -63,7 +63,7 @@ MonoBehaviour:
   stageID: 0
   stageTier: 0
   stageButton: {fileID: 9196646230395844141}
-  starContainerPrefab: {fileID: 4624725672148601918, guid: 5051c70cf8041a3429eb0abfdd3590d7,
+  starContainerPrefab: {fileID: 4624725672148601918, guid: 3aaa748ecd21a444cb329f9dafbc53f4,
     type: 3}
   starHolder: {fileID: 678831035197714884}
   backgroundImage: {fileID: 0}
@@ -243,7 +243,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 355}
+  m_AnchoredPosition: {x: -190, y: 199}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &8375024416236999066
