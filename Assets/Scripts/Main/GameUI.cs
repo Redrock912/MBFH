@@ -30,6 +30,8 @@ public class GameUI : MonoBehaviour
     public Image timerBar;
     public Image timerBarBackground;
 
+    public Transform[] menuLists;
+
     public StarController starContainerPrefab;
 
     Animation anim;
@@ -220,6 +222,19 @@ public class GameUI : MonoBehaviour
             pauseMenu.interactable = false;
         }
 
+        
+
+    }
+
+    public void DisableOtherMenus(GameObject exceptThisObject)
+    {
+        for(int i = 0; i < menuLists.Length; i++)
+        {
+            if(menuLists[i].gameObject != exceptThisObject)
+            {
+                menuLists[i].gameObject.SetActive(false);
+            }
+        }
     }
 
     //IEnumerator ClearImageAnimation()

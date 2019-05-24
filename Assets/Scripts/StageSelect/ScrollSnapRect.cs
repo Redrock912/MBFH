@@ -110,6 +110,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
 
             // switches selection icon exactly to correct page
             if (_showPageSelection) {
+                
                 SetPageSelection(GetNearestPage());
             }
         }
@@ -197,6 +198,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
                     if (image == null) {
                         Debug.LogWarning("Page selection icon at position " + i + " is missing Image component");
                     }
+                    print("the image is : " + image);
                     _pageSelectionImages.Add(image);
                 }
             }
@@ -258,6 +260,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         _lerp = false;
         // not dragging yet
         _dragging = false;
+        
     }
 
     //------------------------------------------------------------------------
@@ -289,6 +292,8 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
 
     //------------------------------------------------------------------------
     public void OnDrag(PointerEventData aEventData) {
+        
+        
         if (!_dragging) {
             // dragging started
             _dragging = true;
@@ -297,7 +302,10 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
             // save current position of cointainer
             _startPosition = _container.anchoredPosition;
         } else {
-            if (_showPageSelection) {
+
+            if (_showPageSelection)
+            {
+                print("Show nearest Page");
                 SetPageSelection(GetNearestPage());
             }
         }

@@ -269,7 +269,7 @@ public class Tiles : MonoBehaviour
     void SetTileDisplayInfoSize()
     {
         
-        tileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/Tile_1");
+        tileSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/tile_normal_1");
 
         // 기준 점으로 아무나 하나 데려오자
         spriteArray[1].sprite = tileSprite;

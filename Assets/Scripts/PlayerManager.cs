@@ -16,12 +16,18 @@ public class PlayerManager : MonoBehaviour
 
     // 진행도, 귀찮지만 하두코딩
     public int[] stageList = { 1 };
-    public int maxStageNumber = 2;
+    public int maxStageNumber = 6;
+   
+    public int[] tutorialList = { 0 };
+    public int maxTutorialNumber = 3;
+
     public int currentStage;
     public int currentDifficulty;
     public int[] minesByDifficulty = { 3, 2, 1, 25 };
     public int[] countByDifficulty = { 3, 15, 9 };
     public int currentGrid = 0;
+    
+
 
     // 혼자만 알지말고 다른 애들도 좀 알려줘라
     public event System.Action OnCountOver;
@@ -36,9 +42,11 @@ public class PlayerManager : MonoBehaviour
     public bool isAnimationPlaying = false;
     public bool isGalleryMode = false;
     public bool isPaused = false;
-    public int seenTutorial = 0;
+    public bool isSeeingTutorial = false;
+    
 
-    public string[] stageNames = { "liia", "lilith" };
+    // 왜 프리팹으로 만들어서 고생하는가..
+    public string[] stageNames = { "liia", "lilith","msg","megu","wasabi","yuki" };
 
     public static PlayerManager Instance { get => instance; set => instance = value; }
 
@@ -70,7 +78,7 @@ public class PlayerManager : MonoBehaviour
         FindGridManager();
 
         stageList = new int[maxStageNumber];
-
+        tutorialList = new int[maxTutorialNumber];
 
 
         // 플레이어 정보가져오기 (게임 시작 시 사용할 용도) , 뒤에 파라미터는 디폴트값
@@ -89,14 +97,18 @@ public class PlayerManager : MonoBehaviour
 
         }
 
-        if (PlayerPrefs.HasKey("tutorial"))
+        // 튜토리얼을 어디까지 보았는지 체크
+        for(int i = 0; i < maxTutorialNumber; i++)
         {
-            seenTutorial = PlayerPrefs.GetInt("tutorial");
-        }
-        else
-        {
-            PlayerPrefs.SetInt("tutorial", 0);
-            
+            if (PlayerPrefs.HasKey("tutorial" + i))
+            {
+                tutorialList[i] = PlayerPrefs.GetInt("tutorial" + i, 0);
+            }
+            else
+            {
+                PlayerPrefs.SetInt("tutorial" + i, 0);
+                stageList[i] = PlayerPrefs.GetInt("tutorial" + i, 0);
+            }
         }
 
     }

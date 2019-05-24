@@ -9,7 +9,7 @@ public class BackgroundSprite : MonoBehaviour
     public string stageName;
     public int currentDifficulty;
 
-    BoxCollider boxCollider;
+    public BoxCollider boxCollider;
 
     Animation anim;
 
@@ -30,6 +30,8 @@ public class BackgroundSprite : MonoBehaviour
     {
         currentGameUI = FindObjectOfType<GameUI>();
 
+
+      
     }
 
 
@@ -66,7 +68,7 @@ public class BackgroundSprite : MonoBehaviour
         //print(stageName);
         //print(currentDifficulty);
 
-        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName + "_" + id);
+        background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName +"/" + stageName + "_" + id);
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
         spriteRenderer.sprite = background;
 
@@ -111,7 +113,7 @@ public class BackgroundSprite : MonoBehaviour
 
     public void HideOtherUI()
     {
-        currentGameUI.gameObject.SetActive(false) ;
+        currentGameUI.gameObject.SetActive(false);
     }
 
     void OnGridCleared()
@@ -144,7 +146,7 @@ public class BackgroundSprite : MonoBehaviour
     {
         isInteractive = true;
 
-        
+
         currentGameUI.gameObject.SetActive(true);
     }
 

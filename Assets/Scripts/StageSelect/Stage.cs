@@ -29,6 +29,7 @@ public class Stage : MonoBehaviour
 
         Sprite[] stageSprite;
 
+   
         stageSprite = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + playerManager.stageNames[stageID]);
         stageTier = PlayerPrefs.GetInt("stage" + stageID, 0);
 

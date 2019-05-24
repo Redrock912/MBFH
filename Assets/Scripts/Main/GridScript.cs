@@ -72,7 +72,7 @@ public class GridScript : MonoBehaviour
     public void LoadSprite()
     {
         Sprite[] tempSprites;
-        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName + "_B");
+        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName +"/" + stageName + "_B");
 
         currentSpriteSheet = tempSprites;
     }
