@@ -35,23 +35,15 @@ public class Stage : MonoBehaviour
         stageSprite = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + playerManager.stageNames[stageID]);
         stageTier = PlayerPrefs.GetInt("stage" + stageID, 0);
 
-        if (stageTier == 0)
-        {
-            GetComponentInChildren<Image>().sprite = stageSprite[3];
-        }
-        else
-        {
-            if ((3 - stageTier) >=0)
-            {
-                GetComponentInChildren<Image>().sprite = stageSprite[3 - stageTier];
-            }
-            
-        }
-
 
         // is it unlocked?
         if (playerManager.levelUnlocked >= stageID)
         {
+            if ((3 - stageTier) >= 0)
+            {
+                GetComponentInChildren<Image>().sprite = stageSprite[3 - stageTier];
+            }
+
             tmpText.text = playerManager.stageNames[stageID];
             stageButton.interactable = true;
             StarController starContainer = Instantiate(starContainerPrefab, starHolder);
@@ -60,6 +52,7 @@ public class Stage : MonoBehaviour
         }
         else
         {
+            GetComponentInChildren<Image>().sprite = stageSprite[3];
             lockImage.enabled = true;
             tmpText.text = "???";
             stageButton.interactable = false;

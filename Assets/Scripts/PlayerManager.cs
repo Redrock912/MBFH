@@ -25,10 +25,20 @@ public class PlayerManager : MonoBehaviour
 
     public int currentStage;
     public int currentDifficulty;
-    public int[] minesByDifficulty = { 3, 2, 1, 25 };
-    public int[] countByDifficulty = { 3, 15, 9 };
     public int currentGrid = 0;
-   
+    public int[] minesByDifficulty = { 3, 2, 1};
+    public int[] countByDifficulty = { 3, 15, 9 };
+    public int[] hiddensByDifficulty = { 0, 0, 0 };
+    public int[] flipsByDifficulty = { 0, 0, 0 };
+  
+
+    // 타일들의 사용여부를 확인하기 위한 용도
+    // 0 = 노말타일
+    // 1 = 숨겨진 타일
+    // 2 = 플립타일
+    // 3 = 복합
+    public enum State { Normal, Qtype,Flip,Hybrid};
+    public State[] mineStateByStage;
 
 
     // 혼자만 알지말고 다른 애들도 좀 알려줘라
@@ -291,7 +301,10 @@ public class PlayerManager : MonoBehaviour
     // 난이도에 따라 시도 횟수 배정
     public void SetCurrentCountByDifficulty(int difficulty)
     {
-        count = countByDifficulty[difficulty];
+        int dataLocation = difficulty + currentStage * 3;
+
+
+        count = countByDifficulty[dataLocation];
     }
 
 

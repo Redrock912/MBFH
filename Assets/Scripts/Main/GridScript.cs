@@ -8,7 +8,7 @@ public class GridScript : MonoBehaviour
 
     // Amount
     public int numberOfTiles = 160;
-     public float distanceX = 0.533f;
+    public float distanceX = 0.533f;
     public float distanceY = 0.867f;
     public int numberOfMines = 10;
     public int numberOfHidden = 15;
@@ -18,17 +18,17 @@ public class GridScript : MonoBehaviour
 
 
     // Tiles
-    public  Tiles[]   allTiles;        
-    public  ArrayList plainTiles;
-    public  ArrayList mineTiles;
+    public Tiles[] allTiles;
+    public ArrayList plainTiles;
+    public ArrayList mineTiles;
     public ArrayList hiddenTiles;
     public ArrayList flipTiles;
     public static Queue<Tiles> explosionTiles;
 
     public string stageName;
     public int currentDifficulty;
-    public int stageNumber = 0;
-    
+    public int currentStage = 0;
+
 
     public PlayerManager playerManager;
     public Transform startingPoint;
@@ -39,7 +39,8 @@ public class GridScript : MonoBehaviour
 
     public void SetupStageInfo(int i, PlayerManager playerManager)
     {
-        stageName = playerManager.stageNames[playerManager.currentStage];
+        currentStage = playerManager.currentStage;
+        stageName = playerManager.stageNames[currentStage];
         //currentDifficulty = playerManager.currentDifficulty + i;
     }
 
@@ -72,7 +73,7 @@ public class GridScript : MonoBehaviour
     public void LoadSprite()
     {
         Sprite[] tempSprites;
-        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName +"/" + stageName + "_B");
+        tempSprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName + "/" + stageName + "_B");
 
         currentSpriteSheet = tempSprites;
     }
@@ -80,10 +81,10 @@ public class GridScript : MonoBehaviour
 
 
 
-  
+
     public void CreateTiles()
     {
-        
+
         allTiles = new Tiles[numberOfTiles];
         explosionTiles = new Queue<Tiles>();
 
@@ -91,13 +92,13 @@ public class GridScript : MonoBehaviour
         float worldScreenHeight = Camera.main.orthographicSize * 2.0f;
         float worldScreenWidth = worldScreenHeight / Screen.height * Screen.width;
 
-        
+
 
         float xOffSet = 0f;
         float yOffSet = 0f;
         int count = 0;
 
-        for(int i=0;i<numberOfTiles;i++)
+        for (int i = 0; i < numberOfTiles; i++)
         {
             // 한 칸씩 옆으로 이동, distanceX => 1024:1080 = x*10 : 5.625 
             xOffSet += distanceX;
@@ -109,9 +110,9 @@ public class GridScript : MonoBehaviour
                 xOffSet = 0;
                 yOffSet += distanceY;
                 //yOffSet += worldScreenWidth / (float)rowLength;
-                
+
             }
-            
+
             //float startingPointX = (float)(Screen.width / (numberOfMines*2));
             //float startingPointY = (float)(Screen.height / (numberOfMines * 7 / 10));
             //startingPoint.SetPositionAndRotation(new Vector3(startingPointX,startingPointY,0), Quaternion.identity);
@@ -121,43 +122,44 @@ public class GridScript : MonoBehaviour
             // 이 코드로 위치를 수정할지는 모르지만 일단 보류
             //spawnedTile.transform.localScale *= 2;
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            spawnedTile.GetComponent<Tiles>().SetData(stageName, currentSpriteSheet[i],rowLength);
+            spawnedTile.GetComponent<Tiles>().SetData(stageName, currentSpriteSheet[i], rowLength);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;
 
-            
+
             allTiles[i] = spawnedTile;
 
-       
+
         }
-        
- 
+
+
     }
 
-    
+
 
 
 
     void SetupMine()
     {
         // 난이도에 따라 지뢰개수를 달리한다.
-        numberOfMines = playerManager.minesByDifficulty[currentDifficulty];
-        
+        int dataLocation = currentDifficulty + currentStage * 3;
+
+        numberOfMines = playerManager.minesByDifficulty[dataLocation];
+
 
 
         plainTiles = new ArrayList(allTiles);
-        
+
         // why is this null?
         // plainTiles.CopyTo(allTiles);
 
         mineTiles = new ArrayList();
-        
-        for(int i=0;i<numberOfMines;i++)
+
+        for (int i = 0; i < numberOfMines; i++)
         {
-            
-            Tiles currentTile = (Tiles)plainTiles[Random.Range(0,plainTiles.Count)];
+
+            Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
             currentTile.GetComponent<Tiles>().isMine = true;
-            
 
             mineTiles.Add(currentTile);
             plainTiles.Remove(currentTile);
@@ -172,43 +174,67 @@ public class GridScript : MonoBehaviour
     void SetupHiddenTile()
     {
 
-        hiddenTiles = new ArrayList();
-
         
-        for (int i = 0; i < numberOfHidden; i++)
+        // 해당하는 스테이지에서만 작업
+        if (playerManager.mineStateByStage[currentStage] == PlayerManager.State.Qtype || playerManager.mineStateByStage[currentStage] == PlayerManager.State.Hybrid)
         {
-            Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
-            currentTile.GetComponent<Tiles>().isHidden = true;
+            hiddenTiles = new ArrayList();
 
-            hiddenTiles.Add(currentTile);
-            plainTiles.Remove(currentTile);
+            // 1 스테이지는 3개의 난이도로 구성, 따라서 3개가 넘어갈때마다 다음 스테이지 정보다
+            int dataLocation = currentStage * 3 + currentDifficulty;
+            numberOfHidden = playerManager.hiddensByDifficulty[dataLocation];
+
+
+            for (int i = 0; i < numberOfHidden; i++)
+            {
+                Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
+                currentTile.GetComponent<Tiles>().isHidden = true;
+
+                hiddenTiles.Add(currentTile);
+                plainTiles.Remove(currentTile);
+            }
+
         }
 
+
         // 여기서 값을 미리 바꿔놓자
-        
+
     }
 
     void SetupFlipTile()
     {
-        flipTiles = new ArrayList();
+        
 
-        for(int i = 0; i < numberOfFlip; i++)
+        // 플립이거나 복합일때만 만들어
+        if (playerManager.mineStateByStage[currentStage] == PlayerManager.State.Flip || playerManager.mineStateByStage[currentStage] == PlayerManager.State.Hybrid)
         {
-            Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
-            
-            // 생각해보니 이 부분은 없어도 될듯?
-            //currentTile.GetComponent<Tiles>().isFlip = true;
+            flipTiles = new ArrayList();
+
+            // 1 스테이지는 3개의 난이도로 구성, 따라서 3개가 넘어갈때마다 다음 스테이지 정보다
+            int dataLocation = currentStage * 3 + currentDifficulty;
+            numberOfFlip = playerManager.flipsByDifficulty[dataLocation];
+
+            for (int i = 0; i < numberOfFlip; i++)
+            {
+                Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
+
+                // 생각해보니 이 부분은 없어도 될듯?
+                //currentTile.GetComponent<Tiles>().isFlip = true;
 
 
-            flipTiles.Add(currentTile);
-            plainTiles.Remove(currentTile);
+                flipTiles.Add(currentTile);
+                plainTiles.Remove(currentTile);
+            }
         }
+
+
+          
     }
 
 
     void SetupAdjacentTiles()
     {
-        for(int i=0;i<allTiles.Length;i++)
+        for (int i = 0; i < allTiles.Length; i++)
         {
             allTiles[i].SetNeighbor();
             allTiles[i].SetTileNumber();
@@ -218,23 +244,27 @@ public class GridScript : MonoBehaviour
 
     public void FlipTilesToBaseState()
     {
-        for (int i = 0; i < flipTiles.Count; i++)
+        if (playerManager.mineStateByStage[currentStage] == PlayerManager.State.Flip || playerManager.mineStateByStage[currentStage] == PlayerManager.State.Hybrid)
         {
-
-            Tiles currentTile = (Tiles)flipTiles[i];
-
-            if (currentTile.isRevealedThisTurn == true)
+            for (int i = 0; i < flipTiles.Count; i++)
             {
-                currentTile.isRevealedThisTurn = false;
-            }
-            else
-            {
-                currentTile.Flip();
+
+                Tiles currentTile = (Tiles)flipTiles[i];
+
+                if (currentTile.isRevealedThisTurn == true)
+                {
+                    currentTile.isRevealedThisTurn = false;
+                }
+                else
+                {
+                    currentTile.Flip();
+                }
             }
         }
+            
     }
 
-    
+
     public void HideAllTiles()
     {
         isHidden = true;
@@ -250,6 +280,6 @@ public class GridScript : MonoBehaviour
         }
     }
 
-    
+
 
 }
