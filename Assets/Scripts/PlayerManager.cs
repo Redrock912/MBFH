@@ -9,6 +9,7 @@ public class PlayerManager : MonoBehaviour
     private static PlayerManager instance;
     // 골드는 표시용
     int gold;
+    
 
     // 카운트는 게임 로직용, 실제로 이 값을 지정하는 로직은 GridManager
     public int count = 15;
@@ -17,7 +18,8 @@ public class PlayerManager : MonoBehaviour
     // 진행도, 귀찮지만 하두코딩
     public int[] stageList = { 1 };
     public int maxStageNumber = 6;
-   
+    public int levelUnlocked = 0;
+
     public int[] tutorialList = { 0 };
     public int maxTutorialNumber = 3;
 
@@ -26,7 +28,7 @@ public class PlayerManager : MonoBehaviour
     public int[] minesByDifficulty = { 3, 2, 1, 25 };
     public int[] countByDifficulty = { 3, 15, 9 };
     public int currentGrid = 0;
-    
+   
 
 
     // 혼자만 알지말고 다른 애들도 좀 알려줘라
@@ -43,6 +45,7 @@ public class PlayerManager : MonoBehaviour
     public bool isGalleryMode = false;
     public bool isPaused = false;
     public bool isSeeingTutorial = false;
+    public bool isLevelUnlocked = false;
     
 
     // 왜 프리팹으로 만들어서 고생하는가..
@@ -86,11 +89,12 @@ public class PlayerManager : MonoBehaviour
         {
             if (PlayerPrefs.HasKey("stage" + i))
             {
+                print("current stage " + i + " has " + PlayerPrefs.GetInt("stage" + i));
                 stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
             }
             else
             {
-
+               
                 PlayerPrefs.SetInt("stage" + i, 0);
                 stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
             }
@@ -107,10 +111,20 @@ public class PlayerManager : MonoBehaviour
             else
             {
                 PlayerPrefs.SetInt("tutorial" + i, 0);
-                stageList[i] = PlayerPrefs.GetInt("tutorial" + i, 0);
+                tutorialList[i] = PlayerPrefs.GetInt("tutorial" + i, 0);
             }
         }
 
+        // 레벨은 어디까지 뚫었는가
+        if (PlayerPrefs.HasKey("level"))
+        {
+            levelUnlocked = PlayerPrefs.GetInt("level", 0);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("level", 0);
+            levelUnlocked = PlayerPrefs.GetInt("level", 0);
+        }
     }
 
     public void FindGridManager()
@@ -195,6 +209,9 @@ public class PlayerManager : MonoBehaviour
 
         }
 
+        // 언락 레벨
+        UnlockLevel(currentStage);
+
         OnClear();
         // 초기화 해줘야 하나..?
         OnClear = null;
@@ -207,10 +224,17 @@ public class PlayerManager : MonoBehaviour
         // 체크
         if(PlayerPrefs.HasKey("stage"+currentStage))
         {
+
+            print(PlayerPrefs.GetInt("stage" + currentStage));
+            print("compare with");
+            print(currentGrid);
             // 더 크다면 바깥을 더 큰값으로 바꾸자
             if(PlayerPrefs.GetInt("stage"+currentStage)<currentGrid)
             {
                 PlayerPrefs.SetInt("stage" + currentStage, currentGrid);
+
+                UnlockLevel(currentStage);
+
             }
             
         }
@@ -221,6 +245,28 @@ public class PlayerManager : MonoBehaviour
 
         // 일단은 부셔볼까
         // GameObject.Destroy(gameObject);
+    }
+
+
+    // 처음으로 클리어 시에 다음 레벨을 언락한다.
+    void UnlockLevel(int currentLevel)
+    {
+
+        print("Inside UnlockLevel function!");
+
+        // 최종 레벨이면 하지말자, 그리고 현재 가장 높은 레벨을 기준으로 하자
+        if(currentLevel < maxStageNumber-1 && levelUnlocked == currentLevel)
+        {
+
+            print("Really Inside!");
+            if(PlayerPrefs.HasKey("stage" + (currentLevel + 1)))
+            {
+                print("INSIDEINSIDE!!!");
+                isLevelUnlocked = true;
+                levelUnlocked += 1;
+                PlayerPrefs.SetInt("level", levelUnlocked);
+            }
+        }
     }
 
     public void Click()
@@ -237,6 +283,9 @@ public class PlayerManager : MonoBehaviour
     {
         OnGridCleared = null;
     }
+
+
+
 
 
     // 난이도에 따라 시도 횟수 배정

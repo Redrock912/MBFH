@@ -9,6 +9,7 @@ public class Stage : MonoBehaviour
     PlayerManager playerManager;
     public int stageID;
     public int stageTier;
+    public bool isStageUnlocked = false;
 
     public Button stageButton;
 
@@ -16,6 +17,7 @@ public class Stage : MonoBehaviour
     public Transform starHolder;
     public Image backgroundImage;
     public TextMeshProUGUI tmpText;
+    public Image lockImage;
     private void Start()
     {
 
@@ -33,23 +35,34 @@ public class Stage : MonoBehaviour
         stageSprite = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + playerManager.stageNames[stageID]);
         stageTier = PlayerPrefs.GetInt("stage" + stageID, 0);
 
-        tmpText.text = playerManager.stageNames[stageID];
-
-
-        stageButton.interactable = true;
-
-        StarController starContainer = Instantiate(starContainerPrefab, starHolder);
-        starContainer.tier = stageTier;
-        starContainer.DisplayStageSelect();
-
-
         if (stageTier == 0)
         {
             GetComponentInChildren<Image>().sprite = stageSprite[3];
         }
         else
         {
-            GetComponentInChildren<Image>().sprite = stageSprite[stageTier - 1];
+            if ((3 - stageTier) >=0)
+            {
+                GetComponentInChildren<Image>().sprite = stageSprite[3 - stageTier];
+            }
+            
+        }
+
+
+        // is it unlocked?
+        if (playerManager.levelUnlocked >= stageID)
+        {
+            tmpText.text = playerManager.stageNames[stageID];
+            stageButton.interactable = true;
+            StarController starContainer = Instantiate(starContainerPrefab, starHolder);
+            starContainer.tier = stageTier;
+            starContainer.DisplayStageSelect();
+        }
+        else
+        {
+            lockImage.enabled = true;
+            tmpText.text = "???";
+            stageButton.interactable = false;
         }
 
     }

@@ -59,6 +59,9 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
     // container with Image components - one Image for each page
     private List<Image> _pageSelectionImages;
 
+    // related to the game itself
+    PlayerManager playerManager;
+
     //------------------------------------------------------------------------
     void Start() {
         _scrollRectComponent = GetComponent<ScrollRect>();
@@ -79,6 +82,10 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         _lerp = false;
 
         // init
+
+        playerManager = PlayerManager.Instance;
+        startingPage = playerManager.levelUnlocked;
+
         SetPagePositions();
         SetPage(startingPage);
         InitPageSelection();

@@ -15,9 +15,15 @@ public class GallerySprite : MonoBehaviour
         {
             stageName = playerManager.stageNames[playerManager.currentStage];
         }
-        
 
-        gallerySprites = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + stageName);
+        // 4 개만 받자
+        gallerySprites = new Sprite[4];
+
+        for(int i = 0; i < 4; i++)
+        {
+            gallerySprites[i] = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName +"/" + stageName + "_" + i);
+        }
+        
 
         // 비율을 맞춰보자
         float width = gallerySprites[0].bounds.size.x;
@@ -32,7 +38,7 @@ public class GallerySprite : MonoBehaviour
         transform.localScale = new Vector3(worldScreenHeight / height, worldScreenHeight / height, 1);
 
         // x1 : x2 = a : 1 ... a= x1/x2
-        GetComponent<SpriteRenderer>().sprite = gallerySprites[0];
+        GetComponent<SpriteRenderer>().sprite = gallerySprites[3];
 
 
 
@@ -40,7 +46,13 @@ public class GallerySprite : MonoBehaviour
 
     public void DisplaySelectedSprite(int i)
     {
-        GetComponent<SpriteRenderer>().sprite = gallerySprites[i];
+        // 0,1,2,b 순으로 저장
+        int reversedIndex = 2 - i;
+        if(reversedIndex>=0)
+        {
+            GetComponent<SpriteRenderer>().sprite = gallerySprites[reversedIndex];
+        }
+        
         
     }
 
