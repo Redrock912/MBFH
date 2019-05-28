@@ -9,17 +9,24 @@ public class CSVReaderTester : MonoBehaviour
     PlayerManager playerManager;
     void Start()
     {
+        StartCoroutine("LoadData");
+    }
+
+    IEnumerator LoadData()
+    {
+        yield return new WaitForEndOfFrame();
+
         playerManager = PlayerManager.Instance;
 
-        List<Dictionary<string, object>> data = CSVReader.Read("Data"); 
+        List<Dictionary<string, object>> data = CSVReader.Read("Data");
 
 
 
-        
-        for(int i = 0; i < data.Count; i++)
+
+        for (int i = 0; i < data.Count; i++)
         {
-            
-            
+
+
             playerManager.minesByDifficulty[i] = (int)data[i]["minesByDifficulty"];
             playerManager.countByDifficulty[i] = (int)data[i]["countsByDifficulty"];
             playerManager.hiddensByDifficulty[i] = (int)data[i]["hiddensByDifficulty"];
