@@ -522,49 +522,6 @@ Transform:
   m_Father: {fileID: 1942284181}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1294689033
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1294689035}
-  - component: {fileID: 1294689034}
-  m_Layer: 0
-  m_Name: CSVReader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1294689034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1294689033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9368027549d37f14ba6a3e2df8dc6359, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1294689035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1294689033}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2507021, y: -0.3120773, z: 190}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1358613834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,7 +969,7 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.size
-      value: 18
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -1037,7 +994,7 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[0]
-      value: 10
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -1062,12 +1019,12 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[2]
-      value: 2
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[1]
-      value: 1
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -1197,17 +1154,17 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[3]
-      value: 2
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[4]
-      value: 2
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[5]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}

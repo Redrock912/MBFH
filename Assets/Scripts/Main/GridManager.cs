@@ -81,7 +81,9 @@ public class GridManager : MonoBehaviour
         CurrentTop = numberOfGrids - 1;
         gridScript[CurrentTop].isTopGrid = true;
         backgroundSprite[CurrentTop].isTopGrid = true;
-        playerManager.SetCurrentCountByDifficulty(CurrentTop);
+
+        // 현재 스테이지에 따른 카운트값 주기
+        playerManager.SetCurrentCountByDifficulty(playerManager.currentStage);
         
 
         //SetGridPosition();

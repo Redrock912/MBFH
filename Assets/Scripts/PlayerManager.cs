@@ -301,10 +301,10 @@ public class PlayerManager : MonoBehaviour
     // 난이도에 따라 시도 횟수 배정
     public void SetCurrentCountByDifficulty(int difficulty)
     {
-        int dataLocation = difficulty + currentStage * 3;
+        //int dataLocation = difficulty + currentStage * 3;
 
 
-        count = countByDifficulty[dataLocation];
+        count = countByDifficulty[difficulty];
     }
 
 

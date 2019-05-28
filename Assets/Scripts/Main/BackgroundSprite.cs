@@ -158,9 +158,10 @@ public class BackgroundSprite : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<BoxCollider>().enabled = false;
 
-            // 다음 카운트 갯수를 보시오
-            
-            playerManagerRef.SetCurrentCountByDifficulty(id-1);
+            // 다음 카운트 갯수를 보시오 -> 로직 변경(한 스테이지에서는 하나의 카운트로만 사용)
+            //playerManagerRef.SetCurrentCountByDifficulty(id-1);
+
+
             playerManagerRef.isAnimationPlaying = false;
 
             // 남은 갯수를 총합에 추가해주자
