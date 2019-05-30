@@ -42,6 +42,8 @@ public class GameUI : MonoBehaviour
     PlayerManager playerManager;
     GridManager gridManager;
 
+    Color initialTimerBarColor;
+
     void Start()
     {
         playerManager = FindObjectOfType<PlayerManager>();
@@ -69,6 +71,9 @@ public class GameUI : MonoBehaviour
         returnButton.interactable = false;
 
         stageNameTMP.text = playerManager.stageNames[playerManager.currentStage];
+
+        initialTimerBarColor = timerBar.color;
+        
     }
 
     // Update is called once per frame
@@ -109,11 +114,17 @@ public class GameUI : MonoBehaviour
                 timerBar.fillAmount = leftTime / maxTime;
 
 
+
+                if(timerBar.fillAmount < 0.25)
+                {
+                    timerBar.color = Color.red;
+                }
             }
             else
             {
                 // 시간을 다 쓸 시에 행동갯수를 하나씩 줄인다.
                 playerManager.UseCount();
+                timerBar.color = initialTimerBarColor;
                 leftTime = maxTime;
             }
         }

@@ -58,10 +58,12 @@ public class PlayerInput : MonoBehaviour
 
                     if (tempTile.isMine)
                     {
+
                         AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(1), transform.position);
                     }
                     else
                     {
+                        playerManager.UseCount();
                         AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(2), transform.position);
                     }
 
@@ -69,7 +71,7 @@ public class PlayerInput : MonoBehaviour
 
 
                     // 클릭할 때마다 기회 사용
-                    playerManager.UseCount();
+                    
                     playerManager.Click();
 
                     // 클릭할 떄마다 GridScript 에다가 flip tile을 되돌리라고 말하자.
