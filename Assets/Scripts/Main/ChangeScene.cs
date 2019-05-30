@@ -16,7 +16,7 @@ public class ChangeScene : MonoBehaviour
     public void ToMainScene()
     {
         SceneManager.LoadScene("Main");
-        AudioManager.instance.PlayMusic(mainTheme, 2);
+        AudioManager.Instance.PlayMusic(mainTheme, 2);
     }
 
     public void ToStageSelectScene()
@@ -24,7 +24,7 @@ public class ChangeScene : MonoBehaviour
 
 
         SceneManager.LoadScene("StageSelect");
-        AudioManager.instance.PlayMusic(stageSelectTheme, 2);
+        AudioManager.Instance.PlayMusic(stageSelectTheme, 2);
     }
 
 
@@ -37,7 +37,7 @@ public class ChangeScene : MonoBehaviour
         }
         Time.timeScale = 1;
         SceneManager.LoadScene("StageSelect");
-        AudioManager.instance.PlayMusic(stageSelectTheme, 2);
+        AudioManager.Instance.PlayMusic(stageSelectTheme, 2);
     }
 
     public void AdvertiseRestartScene()
@@ -50,7 +50,7 @@ public class ChangeScene : MonoBehaviour
 
         Time.timeScale = 1;
         SceneManager.LoadScene("Main");
-        AudioManager.instance.PlayMusic(mainTheme, 2);
+        AudioManager.Instance.PlayMusic(mainTheme, 2);
     }
 
 

@@ -655,15 +655,51 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 607519807}
+    - target: {fileID: 5197615764975249945, guid: 30038a2a300f42e45b83ccf1182e23cc,
+        type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: af83ee7935e948145ae9708f7937b7aa,
+        type: 3}
     - target: {fileID: 5197615766432255132, guid: 30038a2a300f42e45b83ccf1182e23cc,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 607519807}
+    - target: {fileID: 5197615766432255132, guid: 30038a2a300f42e45b83ccf1182e23cc,
+        type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: af83ee7935e948145ae9708f7937b7aa,
+        type: 3}
+    - target: {fileID: 5197615766683065702, guid: 30038a2a300f42e45b83ccf1182e23cc,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 607519807}
     - target: {fileID: 5197615766683065702, guid: 30038a2a300f42e45b83ccf1182e23cc,
         type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: m_SpriteState.m_DisabledSprite
       value: 
-      objectReference: {fileID: 607519807}
+      objectReference: {fileID: 21300000, guid: af83ee7935e948145ae9708f7937b7aa,
+        type: 3}
+    - target: {fileID: 5197615764975249944, guid: 30038a2a300f42e45b83ccf1182e23cc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f61c76c4b3736314a8c97c8c826dc5f2,
+        type: 3}
+    - target: {fileID: 5197615766432255107, guid: 30038a2a300f42e45b83ccf1182e23cc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 04ce99b9ab65c3f4b825cc334a3c7184,
+        type: 3}
+    - target: {fileID: 5197615766683065701, guid: 30038a2a300f42e45b83ccf1182e23cc,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cc7fabdcb9e7afe4a9239aeefbf0ed47,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30038a2a300f42e45b83ccf1182e23cc, type: 3}

@@ -6,28 +6,32 @@ public class AudioManager : MonoBehaviour
 {
 
     float sfxVolumePercent = 1;
-    float musicVolumePercent = 0.5f;
+    float musicVolumePercent = 0.25f;
     float masterVolumePercent = 1;
 
 
     AudioSource[] musicSources;
     int activeMusicSourceIndex;
 
+    int maxMusicSources =2 ;
 
-    public static AudioManager instance;
+    private static AudioManager instance;
+
+    public static AudioManager Instance { get => instance; set => instance = value; }
 
     private void Awake()
     {
-        if(instance != null)
+        if(Instance != null)
         {
             Destroy(gameObject);
+            
         }
         else
         {
-            instance = this;
+            Instance = this;
             DontDestroyOnLoad(gameObject);
-            musicSources = new AudioSource[2];
-            for (int i = 0; i < 2; i++)
+            musicSources = new AudioSource[maxMusicSources];
+            for (int i = 0; i < maxMusicSources; i++)
             {
                 GameObject newMusicSource = new GameObject("Music source " + (i + 1));
                 musicSources[i] = newMusicSource.AddComponent<AudioSource>();
@@ -43,8 +47,17 @@ public class AudioManager : MonoBehaviour
     {
         // 2 개인경우에만 이렇ㄱ ㅔ사용
         activeMusicSourceIndex = 1 - activeMusicSourceIndex;
+        print("current music index is " + activeMusicSourceIndex);
+
+        //// 3
+        //activeMusicSourceIndex = (1 + activeMusicSourceIndex) % maxMusicSources;
+
+
         musicSources[activeMusicSourceIndex].clip = clip;
         musicSources[activeMusicSourceIndex].Play();
+
+
+
 
         StartCoroutine(AnimateMusicCrossFade(fadeDuration));
     }
@@ -58,15 +71,15 @@ public class AudioManager : MonoBehaviour
 
 
     }
-    public void PlaySound(string soundName, Vector3 pos)
-    {
-        if (soundName != null)
-        {
+    //public void PlaySound(string soundName, Vector3 pos)
+    //{
+    //    if (soundName != null)
+    //    {
           
-        }
+    //    }
 
 
-    }
+    //}
 
     IEnumerator AnimateMusicCrossFade(float duration)
     {

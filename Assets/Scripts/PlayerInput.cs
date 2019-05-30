@@ -9,9 +9,8 @@ public class PlayerInput : MonoBehaviour
     PlayerManager playerManager;
 
     // 누를 때 소리가 나는거니까 여기에 배치
-    public AudioClip explosionSoundAudio;
-    public AudioClip revealSoundAudio;
 
+    public SfxLibrary sfxLibraryPrefab;
     
     
 
@@ -59,11 +58,11 @@ public class PlayerInput : MonoBehaviour
 
                     if (tempTile.isMine)
                     {
-                        AudioManager.instance.PlaySound(explosionSoundAudio, transform.position);
+                        AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(1), transform.position);
                     }
                     else
                     {
-                        AudioManager.instance.PlaySound(revealSoundAudio, transform.position);
+                        AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(2), transform.position);
                     }
 
                     tempTile.RevealTile();
@@ -84,7 +83,7 @@ public class PlayerInput : MonoBehaviour
             else
             {
                 BackgroundSprite backgroundSprite = hit.transform.GetComponent<BackgroundSprite>();
-                print(hit.transform);
+                
                 if (Input.GetMouseButtonDown(0) && backgroundSprite && backgroundSprite.isInteractive == true && !playerManager.isPaused)
                 {
                     backgroundSprite.ShowNextGrid();

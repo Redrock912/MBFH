@@ -78,15 +78,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2bf8b99765605d4e93d91596f576d0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tile1: {fileID: 21300000, guid: dbb19323f0770da45b98fde21ab60ce2, type: 3}
-  tile2: {fileID: 21300000, guid: 98ff52814c4be384e814f5e6a18767ae, type: 3}
-  tile3: {fileID: 21300000, guid: 3e67fc91fc11ba54e9a3fcfb06767946, type: 3}
-  tile4: {fileID: 21300000, guid: e85ccb2ee4039dd4abe32789e1c6b7c4, type: 3}
-  tile5: {fileID: 21300000, guid: e42c5ebd777fd3a449497f0163174b32, type: 3}
-  tile6: {fileID: 21300000, guid: 415f5f0ae50b851498775283d8124505, type: 3}
-  tile7: {fileID: 21300000, guid: 2f4456989ea6cde4c88ba551ec8e9cb6, type: 3}
-  tile8: {fileID: 21300000, guid: 215466fe23c323543ba356d9fcc7978a, type: 3}
-  questionTile: {fileID: 21300000, guid: 97a6d80da7cfa194eb9849554012d8a1, type: 3}
+  tile1: {fileID: 21300000, guid: f61c76c4b3736314a8c97c8c826dc5f2, type: 3}
+  tile2: {fileID: 21300000, guid: 04ce99b9ab65c3f4b825cc334a3c7184, type: 3}
+  tile3: {fileID: 21300000, guid: cc7fabdcb9e7afe4a9239aeefbf0ed47, type: 3}
+  tile4: {fileID: 21300000, guid: 7d8ecaf654b237a45baab110ebeefd42, type: 3}
+  tile5: {fileID: 21300000, guid: 41b0716a9b12e61478a943bbc7421e5e, type: 3}
+  tile6: {fileID: 21300000, guid: a9cce72290a09ff449281861b388f555, type: 3}
+  tile7: {fileID: 21300000, guid: 9a53a81bf9365514397ab79db224f891, type: 3}
+  tile8: {fileID: 21300000, guid: bb0ecf7f06a02234aaa6813479b34930, type: 3}
+  questionTile: {fileID: 21300000, guid: ee22c66204b208a48a75486cfde66bff, type: 3}
   isMine: 0
   isHidden: 0
   isRevealedThisTurn: 0
@@ -94,9 +94,9 @@ MonoBehaviour:
   id: 0
   rowLength: 0
   spriteArray:
-  - {fileID: 0}
-  - {fileID: 0}
-  cubeController: {fileID: 0}
+  - {fileID: 4506244481254703789}
+  - {fileID: 2550077106516763934}
+  cubeController: {fileID: 6001943216850921919}
   isRevealed: 0
   isExploded: 0
   parentGrid: {fileID: 0}
@@ -121,9 +121,9 @@ Animation:
   m_GameObject: {fileID: 206756032329016037}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 1b3673c7ad8c61c4b9d9bae2d1244b24, type: 2}
+  m_Animation: {fileID: 0}
   m_Animations:
-  - {fileID: 7400000, guid: 1b3673c7ad8c61c4b9d9bae2d1244b24, type: 2}
+  - {fileID: 7400000, guid: 974ba9ab3bb4d3441868759bc39b4b4c, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
@@ -440,6 +440,12 @@ PrefabInstance:
 --- !u!224 &7031013525691735929 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7155557940448784403, guid: add0652475135b347acdc36c32f8dd21,
+    type: 3}
+  m_PrefabInstance: {fileID: 206756033098313578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &4506244481254703789 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4348206745504329159, guid: add0652475135b347acdc36c32f8dd21,
     type: 3}
   m_PrefabInstance: {fileID: 206756033098313578}
   m_PrefabAsset: {fileID: 0}

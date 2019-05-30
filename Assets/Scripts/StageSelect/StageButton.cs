@@ -10,6 +10,8 @@ public class StageButton : MonoBehaviour
     public int difficultyLevel;
     PlayerManager playerManager;
 
+    public AudioClip mainMusic;
+
     private void Start()
     {
         playerManager = FindObjectOfType<PlayerManager>();
@@ -24,7 +26,7 @@ public class StageButton : MonoBehaviour
 
 
 
-
+        AudioManager.Instance.PlayMusic(mainMusic, 2);
 
 
         if (playerManager.isGalleryMode)

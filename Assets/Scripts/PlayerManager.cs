@@ -99,7 +99,7 @@ public class PlayerManager : MonoBehaviour
         {
             if (PlayerPrefs.HasKey("stage" + i))
             {
-                print("current stage " + i + " has " + PlayerPrefs.GetInt("stage" + i));
+                
                 stageList[i] = PlayerPrefs.GetInt("stage" + i, 0);
             }
             else

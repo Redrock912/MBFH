@@ -121,7 +121,13 @@ public class GridScript : MonoBehaviour
 
             // 이 코드로 위치를 수정할지는 모르지만 일단 보류
             //spawnedTile.transform.localScale *= 2;
+
+
+
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
+            print("stageName : " + stageName);
+            print("currentSprite : " + currentSpriteSheet[i]);
+            print("rowLength: " + rowLength);
             spawnedTile.GetComponent<Tiles>().SetData(stageName, currentSpriteSheet[i], rowLength);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;

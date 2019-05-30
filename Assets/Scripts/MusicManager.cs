@@ -6,17 +6,32 @@ public class MusicManager : MonoBehaviour
 {
     public AudioClip mainTheme;
     public AudioClip menuTheme;
+    public AudioClip stageTheme;
+
+    public SfxLibrary sfxLibraryPrefab;
 
     private void Start()
     {
-        AudioManager.instance.PlayMusic(menuTheme, 2);
+        AudioManager.Instance.PlayMusic(menuTheme, 2);
+        
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            AudioManager.instance.PlayMusic(mainTheme, 3);
-        }   
+            AudioManager.Instance.PlayMusic(mainTheme, 3);
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(0), transform.position);
+        }
+    }
+
+    public void PlaySfx(int id)
+    {
+        AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(id), transform.position);
     }
 }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6017951264298991164
+--- !u!1 &7411568762476653933
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,41 +8,42 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3360425545080836962}
-  - component: {fileID: 8012093267766540580}
+  - component: {fileID: 7411568762476653931}
+  - component: {fileID: 7411568762476653930}
   m_Layer: 0
-  m_Name: SceneChanger
+  m_Name: SfxLibrary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3360425545080836962
+--- !u!4 &7411568762476653931
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6017951264298991164}
+  m_GameObject: {fileID: 7411568762476653933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.76897293, y: -0.112580486, z: 100.73766}
+  m_LocalPosition: {x: -3.0048883, y: 4.481687, z: 90.6114}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8012093267766540580
+--- !u!114 &7411568762476653930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6017951264298991164}
+  m_GameObject: {fileID: 7411568762476653933}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36c64632140001b4894090f76010bddc, type: 3}
+  m_Script: {fileID: 11500000, guid: b809a57aa152a57459cbd1aa67caab5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainTheme: {fileID: 8300000, guid: 79e9fd8db886498478e073f78b59a028, type: 3}
-  stageSelectTheme: {fileID: 8300000, guid: eb58c53f8d90c2940845eec198b946cc, type: 3}
-  menuTheme: {fileID: 8300000, guid: de90ae8700f989d4e961a1daac95251c, type: 3}
+  sfxList:
+  - {fileID: 8300000, guid: 356dd00300142f244854b18a5dcf3072, type: 3}
+  - {fileID: 8300000, guid: 3466ea98f31caee4e99e08ef00ae7185, type: 3}
+  - {fileID: 8300000, guid: 22dfde6c8dcdd124c88c7e54456d6cf6, type: 3}
