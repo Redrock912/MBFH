@@ -72,7 +72,7 @@ public class GameUI : MonoBehaviour
 
         stageNameTMP.text = playerManager.stageNames[playerManager.currentStage];
 
-        initialTimerBarColor = timerBar.color;
+        initialTimerBarColor = new Color(0.24f, 0.66f, 0.96f); 
         
     }
 
@@ -152,6 +152,7 @@ public class GameUI : MonoBehaviour
     // 다시 리셋시키자.
     void OnClick()
     {
+        timerBar.color = initialTimerBarColor;
         leftTime = maxTime;
     }
 
