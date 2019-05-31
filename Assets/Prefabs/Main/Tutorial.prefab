@@ -132,8 +132,8 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Got it!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45143589540a65a41bb737bb58218548, type: 2}
-  m_sharedMaterial: {fileID: 21100982264365864, guid: 45143589540a65a41bb737bb58218548,
+  m_fontAsset: {fileID: 11400000, guid: ec6221adad1b803458afd04d5c1513a4, type: 2}
+  m_sharedMaterial: {fileID: 21100982264365864, guid: ec6221adad1b803458afd04d5c1513a4,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

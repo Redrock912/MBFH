@@ -10,9 +10,12 @@ public class UnityAds : MonoBehaviour
     private const string ios_game_id = "3107964";
     private const string rewarded_video_id = "rewardedVideo";
 
+    PlayerManager playerManager;
+
 
     private void Start()
     {
+        playerManager = PlayerManager.Instance;
         Initialize();
     }
 
@@ -23,6 +26,8 @@ public class UnityAds : MonoBehaviour
         #elif UNITY_IOS
         Advertisement.Initialize(ios_game_id);
         #endif
+
+        
     }
 
     public void ShowRewardedAd()
@@ -36,6 +41,7 @@ public class UnityAds : MonoBehaviour
         }
         else
         {
+            
             Debug.Log("Ad is not ready");
         }
     }
