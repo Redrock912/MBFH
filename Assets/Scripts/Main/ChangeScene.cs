@@ -13,6 +13,10 @@ public class ChangeScene : MonoBehaviour
     public AudioClip stageSelectTheme;
     public AudioClip menuTheme;
 
+
+    UnityAds unityAds;
+
+
     public void ToMainScene()
     {
         SceneManager.LoadScene("Main");
@@ -27,14 +31,24 @@ public class ChangeScene : MonoBehaviour
         AudioManager.Instance.PlayMusic(stageSelectTheme, 2);
     }
 
-
-    public void AdvertiseToStageSelectScene()
+    public void FindUnityAds()
     {
-        UnityAds unityAds = FindObjectOfType<UnityAds>();
+
+        if (!unityAds)
+        {
+            unityAds = UnityAds.Instance;
+        }
+
         if (unityAds)
         {
             unityAds.ShowRewardedAd();
         }
+    }
+
+
+    public void AdvertiseToStageSelectScene()
+    {
+        FindUnityAds();
         Time.timeScale = 1;
         SceneManager.LoadScene("StageSelect");
         AudioManager.Instance.PlayMusic(stageSelectTheme, 2);
@@ -42,12 +56,12 @@ public class ChangeScene : MonoBehaviour
 
     public void AdvertiseRestartScene()
     {
-        UnityAds unityAds = FindObjectOfType<UnityAds>();
-        if (unityAds)
-        {
-            unityAds.ShowRewardedAd();
-        }
-
+        //UnityAds unityAds = FindObjectOfType<UnityAds>();
+        //if (unityAds)
+        //{
+        //    unityAds.ShowRewardedAd();
+        //}
+        FindUnityAds();
         Time.timeScale = 1;
         SceneManager.LoadScene("Main");
         AudioManager.Instance.PlayMusic(mainTheme, 2);
@@ -56,11 +70,7 @@ public class ChangeScene : MonoBehaviour
 
     public void ShowAdThanAddCount()
     {
-        UnityAds unityAds = FindObjectOfType<UnityAds>();
-        if (unityAds)
-        {
-            unityAds.ShowRewardedAd();
-        }
+        FindUnityAds();
 
         PlayerManager playerManager = PlayerManager.Instance;
         playerManager.AddCount();
@@ -73,13 +83,7 @@ public class ChangeScene : MonoBehaviour
     
     void Start()
     {
-        //Camera sceneCamera = GetComponent<Camera>();
-        //if(sceneCamera != null)
-        //{
-        //    print(sceneCamera.pixelRect);
-        //    print(Screen.height);
-        //    print(Screen.width);
-        //}
+
     
     }
 

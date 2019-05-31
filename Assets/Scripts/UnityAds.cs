@@ -12,11 +12,27 @@ public class UnityAds : MonoBehaviour
 
     PlayerManager playerManager;
 
+    public bool isReady = false;
+
+    private static UnityAds instance;
+
+    public static UnityAds Instance { get => instance; set => instance = value; }
 
     private void Start()
     {
-        playerManager = PlayerManager.Instance;
-        Initialize();
+
+        if (Instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance = this;
+            playerManager = PlayerManager.Instance;
+            Initialize();
+        }
+
+
     }
 
     private void Initialize()
@@ -28,6 +44,20 @@ public class UnityAds : MonoBehaviour
         #endif
 
         
+    }
+
+    public bool CheckForAds()
+    {
+        if (Advertisement.IsReady(rewarded_video_id))
+        {
+            isReady = true;
+        }
+        else
+        {
+            isReady = false;
+        }
+
+        return isReady;
     }
 
     public void ShowRewardedAd()
