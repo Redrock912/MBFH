@@ -19,6 +19,7 @@ public class PlayerManager : MonoBehaviour
     public int[] stageList = { 1 };
     public int maxStageNumber = 6;
     public int levelUnlocked = 0;
+ 
 
     public int[] tutorialList = { 0 };
     public int maxTutorialNumber = 3;

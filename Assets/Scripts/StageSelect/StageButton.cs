@@ -28,6 +28,8 @@ public class StageButton : MonoBehaviour
 
         AudioManager.Instance.PlayMusic(mainMusic, 2);
 
+        
+
 
         if (playerManager.isGalleryMode)
         {

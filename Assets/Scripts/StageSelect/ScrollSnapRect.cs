@@ -84,7 +84,15 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         // init
 
         playerManager = PlayerManager.Instance;
-        startingPage = playerManager.levelUnlocked;
+        if (playerManager.isLevelUnlocked)
+        {
+            startingPage = playerManager.levelUnlocked;
+        }
+        else
+        {
+            startingPage = playerManager.currentStage;   
+        }
+        
 
         SetPagePositions();
         SetPage(startingPage);

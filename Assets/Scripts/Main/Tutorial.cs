@@ -65,6 +65,7 @@ public class Tutorial : MonoBehaviour
         Time.timeScale = 0;
         // 봤다고 체크
         PlayerPrefs.SetInt("tutorial" + tutorialId, 1);
+        playerManagerRef.tutorialList[tutorialId] = 1;
 
 
     }
