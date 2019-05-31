@@ -40,8 +40,8 @@ public class GridManager : MonoBehaviour
         playerManager.currentGrid = 0;
         playerManager.isPaused = false; 
         playerManager.ResetScore();
-        playerManager.ResetGridClearEvents();
-
+        playerManager.ResetGridClearEvents(this);
+        
       
 
         for(int i=0;i<numberOfGrids;i++)

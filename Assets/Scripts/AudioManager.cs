@@ -45,12 +45,9 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMusic(AudioClip clip, float fadeDuration = 1)
     {
-        // 2 개인경우에만 이렇ㄱ ㅔ사용
+        // 사용하는 것과 사용하지 않는것들 끼리 자연스럽게 바뀌게 하기위해 사용
         activeMusicSourceIndex = 1 - activeMusicSourceIndex;
         print("current music index is " + activeMusicSourceIndex);
-
-        //// 3
-        //activeMusicSourceIndex = (1 + activeMusicSourceIndex) % maxMusicSources;
 
 
         musicSources[activeMusicSourceIndex].clip = clip;

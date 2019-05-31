@@ -123,7 +123,7 @@ public class GameUI : MonoBehaviour
             else
             {
                 // 시간을 다 쓸 시에 행동갯수를 하나씩 줄인다.
-                playerManager.UseCount();
+                playerManager.UseCount(false);
                 timerBar.color = initialTimerBarColor;
                 leftTime = maxTime;
             }

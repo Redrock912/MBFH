@@ -47,7 +47,7 @@ public class PlayerManager : MonoBehaviour
     public event System.Action OnClick;
     public event System.Action OnGridCleared;
 
-    GridManager gridManager;
+    public GridManager gridManager;
     GridScript gridScript;
 
     // 조건값 
@@ -86,9 +86,9 @@ public class PlayerManager : MonoBehaviour
     private void Start()
     {
 
-        Screen.SetResolution(450, 800, false);
+        //Screen.SetResolution(450, 800, false);
 
-        FindGridManager();
+        
 
         stageList = new int[maxStageNumber];
         tutorialList = new int[maxTutorialNumber];
@@ -137,9 +137,10 @@ public class PlayerManager : MonoBehaviour
         }
     }
 
-    public void FindGridManager()
+    public void FindCurrentTopGrid()
     {
-        gridManager = FindObjectOfType<GridManager>();
+        
+       
         // 현재 탑 그리드스크립트
         if (gridManager != null)
         {
@@ -161,12 +162,16 @@ public class PlayerManager : MonoBehaviour
 
     }
 
-    public void UseCount()
+    public void UseCount(bool isMine)
     {
-        count--;
+        if (!isMine)
+        {
+            count--;
+        }
+        
         // 일단 명시적으로 해보자
 
-        FindGridManager();
+        FindCurrentTopGrid();
         if (gridScript.currentMines == 0 )
         {
             // 다 찾으면 클리어, 
@@ -289,8 +294,9 @@ public class PlayerManager : MonoBehaviour
         OnGridCleared();
     }
 
-    public void ResetGridClearEvents()
+    public void ResetGridClearEvents(GridManager currentGridManager)
     {
+        gridManager = currentGridManager;
         OnGridCleared = null;
     }
 

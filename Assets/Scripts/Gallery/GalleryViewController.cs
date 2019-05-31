@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine.UI;
 using UnityEngine;
 
 public class GalleryViewController : MonoBehaviour
 {
     public PlayerManager playerManager;
-    public Text galleryText;
-    public Text stageSelectText;
+    public TextMeshProUGUI galleryText;
+    public TextMeshProUGUI stageSelectText;
     public Button modeSwitchButton;
 
     private void Start()
@@ -35,13 +36,13 @@ public class GalleryViewController : MonoBehaviour
     {
         if (playerManager.isGalleryMode)
         {
-            galleryText.color = new Color(0, 0, 0, 1f);
-            stageSelectText.color = new Color(0, 0, 0, 0.3f);
+            galleryText.color = new Color(1, 1, 1, 1f);
+            stageSelectText.color = new Color(1, 1, 1, 0.3f);
         }
         else
         {
-            galleryText.color = new Color(0, 0, 0, 0.3f);
-            stageSelectText.color = new Color(0, 0, 0, 1f);
+            galleryText.color = new Color(1, 1, 1, 0.3f);
+            stageSelectText.color = new Color(1, 1, 1, 1f);
         }
     }
 }

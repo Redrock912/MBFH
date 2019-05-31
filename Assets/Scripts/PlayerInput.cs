@@ -11,8 +11,8 @@ public class PlayerInput : MonoBehaviour
     // 누를 때 소리가 나는거니까 여기에 배치
 
     public SfxLibrary sfxLibraryPrefab;
-    
-    
+
+    bool isMine = false;
 
     // Start is called before the first frame update
     void Start()
@@ -58,20 +58,20 @@ public class PlayerInput : MonoBehaviour
 
                     if (tempTile.isMine)
                     {
-
+                        isMine = true;
                         AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(1), transform.position);
                     }
                     else
                     {
-                        playerManager.UseCount();
+                        isMine = false;
                         AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(2), transform.position);
                     }
-
+                    
                     tempTile.RevealTile();
 
 
                     // 클릭할 때마다 기회 사용
-                    
+                    playerManager.UseCount(isMine);
                     playerManager.Click();
 
                     // 클릭할 떄마다 GridScript 에다가 flip tile을 되돌리라고 말하자.
