@@ -11,6 +11,8 @@ public class GalleryViewController : MonoBehaviour
     public TextMeshProUGUI stageSelectText;
     public Button modeSwitchButton;
 
+    public SfxLibrary sfxLibraryPrefab;
+    
     private void Start()
     {
         playerManager = PlayerManager.Instance;
@@ -27,7 +29,7 @@ public class GalleryViewController : MonoBehaviour
     {
 
         playerManager.isGalleryMode = !playerManager.isGalleryMode;
-
+        AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(5), new Vector3(0, 0, 0));
 
         UpdateDisplay();
     }

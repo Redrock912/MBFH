@@ -13,6 +13,7 @@ public class ChangeScene : MonoBehaviour
     public AudioClip stageSelectTheme;
     public AudioClip menuTheme;
 
+    public SfxLibrary sfxLibraryPrefab;
 
     UnityAds unityAds;
 
@@ -25,9 +26,15 @@ public class ChangeScene : MonoBehaviour
 
     public void ToStageSelectScene()
     {
-
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "Start")
+        {
+            
+            AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(0), new Vector3(0,0,0));
+        }
 
         SceneManager.LoadScene("StageSelect");
+
         AudioManager.Instance.PlayMusic(stageSelectTheme, 2);
     }
 

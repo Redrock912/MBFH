@@ -44,6 +44,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sfxList:
-  - {fileID: 8300000, guid: 356dd00300142f244854b18a5dcf3072, type: 3}
-  - {fileID: 8300000, guid: 3466ea98f31caee4e99e08ef00ae7185, type: 3}
-  - {fileID: 8300000, guid: 22dfde6c8dcdd124c88c7e54456d6cf6, type: 3}
+  - {fileID: 8300000, guid: e777b5fd191394f4cb44ac5e4c8d7e63, type: 3}
+  - {fileID: 8300000, guid: 40246cdf8a89ccc47965b707354174ba, type: 3}
+  - {fileID: 8300000, guid: d123c1e6b5376674d91826b9612fe2da, type: 3}
+  - {fileID: 8300000, guid: d008584ddcf5c2346849616612b67b02, type: 3}
+  - {fileID: 8300000, guid: 719e7bb597d0ffb438a1f45e0a2e6831, type: 3}
+  - {fileID: 8300000, guid: aed6fe6cbddfc0a4f9b71b50095ba79b, type: 3}
+  - {fileID: 8300000, guid: acc297699a547a0498a899ad95418872, type: 3}

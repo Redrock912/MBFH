@@ -6,7 +6,7 @@ public class AudioManager : MonoBehaviour
 {
 
     float sfxVolumePercent = 1;
-    float musicVolumePercent = 0.25f;
+    float musicVolumePercent = 0.1f;
     float masterVolumePercent = 1;
 
 
@@ -63,7 +63,8 @@ public class AudioManager : MonoBehaviour
     {
         if(clip != null)
         {
-            AudioSource.PlayClipAtPoint(clip, pos, sfxVolumePercent * masterVolumePercent);
+            print(clip.name);
+            AudioSource.PlayClipAtPoint(clip, pos, 1);
         }
 
 

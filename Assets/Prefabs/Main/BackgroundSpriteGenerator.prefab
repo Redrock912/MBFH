@@ -533,6 +533,8 @@ MonoBehaviour:
   localTransform: {fileID: 0}
   localPosition: {x: 0, y: 0, z: 0}
   id: 0
+  sfxLibraryPrefab: {fileID: 7411568762476653930, guid: 948a07b9b3215894586364f705444ce7,
+    type: 3}
 --- !u!65 &7910219749614062578
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -707,8 +709,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 330.30768, y: 926.4615}
-  m_SizeDelta: {x: 343, y: 963}
+  m_AnchoredPosition: {x: 1255.3076, y: 460.11536}
+  m_SizeDelta: {x: 1305, y: 478}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3905777843659389597
 Canvas:

@@ -26,6 +26,8 @@ public class BackgroundSprite : MonoBehaviour
 
     GameUI currentGameUI;
 
+    public SfxLibrary sfxLibraryPrefab;
+
     private void Start()
     {
         currentGameUI = FindObjectOfType<GameUI>();
@@ -114,6 +116,7 @@ public class BackgroundSprite : MonoBehaviour
     public void HideOtherUI()
     {
         currentGameUI.gameObject.SetActive(false);
+        AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(3), new Vector3(0, 0, 0));
     }
 
     void OnGridCleared()

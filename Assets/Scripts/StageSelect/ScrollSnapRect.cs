@@ -215,7 +215,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
                     if (image == null) {
                         Debug.LogWarning("Page selection icon at position " + i + " is missing Image component");
                     }
-                    print("the image is : " + image);
+                    
                     _pageSelectionImages.Add(image);
                 }
             }

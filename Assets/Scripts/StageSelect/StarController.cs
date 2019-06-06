@@ -14,6 +14,7 @@ public class StarController : MonoBehaviour
     public Image centerStar;
     public Image rightStar;
 
+    public SfxLibrary sfxLibraryPrefab;
     
 
     private void Awake()
@@ -30,6 +31,11 @@ public class StarController : MonoBehaviour
         anim.Play("ShowStars");
     }
 
+
+    public void PlayStarSfx()
+    {
+        AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(4), new Vector3(0,0,0));
+    }
 
     // StageSelect Scene에서 보여주는 용도
     public void DisplayStageSelect()
@@ -87,7 +93,8 @@ public class StarController : MonoBehaviour
         }
         else
         {
-            print(count);
+
+            AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(4), new Vector3(0, 0, 0));
             count += 1;
         }
     }

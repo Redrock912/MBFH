@@ -278,6 +278,8 @@ MonoBehaviour:
   leftStar: {fileID: 92115734655991454}
   centerStar: {fileID: 8247487961342653792}
   rightStar: {fileID: 4014577731782548592}
+  sfxLibraryPrefab: {fileID: 7411568762476653930, guid: 948a07b9b3215894586364f705444ce7,
+    type: 3}
 --- !u!111 &5926709387177089827
 Animation:
   m_ObjectHideFlags: 0

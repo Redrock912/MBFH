@@ -46,3 +46,5 @@ MonoBehaviour:
   mainTheme: {fileID: 8300000, guid: 79e9fd8db886498478e073f78b59a028, type: 3}
   stageSelectTheme: {fileID: 8300000, guid: eb58c53f8d90c2940845eec198b946cc, type: 3}
   menuTheme: {fileID: 8300000, guid: de90ae8700f989d4e961a1daac95251c, type: 3}
+  sfxLibraryPrefab: {fileID: 7411568762476653930, guid: 948a07b9b3215894586364f705444ce7,
+    type: 3}
