@@ -41,7 +41,7 @@ public class Stage : MonoBehaviour
         {
             if ((3 - stageTier) >= 0)
             {
-                GetComponentInChildren<Image>().sprite = stageSprite[3 - stageTier];
+                stageButton.image.sprite = stageSprite[3 - stageTier];
             }
 
             tmpText.text = playerManager.stageNames[stageID];
@@ -52,7 +52,7 @@ public class Stage : MonoBehaviour
         }
         else
         {
-            GetComponentInChildren<Image>().sprite = stageSprite[3];
+            stageButton.image.sprite = stageSprite[3];
             lockImage.enabled = true;
             tmpText.text = "???";
             stageButton.interactable = false;

@@ -44,6 +44,8 @@ public class Tutorial : MonoBehaviour
         // 실행안됬다면 없어지도록 하자
         if (!isShown)
         {
+            // 혹시나 모르니 시간을 1로 다시 바꾸자. (버그가 어디서 터지는지 모름)
+            Time.timeScale = 1;
             gameObject.SetActive(false);
         }
 

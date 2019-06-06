@@ -10,6 +10,9 @@ public class StageButton : MonoBehaviour
     public int difficultyLevel;
     PlayerManager playerManager;
 
+    public RectTransform rectTransform;
+
+
     public AudioClip mainMusic;
 
     private void Start()

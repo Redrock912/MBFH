@@ -144,9 +144,11 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
             // screen width in pixels of scrollrect window
             width = (int)_scrollRectRect.rect.width;
             // center position of all pages
-            offsetX = width / 2;
+            offsetX = width /2;
+
             // total width
             containerWidth = width * _pageCount;
+            
             // limit fast swipe length - beyond this length it is fast swipe no more
             _fastSwipeThresholdMaxLimit = width;
         } else {
