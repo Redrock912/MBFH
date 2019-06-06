@@ -147,6 +147,40 @@ public class GameUI : MonoBehaviour
         pauseButton.SetActive(false);
     }
 
+    void HideOtherUIExceptPause()
+    {
+        scoreUI.enabled = false;
+        gachaUI.enabled = false;
+        bombUI.enabled = false;
+        layerUI.enabled = false;
+
+        scoreTMP.enabled = false;
+        timerBar.enabled = false;
+        timerBarBackground.enabled = false;
+        layerTextMesh.enabled = false;
+        bombTextMesh.enabled = false;
+        gachaTextMesh.enabled = false;
+        timerTMP.enabled = false;
+        stageNameTMP.enabled = false;
+    }
+
+    void RevealOtherUIExceptPause()
+    {
+        scoreUI.enabled = true;
+        gachaUI.enabled = true;
+        bombUI.enabled = true;
+        layerUI.enabled = true;
+
+        scoreTMP.enabled = true;
+        timerBar.enabled = true;
+        timerBarBackground.enabled = true;
+        layerTextMesh.enabled = true;
+        bombTextMesh.enabled = true;
+        gachaTextMesh.enabled = true;
+        timerTMP.enabled = true;
+        stageNameTMP.enabled = true;
+    }
+
 
 
     // 다시 리셋시키자.
@@ -226,12 +260,14 @@ public class GameUI : MonoBehaviour
             Time.timeScale = 0;
             pauseMenu.alpha = 1;
             pauseMenu.interactable = true;
+            HideOtherUIExceptPause();
         }
         else
         {
             Time.timeScale = 1;
             pauseMenu.alpha = 0;
             pauseMenu.interactable = false;
+            RevealOtherUIExceptPause();
         }
 
         
