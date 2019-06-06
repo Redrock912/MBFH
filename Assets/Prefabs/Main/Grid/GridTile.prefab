@@ -87,8 +87,17 @@ MonoBehaviour:
   tile7: {fileID: 21300000, guid: 9a53a81bf9365514397ab79db224f891, type: 3}
   tile8: {fileID: 21300000, guid: bb0ecf7f06a02234aaa6813479b34930, type: 3}
   questionTile: {fileID: 21300000, guid: ee22c66204b208a48a75486cfde66bff, type: 3}
+  flipTile1: {fileID: 21300000, guid: 6ae32fee694503e44a26bdad6ee6ea46, type: 3}
+  flipTile2: {fileID: 21300000, guid: dd6fb090273c47c4580660acbb77e9d2, type: 3}
+  flipTile3: {fileID: 21300000, guid: 47cf42d75055dd3449d861887081d4f0, type: 3}
+  flipTile4: {fileID: 21300000, guid: 72b01285644425746adf2c7356b8147a, type: 3}
+  flipTile5: {fileID: 21300000, guid: 395d82b6a34118c458b5f125240693c2, type: 3}
+  flipTile6: {fileID: 21300000, guid: 69618f860c4febd499abc2a236a56e80, type: 3}
+  flipTile7: {fileID: 21300000, guid: 7752fa77b9df461488fd5c9d1062c16e, type: 3}
+  flipTile8: {fileID: 21300000, guid: f2fd4892c0e5bd04798db4cdb84af0e7, type: 3}
   isMine: 0
   isHidden: 0
+  isFlip: 0
   isRevealedThisTurn: 0
   displayNumber: 0
   id: 0

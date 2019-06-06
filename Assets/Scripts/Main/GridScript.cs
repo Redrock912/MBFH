@@ -224,8 +224,8 @@ public class GridScript : MonoBehaviour
             {
                 Tiles currentTile = (Tiles)plainTiles[Random.Range(0, plainTiles.Count)];
 
-                // 생각해보니 이 부분은 없어도 될듯?
-                //currentTile.GetComponent<Tiles>().isFlip = true;
+
+                currentTile.GetComponent<Tiles>().isFlip = true;
 
 
                 flipTiles.Add(currentTile);

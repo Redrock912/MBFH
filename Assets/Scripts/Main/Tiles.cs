@@ -10,8 +10,10 @@ public class Tiles : MonoBehaviour
     Sprite baseTileSprite;
     Sprite tileSprite;
     public Sprite tile1, tile2, tile3, tile4, tile5, tile6, tile7, tile8, questionTile;
+    public Sprite flipTile1, flipTile2, flipTile3, flipTile4, flipTile5, flipTile6, flipTile7, flipTile8;
     public bool isMine;
     public bool isHidden = false;
+    public bool isFlip = false;
     public bool isRevealedThisTurn = false;
     public int displayNumber=0;
     public int id;
@@ -171,40 +173,79 @@ public class Tiles : MonoBehaviour
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
 
-
-        switch (displayNumber)
+        if (!isFlip)
         {
-            case 0:
-                break;
-            case 1:
-                spriteArray[1].sprite = tile1;
-                break;
-            case 2:
-                spriteArray[1].sprite = tile2;
-                break;
-            case 3:
-                spriteArray[1].sprite = tile3;
-                break;
-            case 4:
-                spriteArray[1].sprite = tile4;
-                break;
-            case 5:
-                spriteArray[1].sprite = tile5;
-                break;
-            case 6:
-                spriteArray[1].sprite = tile6;
-                break;
-            case 7:
-                spriteArray[1].sprite = tile7;
-                break;
-            case 8:
-                spriteArray[1].sprite = tile8;
+            switch (displayNumber)
+            {
+                case 0:
+                    break;
+                case 1:
+                    spriteArray[1].sprite = tile1;
+                    break;
+                case 2:
+                    spriteArray[1].sprite = tile2;
+                    break;
+                case 3:
+                    spriteArray[1].sprite = tile3;
+                    break;
+                case 4:
+                    spriteArray[1].sprite = tile4;
+                    break;
+                case 5:
+                    spriteArray[1].sprite = tile5;
+                    break;
+                case 6:
+                    spriteArray[1].sprite = tile6;
+                    break;
+                case 7:
+                    spriteArray[1].sprite = tile7;
+                    break;
+                case 8:
+                    spriteArray[1].sprite = tile8;
 
-                break;
-                
+                    break;
 
 
+
+            }
         }
+        else
+        {
+            switch (displayNumber)
+            {
+                case 0:
+                    break;
+                case 1:
+                    spriteArray[1].sprite = flipTile1;
+                    break;
+                case 2:
+                    spriteArray[1].sprite = flipTile2;
+                    break;
+                case 3:
+                    spriteArray[1].sprite = flipTile3;
+                    break;
+                case 4:
+                    spriteArray[1].sprite = flipTile4;
+                    break;
+                case 5:
+                    spriteArray[1].sprite = flipTile5;
+                    break;
+                case 6:
+                    spriteArray[1].sprite = flipTile6;
+                    break;
+                case 7:
+                    spriteArray[1].sprite = flipTile7;
+                    break;
+                case 8:
+                    spriteArray[1].sprite = flipTile8;
+
+                    break;
+
+
+
+            }
+        }
+        
 
 
         // ? 타일이면 ?로 덮어씌우자.
