@@ -35,7 +35,7 @@ public class GridManager : MonoBehaviour
         gridScript = new GridScript[numberOfGrids];
         backgroundSprite = new BackgroundSprite[numberOfGrids];
 
-        playerManager = FindObjectOfType<PlayerManager>();
+        playerManager = PlayerManager.Instance;
         // 스테이지 정보 초기화 (별 갯수)
         playerManager.currentGrid = 0;
         playerManager.isPaused = false; 

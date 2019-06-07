@@ -41,7 +41,7 @@ public class BackgroundSprite : MonoBehaviour
     public void SetupStageInfo( PlayerManager playerManager, GridManager gridManager, int number)
     {
 
-
+        print(playerManager.currentStage);
         parentGridManager = gridManager;
         stageName = playerManager.stageNames[playerManager.currentStage];
         currentDifficulty = playerManager.currentDifficulty;
@@ -58,7 +58,7 @@ public class BackgroundSprite : MonoBehaviour
 
     void SetupAnimation()
     {
-        AnimationClip animClip = Resources.Load<AnimationClip>("Animations/" + stageName + "Animation");
+        AnimationClip animClip = Resources.Load<AnimationClip>("Animations/Animation_Export/" + stageName + "Animation");
         anim.AddClip(animClip, stageName);
         
         //anim.AddClip(animClip, stageName);
@@ -67,8 +67,9 @@ public class BackgroundSprite : MonoBehaviour
 
     public void SetupBackground()
     {
-        //print(stageName);
-        //print(currentDifficulty);
+    
+
+
 
         background = Resources.Load<Sprite>("Spritesheets/MainScreen/" + stageName +"/" + stageName + "_" + id);
         SpriteRenderer spriteRenderer = gameObject.GetComponent<SpriteRenderer>();

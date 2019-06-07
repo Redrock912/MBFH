@@ -125,9 +125,6 @@ public class GridScript : MonoBehaviour
 
 
             spawnedTile.GetComponent<Tiles>().SetParentGrid(this);
-            print("stageName : " + stageName);
-            print("currentSprite : " + currentSpriteSheet[i]);
-            print("rowLength: " + rowLength);
             spawnedTile.GetComponent<Tiles>().SetData(stageName, currentSpriteSheet[i], rowLength);
             spawnedTile.GetComponent<Tiles>().rowLength = rowLength;
             spawnedTile.GetComponent<Tiles>().id = i;

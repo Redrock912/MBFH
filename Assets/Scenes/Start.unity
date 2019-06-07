@@ -792,7 +792,7 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.size
-      value: 6
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -802,7 +802,7 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: mineStateByStage.Array.size
-      value: 6
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -812,22 +812,22 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.size
-      value: 18
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.size
-      value: 6
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: hiddensByDifficulty.Array.size
-      value: 18
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: flipsByDifficulty.Array.size
-      value: 18
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -877,7 +877,7 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: maxStageNumber
-      value: 6
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -932,72 +932,72 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[4]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[5]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[6]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[7]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[8]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[9]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[10]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[11]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[12]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[13]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[14]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[15]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[16]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: minesByDifficulty.Array.data[17]
-      value: 25
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -1017,62 +1017,377 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[6]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[7]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[8]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[9]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[10]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[11]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[12]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[13]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[14]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[15]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[16]
-      value: 2
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: countByDifficulty.Array.data[17]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: stageNames.Array.data[6]
+      value: sena
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: stageNames.Array.data[7]
+      value: mayu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: stageNames.Array.data[8]
+      value: eione
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: stageNames.Array.data[9]
+      value: pepper
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[18]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[19]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[20]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[21]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[22]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[23]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[24]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[25]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[26]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[27]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[28]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[29]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[30]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[31]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[32]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[33]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[34]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[35]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[36]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[37]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[38]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[39]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[40]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[41]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[42]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[43]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[44]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[45]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[46]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[47]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[48]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[49]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[50]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[51]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[52]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[53]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[54]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[55]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[56]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[57]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[58]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[59]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: countByDifficulty.Array.data[18]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: countByDifficulty.Array.data[19]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[6]
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[7]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[8]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[9]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[10]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[11]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[12]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[13]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[14]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[15]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[16]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[17]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[18]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[19]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: levelUnlocked
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cb88d5627e4048488b241185f24cdf8, type: 3}

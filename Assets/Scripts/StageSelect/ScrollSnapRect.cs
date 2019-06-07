@@ -28,6 +28,10 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
     [Tooltip("Container with page images (optional)")]
     public Transform pageSelectionIcons;
 
+    public RectTransform backgroundImage;
+    Vector2 currentImagePosition;
+    Vector2 currentPointerPosition;
+
     // fast swipes should be fast and short. If too long, then it is not fast swipe
     private int _fastSwipeThresholdMaxLimit;
 
@@ -59,11 +63,14 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
     // container with Image components - one Image for each page
     private List<Image> _pageSelectionImages;
 
+   
+
     // related to the game itself
     PlayerManager playerManager;
 
     //------------------------------------------------------------------------
     void Start() {
+        
         _scrollRectComponent = GetComponent<ScrollRect>();
         _scrollRectRect = GetComponent<RectTransform>();
         _container = _scrollRectComponent.content;
@@ -84,7 +91,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         // init
 
         playerManager = PlayerManager.Instance;
-        if (playerManager.isLevelUnlocked)
+        if (playerManager.isLevelUnlocked && (playerManager.levelUnlocked%10!=0))
         {
             startingPage = playerManager.levelUnlocked;
         }
@@ -194,6 +201,8 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         _lerpTo = _pagePositions[aPageIndex];
         _lerp = true;
         _currentPage = aPageIndex;
+
+
     }
 
     //------------------------------------------------------------------------
@@ -277,6 +286,9 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         _lerp = false;
         // not dragging yet
         _dragging = false;
+
+        currentImagePosition = backgroundImage.localPosition;
+        currentPointerPosition = aEventData.position;
         
     }
 
@@ -303,7 +315,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
             // if not fast time, look to which page we got to
             LerpToPage(GetNearestPage());
         }
-
+        
         _dragging = false;
     }
 
@@ -322,8 +334,11 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
 
             if (_showPageSelection)
             {
-                print("Show nearest Page");
+         
                 SetPageSelection(GetNearestPage());
+                Vector2 offset = aEventData.position - currentPointerPosition;
+
+                backgroundImage.localPosition = new Vector3((offset.x + currentImagePosition.x)*0.15f, 0);
             }
         }
     }

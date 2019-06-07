@@ -46,18 +46,26 @@ public class StarController : MonoBehaviour
         {
             case 0:
                 {
+                    leftStar.color = Color.clear;
+                    centerStar.color = Color.clear;
+                    rightStar.color = Color.clear;
+
                     break;
                 }
             case 1:
                 {
-                                      
                     leftStar.color = Color.white;
+                    centerStar.color = Color.clear;
+                    rightStar.color = Color.clear;
+
                     break;
                 }
             case 2:
                 {
                     leftStar.color = Color.white;
                     centerStar.color = Color.white;
+                    rightStar.color = Color.clear;
+
                     break;
                 }
             case 3:

@@ -47,7 +47,7 @@ public class AudioManager : MonoBehaviour
     {
         // 사용하는 것과 사용하지 않는것들 끼리 자연스럽게 바뀌게 하기위해 사용
         activeMusicSourceIndex = 1 - activeMusicSourceIndex;
-        print("current music index is " + activeMusicSourceIndex);
+        //print("current music index is " + activeMusicSourceIndex);
 
 
         musicSources[activeMusicSourceIndex].clip = clip;
@@ -63,7 +63,7 @@ public class AudioManager : MonoBehaviour
     {
         if(clip != null)
         {
-            print(clip.name);
+            
             AudioSource.PlayClipAtPoint(clip, pos, 1);
         }
 

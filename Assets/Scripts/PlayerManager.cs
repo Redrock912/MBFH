@@ -17,7 +17,7 @@ public class PlayerManager : MonoBehaviour
 
     // 진행도, 귀찮지만 하두코딩
     public int[] stageList = { 1 };
-    public int maxStageNumber = 6;
+    public int maxStageNumber = 20;
     public int levelUnlocked = 0;
  
 
@@ -60,7 +60,7 @@ public class PlayerManager : MonoBehaviour
     
 
     // 왜 프리팹으로 만들어서 고생하는가..
-    public string[] stageNames = { "liia", "lilith","msg","megu","wasabi","yuki" };
+    public string[] stageNames = { "liia", "lilith","msg","megu","wasabi","yuki","sena","mayu","eione","pepper" };
 
     public static PlayerManager Instance { get => instance; set => instance = value; }
 

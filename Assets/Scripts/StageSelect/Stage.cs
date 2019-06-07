@@ -18,6 +18,8 @@ public class Stage : MonoBehaviour
     public Image backgroundImage;
     public TextMeshProUGUI tmpText;
     public Image lockImage;
+
+    
     private void Start()
     {
 
@@ -26,18 +28,28 @@ public class Stage : MonoBehaviour
         //{
         //    buttonLists[i].GetComponent<StageButton>().stageID = stageID;
         //}
-        PlayerManager playerManager = PlayerManager.Instance;
+        playerManager = PlayerManager.Instance;
 
+
+       
+
+
+
+
+    }
+
+    public void SetupStageInfo(int i)
+    {
 
         Sprite[] stageSprite;
 
-   
+        // 어려움 난이도의 갯수는 총 스테이지 갯수와 비례한다.
+        int Difficulty = i * 10;
+
         stageSprite = Resources.LoadAll<Sprite>("Spritesheets/MainScreen/" + playerManager.stageNames[stageID]);
-        stageTier = PlayerPrefs.GetInt("stage" + stageID, 0);
-
-
+        stageTier = PlayerPrefs.GetInt("stage" + (stageID + Difficulty) , 0);
         // is it unlocked?
-        if (playerManager.levelUnlocked >= stageID)
+        if (playerManager.levelUnlocked >= (stageID+Difficulty) )
         {
             if ((3 - stageTier) >= 0)
             {
@@ -46,18 +58,19 @@ public class Stage : MonoBehaviour
 
             tmpText.text = playerManager.stageNames[stageID];
             stageButton.interactable = true;
-            StarController starContainer = Instantiate(starContainerPrefab, starHolder);
-            starContainer.tier = stageTier;
-            starContainer.DisplayStageSelect();
+            lockImage.enabled = false;
         }
         else
         {
+
             stageButton.image.sprite = stageSprite[3];
             lockImage.enabled = true;
             tmpText.text = "???";
             stageButton.interactable = false;
         }
-
+        stageButton.GetComponent<StageButton>().stageID = stageID;
+        starContainerPrefab.tier = stageTier;
+        starContainerPrefab.DisplayStageSelect();
     }
 
 
