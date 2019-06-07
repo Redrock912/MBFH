@@ -94,6 +94,7 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
         if (playerManager.isLevelUnlocked && (playerManager.levelUnlocked%10!=0))
         {
             startingPage = playerManager.levelUnlocked;
+            playerManager.isLevelUnlocked = false;
         }
         else
         {

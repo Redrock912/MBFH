@@ -162,6 +162,7 @@ public class GameUI : MonoBehaviour
         gachaTextMesh.enabled = false;
         timerTMP.enabled = false;
         stageNameTMP.enabled = false;
+        pauseButton.SetActive(false);
     }
 
     void RevealOtherUIExceptPause()
@@ -179,6 +180,7 @@ public class GameUI : MonoBehaviour
         gachaTextMesh.enabled = true;
         timerTMP.enabled = true;
         stageNameTMP.enabled = true;
+        pauseButton.SetActive(true);
     }
 
 
@@ -192,7 +194,7 @@ public class GameUI : MonoBehaviour
 
     void OnCountOver()
     {
-        print("GameUI OnCountOver");
+        
         if (countOverImage != null)
         {
             //StartCoroutine("CountOverImageAnimation");
@@ -206,13 +208,13 @@ public class GameUI : MonoBehaviour
 
     void OnClear()
     {
-        print("GameUI OnClear");
+        
 
 
         if (clearImage != null)
         {
             //StartCoroutine("ClearImageAnimation");
-            HideOtherUI();
+            HideOtherUIExceptPause();
             returnButton.alpha = 1;
             returnButton.interactable = true;
             anim.Play("ClearAnimation");
@@ -223,7 +225,9 @@ public class GameUI : MonoBehaviour
 
     public void AfterClearAnimation()
     {
-        StarController starContainer = Instantiate(starContainerPrefab, transform);
+        
+        
+        StarController starContainer = Instantiate(starContainerPrefab, clearImage.GetComponent<RectTransform>().GetChild(0).transform);
         starContainer.transform.parent = clearImage.transform;
         starContainer.tier = playerManager.currentGrid;
         starContainer.PlayAnimation();
@@ -232,7 +236,7 @@ public class GameUI : MonoBehaviour
 
     public void ShowStarsDuringCountOverAnimation()
     {
-        StarController starContainer = Instantiate(starContainerPrefab, transform);
+        StarController starContainer = Instantiate(starContainerPrefab, clearImage.GetComponentInChildren<RectTransform>().transform);
 
         // 생성된 다음에 붙자. 같이 움직이게
         starContainer.transform.parent = countOverImage.transform;
