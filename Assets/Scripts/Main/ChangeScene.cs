@@ -48,7 +48,7 @@ public class ChangeScene : MonoBehaviour
 
         if (unityAds)
         {
-            unityAds.ShowRewardedAd();
+            unityAds.ShowAds();
         }
     }
 
@@ -77,7 +77,15 @@ public class ChangeScene : MonoBehaviour
 
     public void ShowAdThanAddCount()
     {
-        FindUnityAds();
+        if (!unityAds)
+        {
+            unityAds = UnityAds.Instance;
+        }
+
+        if (unityAds)
+        {
+            unityAds.ShowRewardedAd();
+        }
 
         PlayerManager playerManager = PlayerManager.Instance;
         playerManager.AddCount();

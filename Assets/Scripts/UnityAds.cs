@@ -9,6 +9,7 @@ public class UnityAds : MonoBehaviour
     private const string android_game_id = "3107965";
     private const string ios_game_id = "3107964";
     private const string rewarded_video_id = "rewardedVideo";
+    private const string video_id = "video";
 
     PlayerManager playerManager;
 
@@ -72,6 +73,18 @@ public class UnityAds : MonoBehaviour
         else
         {
             
+            Debug.Log("Ad is not ready");
+        }
+    }
+
+    public void ShowAds()
+    {
+        if (Advertisement.IsReady(video_id))
+        {
+            Advertisement.Show(video_id);
+        }
+        else
+        {
             Debug.Log("Ad is not ready");
         }
     }
