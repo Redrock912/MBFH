@@ -22,6 +22,8 @@ public class GameUI : MonoBehaviour
     public TextMeshProUGUI timerTMP;
     public GameObject pauseButton;
 
+    public Button countOverAddCountButton;
+
     public CanvasGroup returnButton;
     public CanvasGroup pauseMenu;
     
@@ -44,8 +46,12 @@ public class GameUI : MonoBehaviour
 
     Color initialTimerBarColor;
 
+    UnityAds unityAds;
+
     void Start()
     {
+        unityAds = UnityAds.Instance;
+
         playerManager = FindObjectOfType<PlayerManager>();
 
         playerManager.OnCountOver += OnCountOver;
@@ -286,6 +292,19 @@ public class GameUI : MonoBehaviour
             {
                 menuLists[i].gameObject.SetActive(false);
             }
+        }
+    }
+
+
+    public void CheckUnityAds()
+    {
+        if (unityAds.CheckForAds())
+        {
+            countOverAddCountButton.interactable = true;
+        }
+        else
+        {
+            countOverAddCountButton.interactable = false;
         }
     }
 
