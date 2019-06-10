@@ -16,7 +16,7 @@ public class GalleryViewController : MonoBehaviour
     public Sprite[] backgroundImageStorages;
     public Image backgroundImage;
 
-    public RectTransform difficultySwitch;
+    public CanvasGroup difficultySwitch;
 
     int index = 0;
     
@@ -26,7 +26,13 @@ public class GalleryViewController : MonoBehaviour
         print(playerManager.isGalleryMode);
         modeSwitchButton.interactable = true;
 
-
+        if (playerManager.isGalleryMode)
+        {
+            index = 1 - index;
+        }
+        
+        backgroundImage.sprite = backgroundImageStorages[index];
+       FlipFlopDifficultyButton();
         UpdateDisplay();
     }
 
@@ -50,11 +56,13 @@ public class GalleryViewController : MonoBehaviour
     {
         if (playerManager.isGalleryMode)
         {
-            difficultySwitch.gameObject.SetActive(false);
+            difficultySwitch.alpha = 0;
+            difficultySwitch.interactable = false;
         }
         else
         {
-            difficultySwitch.gameObject.SetActive(true);
+            difficultySwitch.alpha = 1;
+            difficultySwitch.interactable = true;
         }
     }
 

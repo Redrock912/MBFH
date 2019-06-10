@@ -14,6 +14,25 @@ public class Tutorial : MonoBehaviour
 
     public int[] showTutorialStageList = { 0, 2, 4 };
     bool isShown = false;
+    int id;
+    bool hasSeenFirstPage = false;
+
+    public RectTransform middleHolder;
+    public RectTransform rightHolder;
+
+    public Button confirmButton;
+    public Sprite[] buttonSprites;
+    public Sprite[] buttonSelectedSprites;
+    public int[] buttonPosition;
+
+    [System.Serializable]
+    public struct TutorialSprites
+    {
+        public int index;
+        public Sprite[] spriteArrays;
+    }
+
+    public List<TutorialSprites> tutorialSprites;
     void Start()
     {
         playerManagerRef = PlayerManager.Instance;
@@ -53,12 +72,26 @@ public class Tutorial : MonoBehaviour
 
     void PlayTutorial(int tutorialId)
     {
+        id = tutorialId;
         playerManagerRef.isSeeingTutorial = true;
-        Sprite tutorialSprite = Resources.Load<Sprite>("Spritesheets/MainScreen/tutorial/tutorial" + tutorialId);
-        print(tutorialImage);
-        tutorialImage.sprite = tutorialSprite;
+        Sprite[] tutorialSprite = tutorialSprites[id].spriteArrays;
 
 
+        hasSeenFirstPage = false;
+        tutorialImage.sprite = tutorialSprite[0];
+
+
+        //
+        SetupButtonPosition(buttonPosition[id]);
+
+        if(id == 0)
+        {
+            SetupButtonState(1);
+        }
+        else
+        {
+            SetupButtonState(0);
+        }
         
         canvasGroup.interactable = true;
         canvasGroup.alpha = 1;
@@ -68,6 +101,65 @@ public class Tutorial : MonoBehaviour
         // 봤다고 체크
         PlayerPrefs.SetInt("tutorial" + tutorialId, 1);
         playerManagerRef.tutorialList[tutorialId] = 1;
+
+
+    }
+
+    void SetupButtonState(int id)
+    {
+        SpriteState spriteState = new SpriteState();
+        spriteState.pressedSprite = buttonSelectedSprites[id];
+        confirmButton.spriteState = spriteState;
+        confirmButton.image.sprite = buttonSprites[id];
+    }
+
+
+    void SetupButtonPosition(int direction)
+    {
+        // direction 
+        // 0 is middle , 1 is right
+
+        if(direction == 0)
+        {
+            confirmButton.transform.localPosition = middleHolder.localPosition;
+        }else if (direction == 1)
+        {
+            confirmButton.transform.localPosition = rightHolder.localPosition;
+        }
+
+    }
+
+
+    public void NextTutorial()
+    {
+        if (hasSeenFirstPage)
+        {
+            CloseTutorial();
+        }
+        else if (tutorialSprites[id].spriteArrays.Length > 1)
+        {
+            Sprite nextSprite = tutorialSprites[id].spriteArrays[1];
+            tutorialImage.sprite = nextSprite;
+            confirmButton.transform.localPosition = rightHolder.localPosition;
+
+            SpriteState spriteState = new SpriteState();
+            spriteState.pressedSprite = buttonSelectedSprites[0];
+            confirmButton.spriteState = spriteState;
+            confirmButton.image.sprite = buttonSprites[0];
+            SetupButtonPosition(1);
+            hasSeenFirstPage = true;
+        }
+        else
+        {
+            CloseTutorial();
+        }
+
+
+
+
+
+
+
 
 
     }

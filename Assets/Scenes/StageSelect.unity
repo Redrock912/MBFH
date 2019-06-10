@@ -3397,6 +3397,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b71c4611b508e8d409f20a3cfa737e5b, type: 3}
+--- !u!1 &2441921609692133416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9119921513541737653, guid: b71c4611b508e8d409f20a3cfa737e5b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2441921609692133415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!225 &2441921609692133417
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2441921609692133416}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &5094314927326399188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3625,7 +3643,7 @@ PrefabInstance:
         type: 3}
       propertyPath: difficultySwitch
       value: 
-      objectReference: {fileID: 6215934451114737153}
+      objectReference: {fileID: 2441921609692133417}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96e0f0e1dc890e47882c325c415179b, type: 3}
 --- !u!114 &6116224111267509233 stripped
@@ -3634,7 +3652,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 2441921609692133415}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2441921609692133416}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80aa8b5b892424d4a930f77e8461f13d, type: 3}
