@@ -87,7 +87,7 @@ public class PlayerManager : MonoBehaviour
     private void Start()
     {
 
-        Screen.SetResolution(1080, 1920,false);
+        Screen.SetResolution(Screen.width, (Screen.width * 16)/9, true);
 
         
 
