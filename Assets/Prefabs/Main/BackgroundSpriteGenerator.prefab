@@ -97,7 +97,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Vampy
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: ec6221adad1b803458afd04d5c1513a4, type: 2}
   m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 1
   m_inputSource: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -330,7 +330,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_text: Lilith
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: ec6221adad1b803458afd04d5c1513a4, type: 2}
   m_sharedMaterial: {fileID: 0}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -411,7 +411,7 @@ MonoBehaviour:
   m_spriteAnimator: {fileID: 0}
   m_isInputParsingRequired: 1
   m_inputSource: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -533,6 +533,19 @@ MonoBehaviour:
   localTransform: {fileID: 0}
   localPosition: {x: 0, y: 0, z: 0}
   id: 0
+  featureTextList:
+  - Housekeeping Troubleshooter
+  - mermaid of the abyss
+  - vivid green operation
+  - Troublemaker Bunny Girl
+  - Will you strip with me?
+  - snow white fox
+  - TAKE YOuR TiME
+  - master of busty androids
+  - android guardian of equilibrium
+  - Unstoppable Android BomberGirl
+  stageCharacterName: {fileID: 164244825374744647}
+  featureText: {fileID: 6949404997343368175}
   sfxLibraryPrefab: {fileID: 7411568762476653930, guid: 948a07b9b3215894586364f705444ce7,
     type: 3}
 --- !u!65 &7910219749614062578
@@ -709,8 +722,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1255.3076, y: 460.11536}
-  m_SizeDelta: {x: 1305, y: 478}
+  m_AnchoredPosition: {x: 201.46153, y: 545.6923}
+  m_SizeDelta: {x: 209, y: 567}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &3905777843659389597
 Canvas:

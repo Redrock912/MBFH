@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class BackgroundSprite : MonoBehaviour
@@ -23,6 +24,12 @@ public class BackgroundSprite : MonoBehaviour
     GridManager parentGridManager;
     PlayerManager playerManagerRef;
     public int id = 0;
+    int stageNameIndex;
+
+    public string[] featureTextList;
+
+    public TextMeshProUGUI stageCharacterName;
+    public TextMeshProUGUI featureText;
 
     GameUI currentGameUI;
 
@@ -36,6 +43,13 @@ public class BackgroundSprite : MonoBehaviour
       
     }
 
+    public void SetupTextsForAnimation()
+    {
+        
+       
+        
+    }
+
 
 
     public void SetupStageInfo( PlayerManager playerManager, GridManager gridManager, int number)
@@ -44,13 +58,17 @@ public class BackgroundSprite : MonoBehaviour
         print(playerManager.currentStage);
         parentGridManager = gridManager;
         stageName = playerManager.stageNames[playerManager.currentStage];
+        stageNameIndex = playerManager.currentStage;
         currentDifficulty = playerManager.currentDifficulty;
         boxCollider = GetComponent<BoxCollider>();
         playerManagerRef = playerManager;
         anim = GetComponent<Animation>();
         id = number;
         localTransform = transform;
-        
+
+        stageCharacterName.text = stageName;
+        featureText.text = featureTextList[stageNameIndex];
+
         playerManagerRef.OnGridCleared += OnGridCleared;
 
         SetupAnimation();

@@ -173,8 +173,7 @@ public class Tiles : MonoBehaviour
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
 
-        if (!isFlip)
-        {
+  
             switch (displayNumber)
             {
                 case 0:
@@ -208,43 +207,8 @@ public class Tiles : MonoBehaviour
 
 
             }
-        }
-        else
-        {
-            switch (displayNumber)
-            {
-                case 0:
-                    break;
-                case 1:
-                    spriteArray[1].sprite = flipTile1;
-                    break;
-                case 2:
-                    spriteArray[1].sprite = flipTile2;
-                    break;
-                case 3:
-                    spriteArray[1].sprite = flipTile3;
-                    break;
-                case 4:
-                    spriteArray[1].sprite = flipTile4;
-                    break;
-                case 5:
-                    spriteArray[1].sprite = flipTile5;
-                    break;
-                case 6:
-                    spriteArray[1].sprite = flipTile6;
-                    break;
-                case 7:
-                    spriteArray[1].sprite = flipTile7;
-                    break;
-                case 8:
-                    spriteArray[1].sprite = flipTile8;
-
-                    break;
-
-
-
-            }
-        }
+     
+        
         
 
 
@@ -260,6 +224,41 @@ public class Tiles : MonoBehaviour
         spriteArray[1].enabled = false;
 
 
+    }
+
+    public void SetFlipNumbers()
+    {
+        switch (displayNumber)
+        {
+            case 0:
+                break;
+            case 1:
+                spriteArray[1].sprite = flipTile1;
+                break;
+            case 2:
+                spriteArray[1].sprite = flipTile2;
+                break;
+            case 3:
+                spriteArray[1].sprite = flipTile3;
+                break;
+            case 4:
+                spriteArray[1].sprite = flipTile4;
+                break;
+            case 5:
+                spriteArray[1].sprite = flipTile5;
+                break;
+            case 6:
+                spriteArray[1].sprite = flipTile6;
+                break;
+            case 7:
+                spriteArray[1].sprite = flipTile7;
+                break;
+            case 8:
+                spriteArray[1].sprite = flipTile8;
+
+                break;
+
+        }
     }
 
     public void SetData(string name, Sprite spritePart,int rowLength)
@@ -429,10 +428,18 @@ public class Tiles : MonoBehaviour
     // 0짜리가 퍼져나가다가 숫자를 만나면 멈춤.
     void RevealNeighborTilesWithNumber()
     {
-        if(!isHidden)
-        isRevealed = true;
+        if (!isHidden)
+        {
+            isRevealed = true;
+        }
+        else
+        {
+            spriteArray[1].sprite = questionTile;
+        }
+
 
         isRevealedThisTurn = true;
+
 
         spriteArray[1].enabled = true;
         

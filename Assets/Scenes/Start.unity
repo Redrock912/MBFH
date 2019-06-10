@@ -670,12 +670,12 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[0]
-      value: liia
+      value: sena
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[1]
-      value: lilith
+      value: eione
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -685,22 +685,22 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[2]
-      value: msg
+      value: mayu
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[3]
-      value: megu
+      value: liia
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[4]
-      value: wasabi
+      value: lilith
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[5]
-      value: yuki
+      value: megu
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -915,22 +915,22 @@ PrefabInstance:
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[6]
-      value: sena
+      value: yuki
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[7]
-      value: mayu
+      value: pepper
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[8]
-      value: eione
+      value: wasabi
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
       propertyPath: stageNames.Array.data[9]
-      value: pepper
+      value: msg
       objectReference: {fileID: 0}
     - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
         type: 3}
@@ -1226,6 +1226,26 @@ PrefabInstance:
         type: 3}
       propertyPath: levelUnlocked
       value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: minesByDifficulty.Array.data[2]
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: hiddensByDifficulty.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: mineStateByStage.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858149085699203538, guid: 6cb88d5627e4048488b241185f24cdf8,
+        type: 3}
+      propertyPath: flipsByDifficulty.Array.data[2]
+      value: 40
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cb88d5627e4048488b241185f24cdf8, type: 3}

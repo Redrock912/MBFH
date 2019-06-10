@@ -195,6 +195,7 @@ public class GridScript : MonoBehaviour
 
                 hiddenTiles.Add(currentTile);
                 plainTiles.Remove(currentTile);
+                
             }
 
         }
@@ -227,6 +228,7 @@ public class GridScript : MonoBehaviour
 
                 flipTiles.Add(currentTile);
                 plainTiles.Remove(currentTile);
+                currentTile.SetFlipNumbers();
             }
         }
 
