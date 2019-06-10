@@ -3621,6 +3621,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: c8a0291ed768129498037da9a433d0be,
         type: 3}
+    - target: {fileID: 5094314927875911592, guid: b96e0f0e1dc890e47882c325c415179b,
+        type: 3}
+      propertyPath: difficultySwitch
+      value: 
+      objectReference: {fileID: 6215934451114737153}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b96e0f0e1dc890e47882c325c415179b, type: 3}
 --- !u!114 &6116224111267509233 stripped

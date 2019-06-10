@@ -16,6 +16,8 @@ public class GalleryViewController : MonoBehaviour
     public Sprite[] backgroundImageStorages;
     public Image backgroundImage;
 
+    public RectTransform difficultySwitch;
+
     int index = 0;
     
     private void Start()
@@ -39,7 +41,21 @@ public class GalleryViewController : MonoBehaviour
         index = 1 - index;
         backgroundImage.sprite = backgroundImageStorages[index];
 
+        FlipFlopDifficultyButton();
         UpdateDisplay();
+    }
+
+
+    void FlipFlopDifficultyButton()
+    {
+        if (playerManager.isGalleryMode)
+        {
+            difficultySwitch.gameObject.SetActive(false);
+        }
+        else
+        {
+            difficultySwitch.gameObject.SetActive(true);
+        }
     }
 
     void UpdateDisplay()
