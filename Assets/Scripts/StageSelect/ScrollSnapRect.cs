@@ -25,6 +25,8 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
     public Sprite unselectedPage;
     [Tooltip("Sprite for selected page (optional)")]
     public Sprite selectedPage;
+    [Tooltip("Sprite for hard difficulty page (optional)")]
+    public Sprite hardSelectedPage;
     [Tooltip("Container with page images (optional)")]
     public Transform pageSelectionIcons;
 
@@ -230,6 +232,12 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
                 }
             }
         }
+    }
+
+    //--- Just for Difficulty Update
+    public void SetColorForDifficulty()
+    {
+        _pageSelectionImages[GetNearestPage()].sprite = selectedPage;
     }
 
     //------------------------------------------------------------------------

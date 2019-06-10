@@ -12,12 +12,16 @@ public class DifficultySwitch : MonoBehaviour
     public Sprite[] unselectedImage;
 
     public Image[] buttonContainer;
+    PlayerManager playerManager;
 
+    public ScrollSnapRect scrollSnap;
+
+    public Sprite[] colorByDifficulty;
     // Start is called before the first frame update
     void Start()
     {
-        PlayerManager playerManager = PlayerManager.Instance;
-
+        playerManager = PlayerManager.Instance;
+        
         if (playerManager.levelUnlocked < 10)
         {
             buttonContainer[1].GetComponent<Button>().interactable = false;
@@ -29,6 +33,10 @@ public class DifficultySwitch : MonoBehaviour
     public void SelectDifficulty(int i)
     {
         int k = 0;
+        
+        
+        scrollSnap.selectedPage = colorByDifficulty[i];
+        scrollSnap.SetColorForDifficulty();
         while (k < buttonContainer.Length)
         {
             if (k == i)
@@ -43,7 +51,7 @@ public class DifficultySwitch : MonoBehaviour
             k++;
         }
 
-
+        
         for(int n = 0; n < stageContainer.childCount;  n++)
         {
             stageContainer.GetChild(n).GetComponent<Stage>().SetupStageInfo(i);

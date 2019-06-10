@@ -57,6 +57,7 @@ public class PlayerManager : MonoBehaviour
     public bool isPaused = false;
     public bool isSeeingTutorial = false;
     public bool isLevelUnlocked = false;
+    public int stageDifficulty = 0;
     
 
     // 왜 프리팹으로 만들어서 고생하는가..
