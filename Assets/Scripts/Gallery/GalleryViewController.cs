@@ -12,6 +12,11 @@ public class GalleryViewController : MonoBehaviour
     public Button modeSwitchButton;
 
     public SfxLibrary sfxLibraryPrefab;
+
+    public Sprite[] backgroundImageStorages;
+    public Image backgroundImage;
+
+    int index = 0;
     
     private void Start()
     {
@@ -30,6 +35,9 @@ public class GalleryViewController : MonoBehaviour
 
         playerManager.isGalleryMode = !playerManager.isGalleryMode;
         AudioManager.Instance.PlaySound(sfxLibraryPrefab.GetClipFromID(5), new Vector3(0, 0, 0));
+
+        index = 1 - index;
+        backgroundImage.sprite = backgroundImageStorages[index];
 
         UpdateDisplay();
     }
