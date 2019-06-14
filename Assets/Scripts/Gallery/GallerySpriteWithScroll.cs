@@ -36,7 +36,7 @@ public class GallerySpriteWithScroll : MonoBehaviour
         {
             if (unlockedTier >= i)
             {
-                galleryImages[i].sprite = gallerySprites[i];
+                galleryImages[i].sprite = gallerySprites[2-i];
             }
             else
             {
