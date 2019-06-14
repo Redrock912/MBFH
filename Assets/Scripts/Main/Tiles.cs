@@ -173,7 +173,6 @@ public class Tiles : MonoBehaviour
         //spriteArray = gameObject.GetComponentsInChildren<SpriteRenderer>();
 
 
-  
             switch (displayNumber)
             {
                 case 0:
@@ -387,7 +386,15 @@ public class Tiles : MonoBehaviour
             if (isHidden)
             {
                 isHidden = false;
-                SetTileNumber();
+                if (isFlip)
+                {
+                    SetFlipNumbers();
+                }
+                else
+                {
+                    SetTileNumber();
+
+                }
                 spriteArray[1].enabled = true;
                 
             }
@@ -472,7 +479,15 @@ public class Tiles : MonoBehaviour
                 }
                 else
                 {
-                    neighborTiles[i].SetTileNumber();
+                    if (isFlip)
+                    {
+                        neighborTiles[i].SetFlipNumbers();
+                    }
+                    else
+                    {
+                        neighborTiles[i].SetTileNumber();
+
+                    }
                     neighborTiles[i].RevealNeighborTilesWithNumber();
                 }
 

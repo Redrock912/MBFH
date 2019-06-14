@@ -57,6 +57,7 @@ public class PlayerManager : MonoBehaviour
     public bool isPaused = false;
     public bool isSeeingTutorial = false;
     public bool isLevelUnlocked = false;
+    public bool isCountAddShown = false;
     public int stageDifficulty = 0;
     
 
@@ -332,6 +333,13 @@ public class PlayerManager : MonoBehaviour
     // 광고 보상용도
     public void AddCount()
     {
-        count += countByDifficulty[currentGrid];
+        count += 5;
+        isCountAddShown = true;
+    }
+
+    // 광고 보고 난 후에 다시 플레이 (게임 오버 당한 경우)
+    public void Revive()
+    {
+        gridScript.isTopGrid = true;
     }
 }

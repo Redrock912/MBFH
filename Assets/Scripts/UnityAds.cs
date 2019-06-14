@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class UnityAds : MonoBehaviour
 {
-    private const string android_game_id = "3107965";
-    private const string ios_game_id = "3107964";
+    private const string android_game_id = "3183819";
+    private const string ios_game_id = "3183818";
     private const string rewarded_video_id = "rewardedVideo";
     private const string video_id = "video";
 

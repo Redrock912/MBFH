@@ -54,6 +54,7 @@ public class PlayerInput : MonoBehaviour
 
                 if (Input.GetMouseButtonDown(0) && tempTile.isRevealed == false && tempTile.parentGrid.isTopGrid == true && !playerManager.isPaused && !playerManager.isSeeingTutorial)
                 {
+                    
                     // 타일을 까도록하자.
 
                     if (tempTile.isMine)

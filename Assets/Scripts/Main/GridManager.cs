@@ -41,6 +41,7 @@ public class GridManager : MonoBehaviour
         playerManager.isPaused = false; 
         playerManager.ResetScore();
         playerManager.ResetGridClearEvents(this);
+        playerManager.isCountAddShown = false;
         
       
 

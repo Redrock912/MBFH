@@ -5,8 +5,8 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
 
-    float sfxVolumePercent = 1;
-    float musicVolumePercent = 0.1f;
+    float sfxVolumePercent = 2;
+    float musicVolumePercent = 0.5f;
     float masterVolumePercent = 1;
 
 
@@ -64,7 +64,7 @@ public class AudioManager : MonoBehaviour
         if(clip != null)
         {
             
-            AudioSource.PlayClipAtPoint(clip, pos, 1);
+            AudioSource.PlayClipAtPoint(clip, new Vector3(0,0,-5), 1);
         }
 
 

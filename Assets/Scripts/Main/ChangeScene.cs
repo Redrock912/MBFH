@@ -89,18 +89,14 @@ public class ChangeScene : MonoBehaviour
 
         PlayerManager playerManager = PlayerManager.Instance;
         playerManager.AddCount();
+
+
         
     }
 
     
 
     
-    
-    void Start()
-    {
-
-    
-    }
 
 
 }

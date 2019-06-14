@@ -239,7 +239,7 @@ MonoBehaviour:
     m_HighlightedTrigger: Highlighted
     m_PressedTrigger: Pressed
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 6456936454043749300}
   m_OnClick:
     m_PersistentCalls:
@@ -269,6 +269,7 @@ GameObject:
   - component: {fileID: 6456936454220484867}
   - component: {fileID: 6456936454220484865}
   - component: {fileID: 6456936454220484866}
+  - component: {fileID: 7113319555830856849}
   m_Layer: 5
   m_Name: CountOverBackgroundImage
   m_TagString: CountOverImage
@@ -337,6 +338,18 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
+--- !u!225 &7113319555830856849
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6456936454220484868}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &6456936455070273602
 GameObject:
   m_ObjectHideFlags: 0

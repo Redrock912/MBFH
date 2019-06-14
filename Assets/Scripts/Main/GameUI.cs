@@ -23,6 +23,9 @@ public class GameUI : MonoBehaviour
     public GameObject pauseButton;
 
     public Button countOverAddCountButton;
+    public Button pauseMenuAddCountButton;
+
+    public RectTransform countOverStarHolder;
 
     public CanvasGroup returnButton;
     public CanvasGroup pauseMenu;
@@ -96,7 +99,7 @@ public class GameUI : MonoBehaviour
         // 이 부분도 여러 레이어를 가정해서 만들었지만, 현재는 0 사용
         bombUI.text = (gridManager.gridScript[gridManager.CurrentTop].currentMines).ToString("D2");
 
-        layerUI.text = (gridManager.CurrentTop + 1).ToString("D2");
+        layerUI.text = (gridManager.CurrentTop + 1).ToString("D1");
 
         if (timerBar.enabled)
         {
@@ -105,7 +108,11 @@ public class GameUI : MonoBehaviour
 
         scoreUI.text = (playerManager.currentScore).ToString("D6");
 
-
+        if(playerManager.isCountAddShown)
+        {
+            countOverAddCountButton.interactable = false;
+            pauseMenuAddCountButton.interactable = false;
+        }
     }
 
     void TimerBarUpdate()
@@ -201,8 +208,11 @@ public class GameUI : MonoBehaviour
     void OnCountOver()
     {
         
+
         if (countOverImage != null)
         {
+            countOverImage.gameObject.SetActive(true);
+
             //StartCoroutine("CountOverImageAnimation");
             anim.Play("CountOverAnimation");
         }
@@ -242,7 +252,7 @@ public class GameUI : MonoBehaviour
 
     public void ShowStarsDuringCountOverAnimation()
     {
-        StarController starContainer = Instantiate(starContainerPrefab, clearImage.GetComponentInChildren<RectTransform>().transform);
+        StarController starContainer = Instantiate(starContainerPrefab, countOverStarHolder);
 
         // 생성된 다음에 붙자. 같이 움직이게
         starContainer.transform.parent = countOverImage.transform;
@@ -280,6 +290,7 @@ public class GameUI : MonoBehaviour
             RevealOtherUIExceptPause();
         }
 
+        CheckUnityAds();
         
 
     }
@@ -306,6 +317,21 @@ public class GameUI : MonoBehaviour
         {
             countOverAddCountButton.interactable = false;
         }
+
+        //if (playerManager.isCountAddShown)
+        //{
+        //    countOverAddCountButton.interactable = false;
+        //}
+        
+    }
+
+    public void ClosePauseButtonAfterAds()
+    {
+        // 다시 설정하고
+        playerManager.OnCountOver += OnCountOver;
+
+        countOverImage.gameObject.SetActive(false);
+        playerManager.Revive();
     }
 
     //IEnumerator ClearImageAnimation()

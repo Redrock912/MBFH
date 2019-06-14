@@ -13,7 +13,7 @@ public class PauseMenuUI : MonoBehaviour
     private void Start()
     {
         unityAds = UnityAds.Instance;
-
+        
         
     }
 
@@ -28,5 +28,7 @@ public class PauseMenuUI : MonoBehaviour
         {
             addCountButton.interactable = true;
         }
+
+        
     }
 }
