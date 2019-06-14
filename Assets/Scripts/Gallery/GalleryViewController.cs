@@ -10,6 +10,7 @@ public class GalleryViewController : MonoBehaviour
     public TextMeshProUGUI galleryText;
     public TextMeshProUGUI stageSelectText;
     public Button modeSwitchButton;
+    public RectTransform stageContainer;
 
     public SfxLibrary sfxLibraryPrefab;
 
@@ -47,6 +48,19 @@ public class GalleryViewController : MonoBehaviour
         index = 1 - index;
         backgroundImage.sprite = backgroundImageStorages[index];
 
+        if (playerManager.isGalleryMode)
+        {
+            for (int n = 0; n < stageContainer.childCount; n++)
+            {
+                stageContainer.GetChild(n).GetComponent<Stage>().SetupStageInfo(0);
+            }
+        }
+        else
+        {
+            difficultySwitch.GetComponent<DifficultySwitch>().SelectDifficulty(0);
+        }
+
+
         FlipFlopDifficultyButton();
         UpdateDisplay();
     }
@@ -58,6 +72,8 @@ public class GalleryViewController : MonoBehaviour
         {
             difficultySwitch.alpha = 0;
             difficultySwitch.interactable = false;
+
+
         }
         else
         {
