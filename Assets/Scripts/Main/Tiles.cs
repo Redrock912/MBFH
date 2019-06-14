@@ -207,21 +207,14 @@ public class Tiles : MonoBehaviour
 
             }
      
-        
-        
-
-
         // ? 타일이면 ?로 덮어씌우자.
         if (isHidden)
         {
             spriteArray[1].sprite = questionTile;
-            
-            
+                       
         }
-
         // 일단 숨겨놓자, isRevealed에 반응하도록
         spriteArray[1].enabled = false;
-
 
     }
 
@@ -258,6 +251,15 @@ public class Tiles : MonoBehaviour
                 break;
 
         }
+
+        // ? 타일이면 ?로 덮어씌우자.
+        if (isHidden)
+        {
+            spriteArray[1].sprite = questionTile;
+
+        }
+        // 일단 숨겨놓자, isRevealed에 반응하도록
+        spriteArray[1].enabled = false;
     }
 
     public void SetData(string name, Sprite spritePart,int rowLength)
@@ -479,7 +481,7 @@ public class Tiles : MonoBehaviour
                 }
                 else
                 {
-                    if (isFlip)
+                    if (neighborTiles[i].isFlip)
                     {
                         neighborTiles[i].SetFlipNumbers();
                     }

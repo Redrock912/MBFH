@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tutorialImage: {fileID: 5035609494837665969}
-  showTutorialStageList: 000000000200000004000000
+  showTutorialStageList: 000000000100000004000000
   middleHolder: {fileID: 5309841580311698118}
   rightHolder: {fileID: 5424784844999972348}
   confirmButton: {fileID: 295062356321548870}

@@ -12,7 +12,7 @@ public class Tutorial : MonoBehaviour
 
     public Image tutorialImage;
 
-    public int[] showTutorialStageList = { 0, 2, 4 };
+    public int[] showTutorialStageList = { 0, 1, 4 };
     bool isShown = false;
     int id;
     bool hasSeenFirstPage = false;
