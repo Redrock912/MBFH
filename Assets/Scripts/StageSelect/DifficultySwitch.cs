@@ -54,7 +54,9 @@ public class DifficultySwitch : MonoBehaviour
         
         for(int n = 0; n < stageContainer.childCount;  n++)
         {
-            stageContainer.GetChild(n).GetComponent<Stage>().SetupStageInfo(i);
+            Stage stage = stageContainer.GetChild(n).GetComponent<Stage>();
+            stage.SetupStageInfo(i);
+            stage.stageButton.GetComponent<StageButton>().difficultyLevel = i;
         }
        
     }

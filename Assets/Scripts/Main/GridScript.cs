@@ -39,8 +39,8 @@ public class GridScript : MonoBehaviour
 
     public void SetupStageInfo(int i, PlayerManager playerManager)
     {
-        currentStage = playerManager.currentStage;
-        stageName = playerManager.stageNames[currentStage];
+        currentStage = playerManager.currentStage + playerManager.currentDifficulty * 10 ;
+        stageName = playerManager.stageNames[playerManager.currentStage];
         //currentDifficulty = playerManager.currentDifficulty + i;
     }
 

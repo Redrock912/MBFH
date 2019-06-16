@@ -216,19 +216,21 @@ public class PlayerManager : MonoBehaviour
 
     public void Clear()
     {
+        int realCurrentStage = currentStage + currentDifficulty * 10;
+
         // 체크
-        if (PlayerPrefs.HasKey("stage" + currentStage))
+        if (PlayerPrefs.HasKey("stage" + realCurrentStage))
         {
             // 더 크다면 바깥을 더 큰값으로 바꾸자
-            if (PlayerPrefs.GetInt("stage" + currentStage) < currentGrid)
+            if (PlayerPrefs.GetInt("stage" + realCurrentStage) < currentGrid)
             {
-                PlayerPrefs.SetInt("stage" + currentStage, currentGrid);
+                PlayerPrefs.SetInt("stage" + realCurrentStage, currentGrid);
             }
 
         }
 
         // 언락 레벨
-        UnlockLevel(currentStage);
+        UnlockLevel(realCurrentStage);
 
         OnClear();
         // 초기화 해줘야 하나..?
@@ -240,18 +242,18 @@ public class PlayerManager : MonoBehaviour
     {
 
         // 체크
-        if(PlayerPrefs.HasKey("stage"+currentStage))
+        int realCurrentStage = currentStage + currentDifficulty * 10;
+
+        if(PlayerPrefs.HasKey("stage"+realCurrentStage))
         {
 
-            print(PlayerPrefs.GetInt("stage" + currentStage));
-            print("compare with");
-            print(currentGrid);
-            // 더 크다면 바깥을 더 큰값으로 바꾸자
-            if(PlayerPrefs.GetInt("stage"+currentStage)<currentGrid)
-            {
-                PlayerPrefs.SetInt("stage" + currentStage, currentGrid);
 
-                UnlockLevel(currentStage);
+            // 더 크다면 바깥을 더 큰값으로 바꾸자
+            if(PlayerPrefs.GetInt("stage"+realCurrentStage)<currentGrid)
+            {
+                PlayerPrefs.SetInt("stage" + realCurrentStage, currentGrid);
+
+                UnlockLevel(realCurrentStage);
 
             }
             
@@ -310,7 +312,7 @@ public class PlayerManager : MonoBehaviour
     // 난이도에 따라 시도 횟수 배정
     public void SetCurrentCountByDifficulty(int difficulty)
     {
-        //int dataLocation = difficulty + currentStage * 3;
+        
 
 
         count = countByDifficulty[difficulty];
