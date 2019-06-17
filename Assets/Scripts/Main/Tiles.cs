@@ -327,12 +327,14 @@ public class Tiles : MonoBehaviour
         //spriteArray[0].transform.localScale = new Vector3( worldScreenWidth / width,worldScreenHeight/height,1);
 
         // h * (9/16) * (1/8) , 9/16 = aspect ratio, 1/8 = tile size
-        float modifiedHeight = ((worldScreenHeight / height) * (10.0f / 16.0f)) * 0.1f ;
+        //float modifiedHeight = ((worldScreenHeight / height) * (10.0f / 16.0f)) * 0.1f ;
+
+        float modifiedHeight = (worldScreenHeight / height) * 3.0f /4.0f *   0.1f;
 
         // w * (1/8) , 1/8 = tile size
         float modifiedWidth = (worldScreenWidth / width) * 0.1f;
 
-        spriteArray[1].transform.localScale = new Vector3(modifiedWidth, modifiedHeight, 1);
+        spriteArray[1].transform.localScale = new Vector3(modifiedHeight, modifiedHeight, 1);
     }
 
     // SpriteArray가 아닌 이 객체의 전체 스케일 조정 
@@ -343,7 +345,8 @@ public class Tiles : MonoBehaviour
 
 
         // 내가 원하는 길이
-        float tempLength = worldScreenWidth / (float)rowLength;
+        //float tempLength = worldScreenWidth / (float)rowLength;
+        float tempLength = worldScreenWidth / 10.7f;
 
         // 현재 이 녀석의 길이
         MeshRenderer meshRenderer = GetComponentInChildren<MeshRenderer>();
