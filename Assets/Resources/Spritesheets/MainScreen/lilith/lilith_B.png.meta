@@ -1,0 +1,3470 @@
+fileFormatVersion: 2
+guid: 4d3b08860040e8b408411fa53f0bbc84
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lilith_B_0
+    21300002: lilith_B_1
+    21300004: lilith_B_2
+    21300006: lilith_B_3
+    21300008: lilith_B_4
+    21300010: lilith_B_5
+    21300012: lilith_B_6
+    21300014: lilith_B_7
+    21300016: lilith_B_8
+    21300018: lilith_B_9
+    21300020: lilith_B_10
+    21300022: lilith_B_11
+    21300024: lilith_B_12
+    21300026: lilith_B_13
+    21300028: lilith_B_14
+    21300030: lilith_B_15
+    21300032: lilith_B_16
+    21300034: lilith_B_17
+    21300036: lilith_B_18
+    21300038: lilith_B_19
+    21300040: lilith_B_20
+    21300042: lilith_B_21
+    21300044: lilith_B_22
+    21300046: lilith_B_23
+    21300048: lilith_B_24
+    21300050: lilith_B_25
+    21300052: lilith_B_26
+    21300054: lilith_B_27
+    21300056: lilith_B_28
+    21300058: lilith_B_29
+    21300060: lilith_B_30
+    21300062: lilith_B_31
+    21300064: lilith_B_32
+    21300066: lilith_B_33
+    21300068: lilith_B_34
+    21300070: lilith_B_35
+    21300072: lilith_B_36
+    21300074: lilith_B_37
+    21300076: lilith_B_38
+    21300078: lilith_B_39
+    21300080: lilith_B_40
+    21300082: lilith_B_41
+    21300084: lilith_B_42
+    21300086: lilith_B_43
+    21300088: lilith_B_44
+    21300090: lilith_B_45
+    21300092: lilith_B_46
+    21300094: lilith_B_47
+    21300096: lilith_B_48
+    21300098: lilith_B_49
+    21300100: lilith_B_50
+    21300102: lilith_B_51
+    21300104: lilith_B_52
+    21300106: lilith_B_53
+    21300108: lilith_B_54
+    21300110: lilith_B_55
+    21300112: lilith_B_56
+    21300114: lilith_B_57
+    21300116: lilith_B_58
+    21300118: lilith_B_59
+    21300120: lilith_B_60
+    21300122: lilith_B_61
+    21300124: lilith_B_62
+    21300126: lilith_B_63
+    21300128: lilith_B_64
+    21300130: lilith_B_65
+    21300132: lilith_B_66
+    21300134: lilith_B_67
+    21300136: lilith_B_68
+    21300138: lilith_B_69
+    21300140: lilith_B_70
+    21300142: lilith_B_71
+    21300144: lilith_B_72
+    21300146: lilith_B_73
+    21300148: lilith_B_74
+    21300150: lilith_B_75
+    21300152: lilith_B_76
+    21300154: lilith_B_77
+    21300156: lilith_B_78
+    21300158: lilith_B_79
+    21300160: lilith_B_80
+    21300162: lilith_B_81
+    21300164: lilith_B_82
+    21300166: lilith_B_83
+    21300168: lilith_B_84
+    21300170: lilith_B_85
+    21300172: lilith_B_86
+    21300174: lilith_B_87
+    21300176: lilith_B_88
+    21300178: lilith_B_89
+    21300180: lilith_B_90
+    21300182: lilith_B_91
+    21300184: lilith_B_92
+    21300186: lilith_B_93
+    21300188: lilith_B_94
+    21300190: lilith_B_95
+    21300192: lilith_B_96
+    21300194: lilith_B_97
+    21300196: lilith_B_98
+    21300198: lilith_B_99
+    21300200: lilith_B_100
+    21300202: lilith_B_101
+    21300204: lilith_B_102
+    21300206: lilith_B_103
+    21300208: lilith_B_104
+    21300210: lilith_B_105
+    21300212: lilith_B_106
+    21300214: lilith_B_107
+    21300216: lilith_B_108
+    21300218: lilith_B_109
+    21300220: lilith_B_110
+    21300222: lilith_B_111
+    21300224: lilith_B_112
+    21300226: lilith_B_113
+    21300228: lilith_B_114
+    21300230: lilith_B_115
+    21300232: lilith_B_116
+    21300234: lilith_B_117
+    21300236: lilith_B_118
+    21300238: lilith_B_119
+    21300240: lilith_B_120
+    21300242: lilith_B_121
+    21300244: lilith_B_122
+    21300246: lilith_B_123
+    21300248: lilith_B_124
+    21300250: lilith_B_125
+    21300252: lilith_B_126
+    21300254: lilith_B_127
+    21300256: lilith_B_128
+    21300258: lilith_B_129
+    21300260: lilith_B_130
+    21300262: lilith_B_131
+    21300264: lilith_B_132
+    21300266: lilith_B_133
+    21300268: lilith_B_134
+    21300270: lilith_B_135
+    21300272: lilith_B_136
+    21300274: lilith_B_137
+    21300276: lilith_B_138
+    21300278: lilith_B_139
+    21300280: lilith_B_140
+    21300282: lilith_B_141
+    21300284: lilith_B_142
+    21300286: lilith_B_143
+    21300288: lilith_B_144
+    21300290: lilith_B_145
+    21300292: lilith_B_146
+    21300294: lilith_B_147
+    21300296: lilith_B_148
+    21300298: lilith_B_149
+    21300300: lilith_B_150
+    21300302: lilith_B_151
+    21300304: lilith_B_152
+    21300306: lilith_B_153
+    21300308: lilith_B_154
+    21300310: lilith_B_155
+    21300312: lilith_B_156
+    21300314: lilith_B_157
+    21300316: lilith_B_158
+    21300318: lilith_B_159
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lilith_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdaaa6f9a824664ea0c8036bf481d3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac121e00d8b3e54e9e18212cdedf37c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd7e8e6a1d7bee42aefa195e038c99b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae9588bd60383949a9ca9c12df2399a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6117c435d676a8f4482247a787940ef0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c4a6dca0f24904899ea761d4763ff4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23927587b3c9d8d458218380fd4c19c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ce9657039aabe49a155d076a5f5c76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81ee6f5a0b5b1d409858078e8f2f5c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8b6ce420b3a134685add3a52324875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9bc452732a3964090191ca3756a2e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8669992eb3b1249a2254df620c19ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda2f3f0d71e2614788ed6fcb46b6879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def4754580d9045489f20e8b11459eaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91efe65bde14464e9631a13e5188bb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2e38471376ca045a933236c58dc5bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff7cff3263fd2c4a8f2f0a136ddc29a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a09269308066e4d8c44841d536b042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f471924a1e6f18449ce17e5a95188a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5aac89bef28ca44ad2b95aeb0153c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b569dcf685202d439fa762e92fd68fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5752fbbd71821fb4898dd4801b4734f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c542070cfd53a94f8168255ec719576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34e0fd593e072b4fbc7e06aaba081ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ca2fdf910b73d42bca4b274b7824a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6a1f3a7e6f51a4fb1789a2de357b1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d5aa312512f7e4cb60077032478e32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a396b9919b3f0242b7c609866d34f2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd606553f27cd464d8a1c995d36a8443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_29
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e82446041be9947bc111ccc836d185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30eb0a070a68d744902bbb398b1bc51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447e0f6481bef1b4ebcfab796fd19c65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2b66d8a05472d46b9d6c50433d2c87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdfcf88bb0b92949953fdd6cd1493ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4f5437d424c8840bb8d7ac2e7d71ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a4e8ca93035094d86cec87efe93fd9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b80d1f1d4e9c58498b3caf03abd9789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1910b5c03fdec24c879a8d8ea453e6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_38
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35fa854f49ceac942898a5dc27ec9eed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_39
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3e59aebd4079641a4d2bba4d5a04fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5275cc4f507691f4b8a5fc59802ce776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aacde62320d5094899d7eadd87db4e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdeaca649acf7340a617be4cb2afa54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3bcd9bfb77e3b4e9ee505fed296eea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b4465c5f033c0644a80f454ff5f38da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5371a417256b4d6449647a81ce197406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc23972edb2765f40be802a209dc026d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_47
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faff8dd6a59b624aafb10d9d4f88be7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cf9ab9d9033da41802a05e57073c76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_49
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7946f8b098b2bce4fa3f456ef3785461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a373435ceed02644e9855b9015b4c4b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801e7504c06d5e046ba69d6e9ef4d78b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ec87cae0c694c469698f9fce093e84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7346d547eebb5a459c3c6e5dc32765d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2a41721e67634c8aa8d414e685e90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_55
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541faf5f90d9b36418dc140f7f823d06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91631d9af65be5448ddccca188362f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_57
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8388ebab0954c4a41a2ed71c08423714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_58
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646070439f8d3bb499e3443da823bb5e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_59
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bf5e7fd0a6eca45bd4c28ee0c2aba8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3925d89e57b788643b8d6b52079a1bf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba9e3f78a4a9d048a2d37cfdf0f3e85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ee2c88d90834344a009d7d61505c9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8697a8229905b24cbeee279d84e1531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afa116de3886b240bc8be2517ec71e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_65
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8063ec7c7ea9c4aa107730aadafa13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd95fd7fdbd20a04ba2f5ac197b5d651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39b88c6b4d4abf43bfd08ce4811c15a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_68
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eda53f510dd6d40a1e13d48918b2a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec49059edac1ca14c9c70822dbcd8454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4336948d0ee9714aaa21f53a768dd5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_71
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509ef87c7e7383d43844ca6fd33a85e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c69104396a92ee42aa2f2b7014f6e47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1027804370cdbff4592528d7b73ab533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfbc4cb896571d478e6845f3baca60c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983c1d68f07ac474ca06e428e00e8709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795449f6ce7c37d4887d08bc5662480b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_77
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1632d49df77b8534195f320cd640b221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef189188e6cab0479009ebd4621eac9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_79
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2fafbfb91a3e44cba58296001f6ebc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4a45a2e88953344a11427792053c7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d096e7131ea306e47b60a37d8d44d868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba85c52e31fbe044844e04d1ab9209d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe00800f5f0bd484fb492df721237bd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f37e065660e2034e88b0cddfec9a41f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2809706f7c3b21b4da4c9846647c4176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_86
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3e2f224afb20d4ea13f3d1c8d35c77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b321b6a4af1c7e4195bb60396d05da2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_88
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbb7669fc91d354ba6249633c56a3a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_89
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7cdf50b58f2914f9ed205852467ba3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4522bc713b33fc4d8761b0cd965393b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e48d4bf3fa13fd40aaed574f9ae9426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_92
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6325934ec19651408e2d8e574c74683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047bdff1385a6704abe48a161c5be44b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7cd4f8cc402294e9dbd4d7566d55e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_95
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3a6d0fde213c549a57e713c4d9bfb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433f5f134d7f66b4492d13ef153749d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5002abe05940f448115cddc3ba8836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5cb3fb4a61a0a4a93f68df13e6e79d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_99
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565ac52df35d31943920866102ae68da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f60fa653104224aacf777ff755ee2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df601c58b79cc6449b588c400ec27d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6e6a6ddf998f44fafe54aef82e1731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2d77fc22ccd33459cfbe1df28325fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_104
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63389057350c9e542b838751e823c08a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_105
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec0dcf5c67024c4d97c7f1d80b5b078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_106
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09bc5ecb8e251743ae856b6612691d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_107
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243dc7e2d1ab52f47b7a1acd2755aac9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_108
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efc502234a32fb419e3aaa03423e3b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_109
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa93be90607a58488b686fcd64df4ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1e6ebd44e2572448632e8acaccda8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_111
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d364653dc38e884fb333218ce8584a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_112
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acf98627bc51154ebf91c85348023af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_113
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f5ff8e4ec532fa4a84b2f14488498a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_114
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d67f01ee7e68ca4bb6b64ab8a5f4691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_115
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50824556e43486a4e9e35c249d489a98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_116
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cad448d431b540458b15280ca9dc365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_117
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76b6724279f2e2498b02335d4c5a883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_118
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7d3ae9eb7663241b388d6209c84d9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_119
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1058580fe6a9b584ab048f90ae003aa9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c34f054917c10499b135d9c7c8c0e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4317ab257c1e16b4b8a54bca05bd349c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_122
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3c08588e4fe941809e629be7cfcee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_123
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2c49b9f440cd34c8eeb4aacba4f6b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_124
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3df47d14c3beb04896e94fe90d51ada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_125
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6540f30629793f48b8d7765b286fc95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_126
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43fd01fd077ce8458132ea0d7c79378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_127
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23d1756f4289dd48b368fcc96075d7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_128
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01f1be93501ff342b367542982c80cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_129
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261861a8277e2dc4baea09d0cc587cf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4a391efc84e3640a3d95491e0c016a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_131
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6067ed286361c544ab8597fc34154f75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_132
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b8875c92d40ce4db771b20a0423dbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_133
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afd28612a5c5794aaed0e0068a6ccc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_134
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e911cd390ca7b4c80224d27512d25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_135
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28c44d08d8d5494e824a892788913ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_136
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f1f2c036c60ec4699f5da09c91d00b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_137
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6023337dbbbb64d80b079190b36329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_138
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60361b00b37a9614ea3e801052e09246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_139
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415c4d617d17b3d48805b27ce879c21b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9e0992c31a1824197ec81385ca6497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_141
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa19662a61aa46e4a9944c648503cf89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_142
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dd4a8c82f2dc14bbb971f299e9db6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_143
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce47a44afbaba374ea2d48e8acec74ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_144
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd37222a1ef6ca64b8976c5a2473ba53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_145
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abdb364326fb3e4b85623bd14b0e196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_146
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85844d23fba184d4a92d7e4dd2393ee8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_147
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711cd902af371e043941ba0d83f53e3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_148
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a08d356bfeefc48ac00c8a5291c72f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_149
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0c0f888b181c7408e99bcac2e6f5cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99472cd4a3389254ea3de0f1a0b896b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_151
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d63583903ab14841b6f5f2f74d5ef78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_152
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da82fb380eaf618438e73a5b1bb07659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_153
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309f684f68972464d8cd264ee48a7b27
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_154
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bd08e6dad550a4db1d80703ddf5077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_155
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0364535358dedb34dbe02c7f8170d150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_156
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd13ca5e5c97594ea3d568e5ba609e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_157
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e80dd72f7d7804e958638314a909eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_158
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c45598542df7a4a973db4b623d7bda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lilith_B_159
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2817edc0bf2294299716caf852816b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9f480f0d1374aca42aedab13c75fcacb
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

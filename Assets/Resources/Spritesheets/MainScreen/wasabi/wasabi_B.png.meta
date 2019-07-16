@@ -1,0 +1,3470 @@
+fileFormatVersion: 2
+guid: 9c8ae6bbea7271844851dd9809e9106f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wasabi_B_0
+    21300002: wasabi_B_1
+    21300004: wasabi_B_2
+    21300006: wasabi_B_3
+    21300008: wasabi_B_4
+    21300010: wasabi_B_5
+    21300012: wasabi_B_6
+    21300014: wasabi_B_7
+    21300016: wasabi_B_8
+    21300018: wasabi_B_9
+    21300020: wasabi_B_10
+    21300022: wasabi_B_11
+    21300024: wasabi_B_12
+    21300026: wasabi_B_13
+    21300028: wasabi_B_14
+    21300030: wasabi_B_15
+    21300032: wasabi_B_16
+    21300034: wasabi_B_17
+    21300036: wasabi_B_18
+    21300038: wasabi_B_19
+    21300040: wasabi_B_20
+    21300042: wasabi_B_21
+    21300044: wasabi_B_22
+    21300046: wasabi_B_23
+    21300048: wasabi_B_24
+    21300050: wasabi_B_25
+    21300052: wasabi_B_26
+    21300054: wasabi_B_27
+    21300056: wasabi_B_28
+    21300058: wasabi_B_29
+    21300060: wasabi_B_30
+    21300062: wasabi_B_31
+    21300064: wasabi_B_32
+    21300066: wasabi_B_33
+    21300068: wasabi_B_34
+    21300070: wasabi_B_35
+    21300072: wasabi_B_36
+    21300074: wasabi_B_37
+    21300076: wasabi_B_38
+    21300078: wasabi_B_39
+    21300080: wasabi_B_40
+    21300082: wasabi_B_41
+    21300084: wasabi_B_42
+    21300086: wasabi_B_43
+    21300088: wasabi_B_44
+    21300090: wasabi_B_45
+    21300092: wasabi_B_46
+    21300094: wasabi_B_47
+    21300096: wasabi_B_48
+    21300098: wasabi_B_49
+    21300100: wasabi_B_50
+    21300102: wasabi_B_51
+    21300104: wasabi_B_52
+    21300106: wasabi_B_53
+    21300108: wasabi_B_54
+    21300110: wasabi_B_55
+    21300112: wasabi_B_56
+    21300114: wasabi_B_57
+    21300116: wasabi_B_58
+    21300118: wasabi_B_59
+    21300120: wasabi_B_60
+    21300122: wasabi_B_61
+    21300124: wasabi_B_62
+    21300126: wasabi_B_63
+    21300128: wasabi_B_64
+    21300130: wasabi_B_65
+    21300132: wasabi_B_66
+    21300134: wasabi_B_67
+    21300136: wasabi_B_68
+    21300138: wasabi_B_69
+    21300140: wasabi_B_70
+    21300142: wasabi_B_71
+    21300144: wasabi_B_72
+    21300146: wasabi_B_73
+    21300148: wasabi_B_74
+    21300150: wasabi_B_75
+    21300152: wasabi_B_76
+    21300154: wasabi_B_77
+    21300156: wasabi_B_78
+    21300158: wasabi_B_79
+    21300160: wasabi_B_80
+    21300162: wasabi_B_81
+    21300164: wasabi_B_82
+    21300166: wasabi_B_83
+    21300168: wasabi_B_84
+    21300170: wasabi_B_85
+    21300172: wasabi_B_86
+    21300174: wasabi_B_87
+    21300176: wasabi_B_88
+    21300178: wasabi_B_89
+    21300180: wasabi_B_90
+    21300182: wasabi_B_91
+    21300184: wasabi_B_92
+    21300186: wasabi_B_93
+    21300188: wasabi_B_94
+    21300190: wasabi_B_95
+    21300192: wasabi_B_96
+    21300194: wasabi_B_97
+    21300196: wasabi_B_98
+    21300198: wasabi_B_99
+    21300200: wasabi_B_100
+    21300202: wasabi_B_101
+    21300204: wasabi_B_102
+    21300206: wasabi_B_103
+    21300208: wasabi_B_104
+    21300210: wasabi_B_105
+    21300212: wasabi_B_106
+    21300214: wasabi_B_107
+    21300216: wasabi_B_108
+    21300218: wasabi_B_109
+    21300220: wasabi_B_110
+    21300222: wasabi_B_111
+    21300224: wasabi_B_112
+    21300226: wasabi_B_113
+    21300228: wasabi_B_114
+    21300230: wasabi_B_115
+    21300232: wasabi_B_116
+    21300234: wasabi_B_117
+    21300236: wasabi_B_118
+    21300238: wasabi_B_119
+    21300240: wasabi_B_120
+    21300242: wasabi_B_121
+    21300244: wasabi_B_122
+    21300246: wasabi_B_123
+    21300248: wasabi_B_124
+    21300250: wasabi_B_125
+    21300252: wasabi_B_126
+    21300254: wasabi_B_127
+    21300256: wasabi_B_128
+    21300258: wasabi_B_129
+    21300260: wasabi_B_130
+    21300262: wasabi_B_131
+    21300264: wasabi_B_132
+    21300266: wasabi_B_133
+    21300268: wasabi_B_134
+    21300270: wasabi_B_135
+    21300272: wasabi_B_136
+    21300274: wasabi_B_137
+    21300276: wasabi_B_138
+    21300278: wasabi_B_139
+    21300280: wasabi_B_140
+    21300282: wasabi_B_141
+    21300284: wasabi_B_142
+    21300286: wasabi_B_143
+    21300288: wasabi_B_144
+    21300290: wasabi_B_145
+    21300292: wasabi_B_146
+    21300294: wasabi_B_147
+    21300296: wasabi_B_148
+    21300298: wasabi_B_149
+    21300300: wasabi_B_150
+    21300302: wasabi_B_151
+    21300304: wasabi_B_152
+    21300306: wasabi_B_153
+    21300308: wasabi_B_154
+    21300310: wasabi_B_155
+    21300312: wasabi_B_156
+    21300314: wasabi_B_157
+    21300316: wasabi_B_158
+    21300318: wasabi_B_159
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wasabi_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426db6c264364ae46ae2401a5a76e596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04eb2a43b9dd57442990742578fab15f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4228f5115b92b0499946c2dfb443fc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf04986a2b5f246b9e0ef3b307173a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2739eff32fa84db4dbdcd11d6c5c16f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf0aa02f775f4c42b9f4ad680e6043e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a411092fbdd7ee849966a1153339afbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741ff3620f64ef14d9c18bb5d6ce0cf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f54c7afec6702c4ea46c6b82c7086b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a816420960a513d458eb3166c2c58e96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b556e892b8bbee948b5c5cb869e454b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7d0ccec01c3b24ca8dd9c778c1aee7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0982bbbdf0a18e64bae5d4cf045a14a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2051f3a4362eeff46b348e1fc5517a2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8684a7ace6a4fa45ac8d4485c5b0aff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75963f84a1e8fb4ca99b16d028a3ee5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faef41c65cf4c24b8f42a3591099f0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0b4c98df981574588be8ba156a1dce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483c964cfde12be4bbb187dddfac850c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a231696dba46b46bbea1095f381ed3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7474377d5ca671c47873617c6f67f740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5aab122a4c99eb41a57ead162f4f3e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01b5b45a4898ee49837c3f43a077fa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9db3f186244f3748a3e908ac70cea65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9687c5a820c9538459131b44ddcd5cc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccaca6b413a1e3443becfa859e535d7e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f14749d9f52c0341aa758959d0a7a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 971085e9860e47643b4fec928e754c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3765be617f47a3c468fe6ba6d6b041b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_29
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b67a600b8ab724459c767d15e921c4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefb8a34d5040414bb1b6403e7b8d313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36f17457908e2b41b857ad9e6831cc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c1728dbc3fdae4488a034bb7e806d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8c5120da7680f43bae8b385d14a6dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d8c3252e1e1b42b62709ddb8efbfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426722fec5e4068439e84f8c8d9861ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbbc971a76d1ea46a2f0e5d7f1ae2f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae2742637668a847b811db57b6e8c7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_38
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2637358057e2fb459a388317321dc68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_39
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec229eb02c9424582cc4bcb613f305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04cf3f5211c30b4e97682af91a8981d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d1bbfa11a01a94d9b8b481c54c145a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f286312f0cff74d99d9fc8d60addbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a207fe73bda75498f4323a7a683e85
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e952998ff4fdb64e86b04082d03bd5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcef3bde13e161439354a2fb182918a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71568254968344b47b7ee35daff85920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_47
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1755346effd5dc743b8a696fc7af53be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3a1d6f87759dd4895b5dc2f68d6985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_49
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37dc7e5b742e3f4d8291306308cbdfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baaa6c1e042131c47b5f3ee89073c976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b05ef33098da042bd3f12e38dea00d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b938bf409000794aa71c3577ca296ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096e628a79190e04b955692a77eb2ecc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb78dbf71f775b489903c5b0e4ba5e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_55
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e354b5e217379546be5e2e7e18d5d06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aba4d7af810e1a4c9db21046cfed6b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_57
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe2755e27870b4fb679de97d99c100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_58
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef374a2899f8424089ea21f7e568967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_59
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ace03cda3734347af4962cab52a14b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90b54575677c6445beb12878747595d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c56c53c0700e840afe2ef4d7ec7a77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b053f677e0999aa499a6db62c2e2a5e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb6d3c5fc7c22a4c80a197334e3c861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb6ca6475948b04089a3a57d42fa854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_65
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c704ce92aad564a87ea5921e421c8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f26d62b5d4df540beb7662584617f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887a9f10bd6b2724b9596fed6ec040d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_68
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1e8e0a8f5ddd743853198f0008b201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895f3f98dc1dd4a468c0c66c970972fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab15bf588a4403b4e8167a21bb2d7537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_71
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59e7be7926d8d145931c5170d60addc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00afa3a2a6deb3d4c922b66814525f53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d12b2802f6b654ca9420d1a7ac0139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a805260d141a144389fa181e5bd4069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495cc736fa48d3f4ba79613824cf8032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cf6b141f782a54586119e164e1ee58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_77
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871f4fcb636d60c4aa81b4d9d67c495f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8162a86c309ed4ea976ec29b5c7774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_79
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667965b904cfe7944b8ae2c6c27758b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338a01a6c96053a4d85ff306c028c504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4b41e82c0f5a540acd78a52a57c487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2af0500338f19a41ad2197319a49674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761d37ba82d7b940a4db0ed05567d08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3968540f1de497469163c6268619ff1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b294bf021da330b4ea3375d6ae350ab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_86
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e690d2096cf3ab24cb4c47b41278bcaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee247f7884fdb54bba7737162aa93ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_88
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c893a715bad3ef742a3e3f27db12ef4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_89
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b2eb43a2dbae24985290b6fec7834e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a56733090d23c4fb3209a7b8f16e62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9248b430c01ae4649b1f33b9701fc491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_92
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb59813bd5232246bb38e1f6793fcea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b2b2afcebd69547b9ab6cb5c76d155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b3be817d33a4540a501eaa35c88edd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_95
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42252ae871b283040b185ee33ba0184c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e112066f5d355d40bc1a2e5a69b8b29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80cc6ece520c254cb3c8abdd19419f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc9d4bc69b9c6d641b5de88dea59494e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_99
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06037116958bddd42ad11635895a792c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34873e6fe4bb38a49a4a6e5c1ce70192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d5674668560b48925e5264b540b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eff635643d551d4cbfb9884abcdebe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5761a7e9d15110b43abc99e27f6bd191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_104
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c27ecdbeec58b5458148eca51624154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_105
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2a823aa555ea641bec843e12d9383c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_106
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4929e1549a55e4390d94b516be6cc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_107
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 801a4a5eae9e16c46a0f2ae1002fecac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_108
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d878acff88e5114c8c9aa1312f93a53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_109
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91002f7e255c97143892dc572defc759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a590499b8c0e34ca8375d8772a1b17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_111
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db03c390b9b33874997c0d634625afe8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_112
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6671aa8f10e4484fb26e8b254862f55
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_113
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afa7da094cbca1408b7969dba5b99e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_114
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e32b4fc3c1bdb048bb41bdfe6df01b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_115
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56143899876beb941a7cb605b3f023d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_116
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed115f1fea34bd449e4269ffe924bb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_117
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a459d773d96ed4a4a829652d1ca00ceb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_118
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af6d7155217ee1d4da86e1d5f4ff5e23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_119
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd875c4c836aff46a7bf09cd1b77c8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add5e808e2972cf4fbe99640edef1224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7575bfb5a3f8940a272d1fa782e74f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_122
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26c9142cc79afb4487f8b202d63b069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_123
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072463ad016099347b59b7c2c01852c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_124
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc5fc867aeaaa04c9ea7d182b8b251a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_125
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b5b39cdff3ff04aab705d249caee08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_126
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d8a0a80e120c44ab44c13429b9af4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_127
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9630b4ddf1da4a04eb992557d9b14fa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_128
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3557cfb2c3b97bc478f6e85cdcd263bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_129
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c26cd78626d9df47b00c3a42e65ae8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0506278ed2245449a223b437c1696f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_131
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a3f92785da70249b2b0d1eb23fe4f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_132
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690465badf17d224e9b9f399e3015eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_133
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d1133da461be24b89cf22e47c6f637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_134
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b768f1e6db126264ab5c19db22c2ed66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_135
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e1b41d73b301345887322895290479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_136
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce30a373cf2876740ae771f574a58b4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_137
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cec0497405439409ec5306f7ed71a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_138
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1069766c1d666314abd1fc9e0e394840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_139
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed993ed0627f5143833169da3dec041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6431921228901e54e89c40cfc708bced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_141
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0612a65822447f14db0ab7954c2bb6ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_142
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0f86b540414aa429ffa0ae3fda628e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_143
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2cfc861de84aa42bf8ba3d6e8e922b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_144
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf1c3b29064eb7468343240c4a7d4b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_145
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52ec6f8e08047242a7618835aeb8d5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_146
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bb8f772a4383b488c426d8af58e223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_147
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a188c7245b5aef4aa6e2baee9f1e3dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_148
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3744c2fd20bb42b47a3d85cbaa1d043b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_149
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48694d6a74fbf345b3bdcb2ddb7dbdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1208df9d0309264b88fc7680f5f01c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_151
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e9e25a0457084b9b7568882092521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_152
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352744e40e1a4d94b80f55186aef145f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_153
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3899669f8bba84ba6eb00f8d766177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_154
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d1deb0db033254eb2e0d30c6abf01c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_155
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a81d68256cc9e458f411c240648314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_156
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b87cc0eee864fe4eb67bac87de2ac16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_157
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c9dc8072655f4d9180504ddd8e7c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_158
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28408591e812434e8d77bfba24b9dc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wasabi_B_159
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f847733db779d4e8b56c75c0f0b1ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e02a99dc235967e488fff26719fe7a60
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

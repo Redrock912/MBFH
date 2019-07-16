@@ -1,0 +1,3630 @@
+fileFormatVersion: 2
+guid: 49608461dc2c8214b8e3af25cd4af057
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mayu_b_0
+    21300002: mayu_b_1
+    21300004: mayu_b_2
+    21300006: mayu_b_3
+    21300008: mayu_b_4
+    21300010: mayu_b_5
+    21300012: mayu_b_6
+    21300014: mayu_b_7
+    21300016: mayu_b_8
+    21300018: mayu_b_9
+    21300020: mayu_b_10
+    21300022: mayu_b_11
+    21300024: mayu_b_12
+    21300026: mayu_b_13
+    21300028: mayu_b_14
+    21300030: mayu_b_15
+    21300032: mayu_b_16
+    21300034: mayu_b_17
+    21300036: mayu_b_18
+    21300038: mayu_b_19
+    21300040: mayu_b_20
+    21300042: mayu_b_21
+    21300044: mayu_b_22
+    21300046: mayu_b_23
+    21300048: mayu_b_24
+    21300050: mayu_b_25
+    21300052: mayu_b_26
+    21300054: mayu_b_27
+    21300056: mayu_b_28
+    21300058: mayu_b_29
+    21300060: mayu_b_30
+    21300062: mayu_b_31
+    21300064: mayu_b_32
+    21300066: mayu_b_33
+    21300068: mayu_b_34
+    21300070: mayu_b_35
+    21300072: mayu_b_36
+    21300074: mayu_b_37
+    21300076: mayu_b_38
+    21300078: mayu_b_39
+    21300080: mayu_b_40
+    21300082: mayu_b_41
+    21300084: mayu_b_42
+    21300086: mayu_b_43
+    21300088: mayu_b_44
+    21300090: mayu_b_45
+    21300092: mayu_b_46
+    21300094: mayu_b_47
+    21300096: mayu_b_48
+    21300098: mayu_b_49
+    21300100: mayu_b_50
+    21300102: mayu_b_51
+    21300104: mayu_b_52
+    21300106: mayu_b_53
+    21300108: mayu_b_54
+    21300110: mayu_b_55
+    21300112: mayu_b_56
+    21300114: mayu_b_57
+    21300116: mayu_b_58
+    21300118: mayu_b_59
+    21300120: mayu_b_60
+    21300122: mayu_b_61
+    21300124: mayu_b_62
+    21300126: mayu_b_63
+    21300128: mayu_b_64
+    21300130: mayu_b_65
+    21300132: mayu_b_66
+    21300134: mayu_b_67
+    21300136: mayu_b_68
+    21300138: mayu_b_69
+    21300140: mayu_b_70
+    21300142: mayu_b_71
+    21300144: mayu_b_72
+    21300146: mayu_b_73
+    21300148: mayu_b_74
+    21300150: mayu_b_75
+    21300152: mayu_b_76
+    21300154: mayu_b_77
+    21300156: mayu_b_78
+    21300158: mayu_b_79
+    21300160: mayu_b_80
+    21300162: mayu_b_81
+    21300164: mayu_b_82
+    21300166: mayu_b_83
+    21300168: mayu_b_84
+    21300170: mayu_b_85
+    21300172: mayu_b_86
+    21300174: mayu_b_87
+    21300176: mayu_b_88
+    21300178: mayu_b_89
+    21300180: mayu_b_90
+    21300182: mayu_b_91
+    21300184: mayu_b_92
+    21300186: mayu_b_93
+    21300188: mayu_b_94
+    21300190: mayu_b_95
+    21300192: mayu_b_96
+    21300194: mayu_b_97
+    21300196: mayu_b_98
+    21300198: mayu_b_99
+    21300200: mayu_b_100
+    21300202: mayu_b_101
+    21300204: mayu_b_102
+    21300206: mayu_b_103
+    21300208: mayu_b_104
+    21300210: mayu_b_105
+    21300212: mayu_b_106
+    21300214: mayu_b_107
+    21300216: mayu_b_108
+    21300218: mayu_b_109
+    21300220: mayu_b_110
+    21300222: mayu_b_111
+    21300224: mayu_b_112
+    21300226: mayu_b_113
+    21300228: mayu_b_114
+    21300230: mayu_b_115
+    21300232: mayu_b_116
+    21300234: mayu_b_117
+    21300236: mayu_b_118
+    21300238: mayu_b_119
+    21300240: mayu_b_120
+    21300242: mayu_b_121
+    21300244: mayu_b_122
+    21300246: mayu_b_123
+    21300248: mayu_b_124
+    21300250: mayu_b_125
+    21300252: mayu_b_126
+    21300254: mayu_b_127
+    21300256: mayu_b_128
+    21300258: mayu_b_129
+    21300260: mayu_b_130
+    21300262: mayu_b_131
+    21300264: mayu_b_132
+    21300266: mayu_b_133
+    21300268: mayu_b_134
+    21300270: mayu_b_135
+    21300272: mayu_b_136
+    21300274: mayu_b_137
+    21300276: mayu_b_138
+    21300278: mayu_b_139
+    21300280: mayu_b_140
+    21300282: mayu_b_141
+    21300284: mayu_b_142
+    21300286: mayu_b_143
+    21300288: mayu_b_144
+    21300290: mayu_b_145
+    21300292: mayu_b_146
+    21300294: mayu_b_147
+    21300296: mayu_b_148
+    21300298: mayu_b_149
+    21300300: mayu_b_150
+    21300302: mayu_b_151
+    21300304: mayu_b_152
+    21300306: mayu_b_153
+    21300308: mayu_b_154
+    21300310: mayu_b_155
+    21300312: mayu_b_156
+    21300314: mayu_b_157
+    21300316: mayu_b_158
+    21300318: mayu_b_159
+    21300320: mayu_B_0
+    21300322: mayu_B_1
+    21300324: mayu_B_2
+    21300326: mayu_B_3
+    21300328: mayu_B_4
+    21300330: mayu_B_5
+    21300332: mayu_B_6
+    21300334: mayu_B_7
+    21300336: mayu_B_8
+    21300338: mayu_B_9
+    21300340: mayu_B_10
+    21300342: mayu_B_11
+    21300344: mayu_B_12
+    21300346: mayu_B_13
+    21300348: mayu_B_14
+    21300350: mayu_B_15
+    21300352: mayu_B_16
+    21300354: mayu_B_17
+    21300356: mayu_B_18
+    21300358: mayu_B_19
+    21300360: mayu_B_20
+    21300362: mayu_B_21
+    21300364: mayu_B_22
+    21300366: mayu_B_23
+    21300368: mayu_B_24
+    21300370: mayu_B_25
+    21300372: mayu_B_26
+    21300374: mayu_B_27
+    21300376: mayu_B_28
+    21300378: mayu_B_29
+    21300380: mayu_B_30
+    21300382: mayu_B_31
+    21300384: mayu_B_32
+    21300386: mayu_B_33
+    21300388: mayu_B_34
+    21300390: mayu_B_35
+    21300392: mayu_B_36
+    21300394: mayu_B_37
+    21300396: mayu_B_38
+    21300398: mayu_B_39
+    21300400: mayu_B_40
+    21300402: mayu_B_41
+    21300404: mayu_B_42
+    21300406: mayu_B_43
+    21300408: mayu_B_44
+    21300410: mayu_B_45
+    21300412: mayu_B_46
+    21300414: mayu_B_47
+    21300416: mayu_B_48
+    21300418: mayu_B_49
+    21300420: mayu_B_50
+    21300422: mayu_B_51
+    21300424: mayu_B_52
+    21300426: mayu_B_53
+    21300428: mayu_B_54
+    21300430: mayu_B_55
+    21300432: mayu_B_56
+    21300434: mayu_B_57
+    21300436: mayu_B_58
+    21300438: mayu_B_59
+    21300440: mayu_B_60
+    21300442: mayu_B_61
+    21300444: mayu_B_62
+    21300446: mayu_B_63
+    21300448: mayu_B_64
+    21300450: mayu_B_65
+    21300452: mayu_B_66
+    21300454: mayu_B_67
+    21300456: mayu_B_68
+    21300458: mayu_B_69
+    21300460: mayu_B_70
+    21300462: mayu_B_71
+    21300464: mayu_B_72
+    21300466: mayu_B_73
+    21300468: mayu_B_74
+    21300470: mayu_B_75
+    21300472: mayu_B_76
+    21300474: mayu_B_77
+    21300476: mayu_B_78
+    21300478: mayu_B_79
+    21300480: mayu_B_80
+    21300482: mayu_B_81
+    21300484: mayu_B_82
+    21300486: mayu_B_83
+    21300488: mayu_B_84
+    21300490: mayu_B_85
+    21300492: mayu_B_86
+    21300494: mayu_B_87
+    21300496: mayu_B_88
+    21300498: mayu_B_89
+    21300500: mayu_B_90
+    21300502: mayu_B_91
+    21300504: mayu_B_92
+    21300506: mayu_B_93
+    21300508: mayu_B_94
+    21300510: mayu_B_95
+    21300512: mayu_B_96
+    21300514: mayu_B_97
+    21300516: mayu_B_98
+    21300518: mayu_B_99
+    21300520: mayu_B_100
+    21300522: mayu_B_101
+    21300524: mayu_B_102
+    21300526: mayu_B_103
+    21300528: mayu_B_104
+    21300530: mayu_B_105
+    21300532: mayu_B_106
+    21300534: mayu_B_107
+    21300536: mayu_B_108
+    21300538: mayu_B_109
+    21300540: mayu_B_110
+    21300542: mayu_B_111
+    21300544: mayu_B_112
+    21300546: mayu_B_113
+    21300548: mayu_B_114
+    21300550: mayu_B_115
+    21300552: mayu_B_116
+    21300554: mayu_B_117
+    21300556: mayu_B_118
+    21300558: mayu_B_119
+    21300560: mayu_B_120
+    21300562: mayu_B_121
+    21300564: mayu_B_122
+    21300566: mayu_B_123
+    21300568: mayu_B_124
+    21300570: mayu_B_125
+    21300572: mayu_B_126
+    21300574: mayu_B_127
+    21300576: mayu_B_128
+    21300578: mayu_B_129
+    21300580: mayu_B_130
+    21300582: mayu_B_131
+    21300584: mayu_B_132
+    21300586: mayu_B_133
+    21300588: mayu_B_134
+    21300590: mayu_B_135
+    21300592: mayu_B_136
+    21300594: mayu_B_137
+    21300596: mayu_B_138
+    21300598: mayu_B_139
+    21300600: mayu_B_140
+    21300602: mayu_B_141
+    21300604: mayu_B_142
+    21300606: mayu_B_143
+    21300608: mayu_B_144
+    21300610: mayu_B_145
+    21300612: mayu_B_146
+    21300614: mayu_B_147
+    21300616: mayu_B_148
+    21300618: mayu_B_149
+    21300620: mayu_B_150
+    21300622: mayu_B_151
+    21300624: mayu_B_152
+    21300626: mayu_B_153
+    21300628: mayu_B_154
+    21300630: mayu_B_155
+    21300632: mayu_B_156
+    21300634: mayu_B_157
+    21300636: mayu_B_158
+    21300638: mayu_B_159
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mayu_B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17e5a1ea86de2148b1218e78c81bca8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d0a51047e2cdc4d8f61683d04941c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_2
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e2a47b88d7ee942a2bc06be2c5b668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bcb91b3a2a45e458bbc79e8d1bdd6c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7cc63976edadb4eb36ecf7a24b06af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_5
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44ce22757530c24cb338840b4e70cd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_6
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189abca7151936e43882e05ace72d5e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe7a6d7aa85c3f4cb83b30ffbacb5d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b9eeebb7b82a545a3cec2ef814399f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_9
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1560
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc4697422e6b554c920fc844c6cba58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc3a0852e7f05e42b784815d92e31e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b92de63c719e0d42b7d2c375e2fe87f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4f54769bb446f4ab2d0768de9ba128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_13
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3d1c6be0bd8e949831c5f40b44a931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_14
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed173c9a46d62534ba723bf2e6fd7675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_15
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03fc692a7da735b44a9f0c92b63d6473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_16
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4631fdbffc1d4498905d7dc2d949f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663921785f345804382c8ac5be4b9ab5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_18
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575ef3cf673c72c4ea7957061f9c1081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_19
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1456
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbceb3c8183d4d448f9df091ba2339a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440400566e06c654d84e3896fe8df838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eae7d619f5b63b409dca317d53e5d59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_22
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa05191310c1b614d87eeb716ae97e16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_23
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcac4b8b1bd0c24aa1d9a8aaf5450f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c183a0becbe70874ca3073b8315e0a90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_25
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985f424ac380567489600c6042c69e76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d53dd00b528f645ad19720e12d6395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_27
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b082fa3446f460349903ada815f7d3cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_28
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714abe8ef36771f479e10647e2dcb3a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_29
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1352
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2a9c9cdd7090e438c9f06696596959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac4152ef0843ec44a5e7c31352554d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_31
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed1a5d4b2718a44c94938f1f9186d69
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_32
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fa6d0b7eaf51f468fe7c8eb8e883e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_33
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a60a066aaf0dd6b458e86b2502d310bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_34
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bd8a1ae2c824f48a14ffbf9e386154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4894ca8fb0756d14bb257a7007e7a092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_36
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe445cc494a3b24789f972c851efd16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_37
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6843e5d361a11ca469d2b3bcbb480a0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_38
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a254f4440893274b95f504e1c358a91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_39
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1248
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b9610b61e3905408b826ad9fc20607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a8846800fdc584c8edba2850cbf62c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_41
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a00295823a836f42a0fb0de667ad9a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_42
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea91e73df1697c48a0d4b91dd99add0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_43
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ea2cd982aaa13418d1fc5c457674f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_44
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db07fc2ea0430b64e8660578d810a1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_45
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7d80d6425e7914ca6a976541098e00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_46
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172c71a968814204dbbf690c34fd361b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_47
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7756e6b35e1a6a845947d1faa5449e22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_48
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c72f4d605d3674eb460f3c76e9054e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_49
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1144
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8247264fb1fc61c44bdf2b297b3cec58
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc87090ca493784bbaeae7c52a3b550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33708af8d588d8e40b4f12907823155f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_52
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756c7ddaa7ff5084bb94519cc8231c5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_53
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edefe23678f39f409df331732b935c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_54
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413ccb22d2ce680419a9dc11439da24b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_55
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf28565b307fb5346af355e48f357454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_56
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbc011ce332639488d8826bb8308803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_57
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510f219bb2380ae4d98f63f67e511b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_58
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d107f59d14581448e11cb13fac56db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_59
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1040
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ecf5d9e64de214dbfee0a5a4b3bc6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1134cd06c178d7148a3e2e8e93b79cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dafe53679ba6084e9efee13cb58c05e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ef937aeb513b741a527212ece39c9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_63
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c996892c371634c8a248b434fbf202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_64
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a52c7abf82bde488dbf4887c5bda28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_65
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1385fa696721c4d488ecc83c5efa44e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_66
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed22f792e0228364db773d54bad6650a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_67
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a581d6b2020694d80dfa4dc2c4e008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_68
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0162e6c508df2c04aa903e9f00100618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_69
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 936
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d26048bbb68e244a82c75dc4c8654f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cd1cea4a5686843a28b10eff76656f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_71
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed2cbbc33aff62448ae20cfedd68129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7603d1fd2f42340891ff58c49793ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db803471062a3df4cad16d439d4dca4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_74
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9bb5507552a87488ae3e7f7db06ff9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc5e042a883c5f4d9a2e8862fd06a1c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_76
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c194584a4b1704e9bdb6aa265523fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_77
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccd8b60f7d9d024419d4aff970b951c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_78
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3403488977def7c4bab77af4250276ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_79
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 832
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270825e4ef7bf9442bbe2d22cd2fd957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e591b22a3f7743409ad6b1a21bca1e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_81
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d16f103d9958d5499cf012f9a91e321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_82
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1919d87a7a3d184db4b82a4e48d3ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_83
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49dd3901ed9e4074dae7b828162a4a3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_84
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8f459965fcb714186cb4e298389430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc405395375832c418812d4c8689511a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_86
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5cb68be8b93c741a570442fd9e84e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_87
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb82074a976af2c4c87e2709092d1c62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_88
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f108e35cbad51fe46afa6ec5533cb479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_89
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 728
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80885bdff6d068640a3a2c9e3c2d3e81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5325ea1575abec14484732f094ad41ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_91
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41abc0007359e2e4ab97d989c609ffac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_92
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db4b502af8a47a42ab59842bafe7850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_93
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d56ce3b0221e5459239aa83301241b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0614e078ca05e3d49bde5a597cfed24e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_95
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c35a1b1a4724654db50a6194fc3703a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_96
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f039d14030bd94ab768fb8f8a2e8ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_97
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af6d516f7dad264abd60690b0ee425a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_98
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a4cf2dd761b3a44b974412e9cab50e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_99
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 624
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5047434a2a1694343a835156ac84f4c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e41800e340656845823e9f12641cddb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_101
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1792ca1b03432484185885f610976d5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_102
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df408f1aa92034849b32d06d3da069e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_103
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db76091878c897a419e21294ee671d95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_104
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620a1ab0d49d40746b31b9c0a2defff1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_105
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7cba207aafab8488ed1aa6418f59de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_106
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047984ca890cdb24ab27c5b0ab79dbfe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_107
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4daac1ce1195e8143a71ae6d61f07a6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_108
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1ac848c0bc07a4a8d02dc944181c01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_109
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 520
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b262930ae3bd1804b91b86a039e20ab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1d2d64e4157314c98e09fbc2a6ec4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_111
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd480f07403d021428a56c3beb59e4b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_112
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95677847b7e52ef41928ab8bbd3f5058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_113
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40435fca97746c4e8a79c7f82e6e436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_114
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed5b30678adedc45a153d50ab917e1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_115
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a9c95c0b3fe6a42ac2033226b9a536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_116
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955f3f37e51ae2a469dacfd92e2a78dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_117
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe930ea9a68ba8458c7deadf66513e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_118
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36cf719c4249b1458a5ae3a27804137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_119
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 416
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8f58167a5ad784aaceb1f83aea5d60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ede8b122d7640f48a3bdcde5f5844c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_121
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dec4286170a98d4f8714f92ed0d9748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_122
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78315687b07e9f341ab9a403a95c58d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_123
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06741ec97528f54419a9b2526a36608c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_124
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92e5aa463ceebf4fb678dfa6c7424e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_125
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f336e878959104f90e397d4078c508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_126
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4851f869711a1a142833947e0a9ec07c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_127
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356d6492a9d3328439601c9dd5ecfba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_128
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea23ac56be401745bbdd30f1a94e23e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_129
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 312
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58205468c28d3294286a6e0f39d7b98b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8080a6a9fdd273c4fb0ee68527739dc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_131
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268d9ad36dc05024a80167bcfad4f10a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_132
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a31d72cefd142774986a212c614419e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_133
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dc65c58771e1449a845cf7c7436d2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_134
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4eb030be5d99e47ab552926fd83203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_135
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e2792e5dda858438f97e3a2c09c2a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_136
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b9903254818c478bf455c708132e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_137
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309430586d06c4541b0fb06f09a78567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_138
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1c94eb75f507f4ea8715743c86ac74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_139
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 208
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a410b070c94ebad47a8950f33f925f70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f527c59d76327747b2d450c619a7f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_141
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3700abd27827d4eb6f954b93c32fbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_142
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048520a18a39d2c4f83b22707e29f3db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_143
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16045cce3c0d80e4c94979ff7437dbbe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_144
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cf3066d5807174b951ca1088fe301c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_145
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a8b60baee75c54ba56316ae84c4a43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_146
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7910e581313a0a14bb996fc5854fc37d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_147
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba44ab572caa8c40b991218b512eaa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_148
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c369d1c231640489c214120d0aa478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_149
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 104
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c70d9a5f483de4cbc22f4f86f65191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6610de309366e8c48928c1e931a7995a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_151
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1d915cc01084f488635d2a17872497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_152
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0af7f1078978e4a80c872643cc8680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_153
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27133553ea0e50f48b8a6d4be0188b99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_154
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97c0678aec6b1c4992793abe466d390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_155
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4584b59b71618ed479617901fcbd8e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_156
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc049bfc36852340811255db30babec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_157
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d6df69d05996e43998290ca6c7d086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_158
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 738a3ae6941a0594f8c661aa802bf5b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mayu_B_159
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 102.4
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e7928aefdda7e4fbb21832aa9ce376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f0856e7b8013a7b429705558a052d0a4
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
